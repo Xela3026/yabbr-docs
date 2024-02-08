@@ -1,0 +1,8 @@
+{
+  "label": "Campaigns",
+
+  "link": {
+    "type": "generated-index",
+    "description": "A campaign is a personalised message that is sent out to a set of specified locations all at once. It is recommended to read General documentation first."
+  }
+}

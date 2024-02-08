@@ -1,0 +1,8 @@
+{
+  "label": "Contacts",
+
+  "link": {
+    "type": "generated-index",
+    "description": "Insert contacts information here"
+  }
+}

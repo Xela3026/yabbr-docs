@@ -1,0 +1,8 @@
+{
+  "label": "Yabbr Chat",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Insert chat information here"
+  }
+}
