@@ -418,7 +418,7 @@ After using any of the various methods of concluding a chat/session, you will se
 
 ---
 
-- **Conversation Outcome**: the final result of the conversation. This result/outcome is indicated using a tag. Select a tag by clicking on it, and unselect it by clicking it again. You must select a tag. Eg - if the customer did not cooperate with the agent, then an appropriate tag to select would be 'Dispute'. Read more about chat tags [here](./chat-settings.md#chat-tags).
+- **Conversation Outcome**: the final result of the conversation. This result/outcome is indicated using a tag. Select a tag by clicking on it, and unselect it by clicking it again. You can select multiple tags. Eg - if the customer did not cooperate with the agent, then an appropriate tag to select would be 'Dispute'. Read more about chat tags [here](./chat-settings.md#chat-tags), including how to configure the minimum/maximum number of chat tags.
 - **Add a note**: this is optional. This note is just any extra comments about the conversation that may be important for the record.
 
 Finally, to conclude the chat, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Submit</Tag>.
