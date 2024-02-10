@@ -464,6 +464,11 @@ At any point after the campaign has started and at least one contact has receive
 [comment]: <> (to fix all the super enalrged grainy images in campaign docs: turn them into HTML images so you can specify an exact width that is smaller, so that it's not blown up and grainy, but rather high quality)
 
 
+[comment]: <> (want to add more stuff to make it look better. More react components, tabs etc. I still also want to make the images look better. Maybe a border, some box shadow, hover shadow or border etc)
+[comment]: <> (Once I right in the docs for everything, I need to go back and make sure everything is relevantly linked together - like transcripts, message types, virtual numbers etc)
+[comment]: <> (also, a lot of pages feel very crowded. I need to add more negative space)
+
+
 
 
 
