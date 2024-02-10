@@ -5,6 +5,8 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
+
 export const Tag = ({children, colour, borderColour, fontColour}) => (
 <span
 style={{
@@ -39,7 +41,10 @@ A campaign is a personalised message that is sent out to a set of specified loca
 
 Firstly, on the sidebar, navigate to the type of campaign you desire to create:
 
-![Campaign Sidebar](/img/campaign-sidebar.png)
+[comment]: <> (I want to do this for all the images:)
+
+<CustomisableImage alt="Campaign Sidebar"  width="300"  src="/img/campaign-sidebar.png"/>
+
 
 
 ---
@@ -187,7 +192,7 @@ Exclusion Lists and your Opt-Out List are both non-compulsary for your campaign 
 
 #### Templates
 
-The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates.md). 
+The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/sms-templates.md). 
 
 ![Message Template Drop-down](/img/message-template.png)
 
@@ -464,9 +469,17 @@ At any point after the campaign has started and at least one contact has receive
 [comment]: <> (to fix all the super enalrged grainy images in campaign docs: turn them into HTML images so you can specify an exact width that is smaller, so that it's not blown up and grainy, but rather high quality)
 
 
+
+
 [comment]: <> (want to add more stuff to make it look better. More react components, tabs etc. I still also want to make the images look better. Maybe a border, some box shadow, hover shadow or border etc)
+
 [comment]: <> (Once I right in the docs for everything, I need to go back and make sure everything is relevantly linked together - like transcripts, message types, virtual numbers etc)
+
 [comment]: <> (also, a lot of pages feel very crowded. I need to add more negative space)
+
+[comment]: <> (In surveys, quick replies, and campaigns, there are message composers for SMS, MMS, voice, email etc. I need to link all of these to the docs for templates so I don't have to keep repeating the message composing docs.)
+
+[comment]: <> (I also need a dedicated section in the templates for each message type just called 'message composing' so I can link users directly to that section.)
 
 
 
