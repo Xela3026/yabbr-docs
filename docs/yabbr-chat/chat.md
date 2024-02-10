@@ -87,10 +87,21 @@ Clicking the 📌 button when hovering over an active chat (as outlined below) w
 <img src="/img/chat-pinned.png" alt="Pinned Chats" width="336"/>
 
 
+### Bulk Actions
+
+If you have several 'Active Chats', it can be tedious to individually conclude each one and add the relevant chat tags and notes for each session. 'Bulk Actions' allows you to conclude several sessions/chats at once. 
+
+**To use bulk actions:**
+1. Click the hamburger icon outlined below. This will enter you into 'selection mode'. Exit selection mode at any time by clicking the hamburger icon again. 
+2. Select all the chats you want to apply the action to. Do this by clicking the round green circle that appears on the left of the chat in selection mode. In the example below, 61400000000 has been selected. Unselect a chat at any time by clicking the round green circle again.
+3. Select the action you wish to perform on all selected chats using the drop-down menu outlined below. Currently, the only action supported is 'Conclude'.
+
+<img src="/img/chat-bulk-actions.png" alt="Bulk Actions Annotation" width="336"/>
+
 
 ### Filters
 
-Your 'Active Chats' displays all of the customers that you have an active session with - this is everyone you are currently talking to. If you are have multiple session running concurrently, the active chats display might get a bit crowded. The search filter allows you to sort through all of the chats in 'Active Chats'. You just need to type in any text into the filter box outlined below. 
+Your 'Active Chats' displays all of the customers that you have an active session with - this is everyone you are currently talking to. If you have multiple session running concurrently, the active chats display might get a bit crowded. The search filter allows you to sort through all of the chats in 'Active Chats'. You just need to type in any text into the filter box outlined below. 
 
 <img src="/img/chat-filter.png" alt="Chat Filter" width="336"/>
 
@@ -101,7 +112,21 @@ Then, only the chats that have this text somewhere in its name (either in the cu
 
 ### Group By
 
-### Bulk Actions
+If you have multiple session running concurrnently with different customers, the 'Active Chats' display can be hard to navigate and find the right customer. Using the 'Group By' functionality, you can separate the 'Active Chats' display into multiple sections or 'groups'. The chats are divided into different groups based on different properties they have. You can select which property you want to group by using the drop-down menu outlined below.
+
+<img src="/img/chat-group-by.png" alt="Chat Group By" width="336"/>
+
+- **Default**: ungroups all the chats. All chats appear under 'Active Chats'.
+- **Medium**: groups chats into sections based on the type of message being used (eg SMS, Email).
+- **Group**: groups chats into sections based on which queue they are from (eg General, SMS).
+- **Waiting**: group chats into sections based on how long they have been in the 'Active Chats' (eg < 5 minutes, < 10 minutes).
+
+Below is an example. The 'Active Chats' have been grouped by their 'Medium'. All the current active chats in the example use SMS, so they all appear in the 'SMS' group.
+
+<img src="/img/chat-group-by-example.png" alt="Chat Group By Example" width="336"/>
+
+
+
 
 
 
