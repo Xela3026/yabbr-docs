@@ -70,8 +70,55 @@ Then, to navigate between different chat settings, select the different tabs out
 
 ## General
 
-Missing documentation. Work in progress.
+This is where you configure general chat settings. This includes verifications, notifications, and limitations. To edit and configure any of the settings shown below, just click on the relevant setting.
 
+
+### Guest Verifications
+
+You may want your customers to verify their contact information before they proceed to a conversation with an agent. This is where you configure the verification prompt. 
+
+<img src="/img/chat-settings-general-verify.png" alt="Customer Verification" width="450"/>
+
+1. Click on the verification that you want to configure - either SMS or Email.
+2. Then, a small menu will appear like the one below. You need to configure a verification prompt. This is a message that the customer will receive before they have been verified. It should prompt the user to verify their contact information. Create this message under 'Message Content'. See [SMS Templates](../templates/sms-templates) and [Email Templates](../templates/email-templates) for more on how to create these messages.
+3. Enable verification by toggling the button outlined below.
+
+<img src="/img/chat-settings-general-verify-menu.png" alt="Verification Menu" width="400"/>
+
+
+To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
+
+---
+
+
+### Agent Notifications
+
+Some agents may have connected an SMS to their account. You can choose to notify this SMS when a new customer appears in the Yabbr Chat queue whilst it is unattended. To configure the recipients of this notification, click on the setting outlined below.
+
+<img src="/img/chat-settings-general-notification.png" alt="Agent Notification" width="500"/>
+
+A small menu will appear like the one below. The 'Selected Members' will receive the notification, whilst the 'Avaliable Members' will not. Click on an 'Available Member' to add them to the 'Selected Members'. Click on a 'Selected Member' to remove them from the 'Selected Members'. You can remove all members from 'Selected Members' by clicking 'Clear Selection'. You can search members by name using the 'Filter' text box.
+
+<img src="/img/chat-settings-general-notification-menu.png" alt="Agent Notification Menu" width="500"/>
+
+To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
+
+---
+
+### Chat Limitations
+
+You can choose to configure a maximum number of [Active Chats](./chat.md#active-chats) for agents to have running at the same time. To configure these chat limitatoins, click on the setting outlined below.
+
+<img src="/img/chat-settings-general-limitations.png" alt="Chat Limitations" width="500"/>
+
+A small menu will appear like the one below. Maximums are optimal for every category. You can choose to specify a maximum number of total active chats an agent can have, and/or you can specify a maximum number of each type of active chat (Web, SMS, Email).
+
+<img src="/img/chat-settings-general-limitations-menu.png" alt="Chat Limitations Menu" width="400"/>
+
+To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
+
+
+---
 
 
 ## Chat Tags
@@ -89,7 +136,7 @@ To create a new chat tag, click the <Tag colour="#1582d8" borderColour="#1582d8"
 Next, a small menu will appear where you can create the new chat tag. Enter the name of the new tag in the text box outlined below. You can enable/disable this chat tag from being active in the workspace by toggling the 'Enable Tag' button. 
 
 
-<img src="/img/chat-tags-menu.png" alt="Chat Tags Menu"/>
+<img src="/img/chat-tags-menu.png" alt="Chat Tags Menu" width="450"/>
 
 Then, to add the chat tag to the workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 
