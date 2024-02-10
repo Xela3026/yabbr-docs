@@ -24,6 +24,8 @@ style={{
 
 [comment]: <> (may have to make a general templates docs so I do not repeat myself.)
 
+[comment]: <> (REMEMBER TO MENTION - PLACEHOLDERS WILL BE FILLED BY CONTACT ATTRIBUTES in yabbr chat or contact files for campaigns)
+
 
 # SMS Templates
 

@@ -330,7 +330,7 @@ Navigate between different sections of 'Info' using the tabs outlined below. In 
 
 #### Details
 
-This is every single recorded detail about the client. It includes their name, email, phone number, date of birth and more. In this menu, you can view and edit any of this information.
+This is every single recorded detail about the client. It includes their name, email, phone number, date of birth and more. In this menu, you can view and edit any of this information. Configure what details are stored for each customer in [Contact Attributes](../contacts/attributes).
 
 #### Notes
 

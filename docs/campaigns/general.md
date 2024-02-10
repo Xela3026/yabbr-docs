@@ -481,6 +481,10 @@ At any point after the campaign has started and at least one contact has receive
 
 [comment]: <> (I also need a dedicated section in the templates for each message type just called 'message composing' so I can link users directly to that section.)
 
+[comment]: <> (also i need to disable the dark mode functionality cuz it makes everything look bad.)
+
+[comment]: <> (look at the chat settings docs for an idea of some banners to add throughout the docs)
+
 
 
 
