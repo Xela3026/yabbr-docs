@@ -51,13 +51,15 @@ Firstly, on the sidebar, navigate to the type of campaign you desire to create:
 
 Once selected, to create a new campaign of that type, select the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Campaign</Tag> button. If no campaigns of that type currently exist, you can just click the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">New Campaign</Tag> button. 
 
-![Campaign Create Button](/img/campaign-create.png)
+<CustomisableImage alt="Campaign Create Button"  src="/img/campaign-create.png"/>
+
 
 ---
 
 Next, you will want to give your campaign a 'Friendly Name' which will be the display name of the campaign to everyone in your workspace. Then, <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag> your campaign.
 
-![Campaign Naming](/img/campaign-name.png)
+<CustomisableImage alt="Campaign Naming"  src="/img/campaign-name.png"/>
+
 
 Some campaign types like [SMS](./sms-campaigns.md) and [Voice](./voice-campaigns.md) will ask you to select a more specific campaign type. These will be covered in their respective sections.
 
@@ -73,7 +75,7 @@ Your contact will either be:
 
 Below is an example of what this file may look like for mobile numbers:
 
-![Example Numbers](/img/numbers-example.png)
+<CustomisableImage alt="Example Numbers"  src="/img/numbers-example.png"/>
 
 ---
 
@@ -87,7 +89,7 @@ All of your column titles must be in the same row and above all other informatio
 
 Below is an example of what this file may look like for emails:
 
-![Example Emails](/img/emails-example.png)
+<CustomisableImage alt="Example Emails"  src="/img/emails-example.png"/>
 
 :::tip Tip
 The location of the information in the file is irrelevant; it does not have to start in the first row and column. All that is necessary is that relevant and related information is aligned vertically and horizontally. 
@@ -101,7 +103,8 @@ These placeholders can then be used later on to personalise your message to the 
 
 Finally, to upload your contact list, simply navigate to the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#000000">👤Audience</Tag> section, click on <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#000000">Upload Contact List</Tag>, and select your contact list file.
 
-![Upload Contacts](/img/audience-upload-tutorial.png)
+<CustomisableImage alt="Upload Contacts"  src="/img/audience-upload-tutorial.png"/>
+
 
 
 After uploading your contacts file, if it contains multiple columns of information, click on the drop-down menu outlined below. Then, you must select the title of the column in your contacts file that contains the actual contact. In the example below, the 'phone' column contains all the phone numbers.

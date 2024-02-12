@@ -1,10 +1,14 @@
 import React, { useEffect } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
 
 
 const ThreeDBackground = () => {
   useEffect(() => {
+
+    
     // Define renderer
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -17,19 +21,24 @@ const ThreeDBackground = () => {
 
     const particles = 500;
 
+    const x_distribution = 96;
+    const y_distribution = 96;
+    const z_distribution = 96;
+    
+
     // Create scene
     const scene = new THREE.Scene();
 
     // Create camera
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    // camera.position.set(0, 6, 18);
+    // camera.position.set(0, 15, 36);
     camera.position.set(0, 0, 0);
 
     // Configure orbit controls
     const orbit = new OrbitControls(camera, renderer.domElement);
     orbit.maxPolarAngle = Math.PI / 2 - 0.01;
     orbit.autoRotate = true;
-    orbit.autoRotateSpeed = 2.0;
+    // orbit.autoRotateSpeed = 0.5;
     orbit.enablePan = false;
     orbit.minDistance = 18;
     orbit.maxDistance = 25;
@@ -41,6 +50,23 @@ const ThreeDBackground = () => {
     scene.add(circle);
     circle.rotation.x = -0.5 * Math.PI;
     circle.receiveShadow = false;**/
+
+    /**const loader = new GLTFLoader();
+
+
+    loader.load( '/img/scene.gltf', function ( gltf ) {
+        const model = gltf.scene;
+      scene.add(model);
+        // enable shadow casting on each part of the 3D model
+        model.traverse(function(node) {
+            if(node.isMesh) {
+                node.castShadow = true;
+            }
+        });
+        model.position.set(0,-10,0);
+    }, undefined, function (error) {
+      console.error(error);
+    } );**/
 
     // Create lights
     const dLight = new THREE.DirectionalLight(0xFFFFFF, 0.8);
@@ -68,9 +94,9 @@ const ThreeDBackground = () => {
       const particleGeo = new THREE.BoxGeometry(0.25, 0.25, 0.25);
       const particleMat = new THREE.MeshStandardMaterial({ color: 0x1582d8 });
       const particle = new THREE.Mesh(particleGeo, particleMat);
-      const parx = Math.floor(Math.random() * 96) - 48;
-      const pary = Math.floor(Math.random() * 48) - 24;
-      const parz = Math.floor(Math.random() * 96) - 48;
+      const parx = Math.floor(Math.random() * x_distribution) - x_distribution/2;
+      const pary = Math.floor(Math.random() * y_distribution) - y_distribution/2;
+      const parz = Math.floor(Math.random() * z_distribution) - z_distribution/2;
       particle.position.set(parx, pary, parz);
       scene.add(particle);
     }
@@ -82,6 +108,10 @@ const ThreeDBackground = () => {
     // Frame by frame update
     function animate() {
       renderer.render(scene, camera);
+      scene.rotation.z += 0.001;
+      scene.rotation.x += 0.002;
+      scene.rotation.y += 0.003;
+      
       orbit.update();
       requestAnimationFrame(animate);
     }
