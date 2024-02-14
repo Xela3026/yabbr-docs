@@ -175,6 +175,8 @@ To be accurately read by the program, your member list must be formatted exactly
 
 ---
 
+[comment]: <> (check if this format needs to be exact)
+
 Each column specifies a different property of each new member:
 
 - **email**: the email address of the new member.
@@ -197,13 +199,42 @@ Enabling each option executes the bulk upload differently:
 - **Set Member Profiles**: if an email is not registered with a member, it will be skipped in the bulk upload.
 - **Both Enabled**: if an email is registered with a member (the member already exists), their current member account will be overwritten/updated with the new information.
 
-If both options are enabled (green)
+---
 
+Next, you need to tell the program how to read your file. You need to outline where certain data is located. Depending on what settings you enabled in the previous step, different settings and configurations will appear here. Below is a screenshot of all possible settings and configurations for the bulk upload. The previously screenshotted CSV file will be referenced as an example for this explanation.
 
+<img src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
+
+Each setting needs different information about your file:
+
+- **Select first row containing Member data**: the first row in your file where you find information about a member. The example CSV file has column titles in row 1. Row 2 is the first row to contain information about a member. Thus, '2' would be appropriate here.
+- **Email**: the title of the column in your file that contains the members' email addresses. The example CSV file stored member emails under the column titled 'email'. Thus, 'email' would be an appropriate option in this drop-down.
+- **Role**: the title of the column in your file that contains the members' roles. The example CSV file stored member roles under the column titled 'role'. Thus, 'role' would be an appropriate option in this drop-down.
+- **Name**: the title of the column in your file that contains the members' names. The example CSV file stored member names under the column titled 'name'. Thus, 'name' would be an appropriate option in this drop-down.
+- **Phone**: the title of the column in your file that contains the members' phone numbers. The example CSV file stored member phone numbers under the column titled 'phone'. Thus, 'phone' would be an appropriate option in this drop-down.
+- **Title**: the title of the column in your file that contains the members' titles. The example CSV file stored member titles under the column titled 'title'. Thus, 'title' would be an appropriate option in this drop-down.
+
+Finally, to upload all the new members to your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Confirm Details</Tag>.
 
 
 ##### Bulk Apply Permissions
 
+You can modify the permissions of multiple members in the workspace at once. When you click on this option, a small menu will appear like the one below.
+
+<img src="/img/member-bulk-permission.png" alt="Bulk Permission Modification" width="600"/>
+
+To modify the permissions of several members at once:
+
+1. Select how you want to modify the permissions with the 'Action Type'. 'Add' will add the selected permissions. 'Set' will remove any permissions that are not selected, and add any permissions that are selected.'Remove' will remove the selected permissions. 
+2. Select the members you want to modify the permission of. Click on a member underneath 'Members' to select them. This will make the name appear blue. Click on the member again to unselect them.
+3. Select the permissions you want to add/set/remove. 'Permissions' are the permissions selected for modification (add/set/remove). The rest of the permissions appear under 'Unassigned'. Click on a permission in 'Unassigned' to add it to the 'Permissions'. Click on a permission in 'Permissions' to unselect it and remove it from 'Permissions'.
+4. <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>
+
+<img src="/img/member-bulk-permission-steps.png" alt="Bulk Permission Modification Annotation" width="600"/>
+
+:::tip TIP
+If you are struggling to find a member or permission here, you can search them by name using the 'Filter' text box above each section.
+:::
 
 
 
