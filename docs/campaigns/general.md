@@ -27,7 +27,7 @@ style={{
 
 
 
-# General
+# Campaigns
 
 A campaign is a personalised message that is sent out to a set of specified locations all at once. After reading the general documentation, it is recommended to find the documentation for your specific desired campaign type for any extra details.
 

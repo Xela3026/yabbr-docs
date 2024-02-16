@@ -66,6 +66,10 @@ Then, click the <Tag colour="#FFFFFF" borderColour="#d92b04" fontColour="#d92b04
 
 ## Group Management
 
-Missing documentation. Work in Progress.
+All of your groups can be found in the section outlined below.
 
-[comment]: <> (what does the order of the groups mean? Add the docs here when you here back from Alex 1 about this.)
+<img src="/img/groups-overview.png" alt="Groups Overview" width="550"/>
+
+In this section, the groups will have a specific order of priority. The groups at the top have higher priority than the groups at the bottom. If there are group assigning conflicts in [Chat Routing](../yabbr-chat/chat-settings.md#routing), then the group with the higher priority will be selected for routing. To change this order, hover over the six dots ⠿ (outlined below) and then drag and drop the group to the new desired spot in the order.
+
+<img src="/img/groups-change-order.png" alt="Groups Change Order" width="550"/>

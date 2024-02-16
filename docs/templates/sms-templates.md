@@ -1,6 +1,6 @@
 ---
-title: SMS Templates
-sidebar_position: 1
+title: SMS
+sidebar_position: 2
 toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
@@ -29,7 +29,7 @@ style={{
 
 # SMS Templates
 
-Templates are message scaffolds. Here, you can create a body of text but replace some words with placeholders. These placeholders can than be replaced depending on what you need the template for.
+Templates are message scaffolds. Here, you can create a body of text and replace some words with placeholders. These placeholders can than be filled in later with relevant information for specific uses.
 
 ## Creation
 

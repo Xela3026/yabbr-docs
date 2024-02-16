@@ -23,7 +23,7 @@ style={{
 
 For the purposes of the documentation, the person sending outbound messages using Yabbr will be referred to as an ‘agent’, and the recipients of these messages will be called ‘customers’.
 
-Transcripts are records of conversations you have with customers through either [Yabbr Chat](../yabbr-chat/chat-settings/chat-tags.md) or responses to [Campaigns](../campaigns/general.md). An agent will start a conversation with a customer with an outbound message, and when the agent decides to end the conversation in the chat, a transcript is created for the conversation. The whole duration of that conversation then is called a ‘session’. Everything recorded by the transcript will be stored in one of the columns outlined below:
+Transcripts are records of conversations you have with customers through either [Yabbr Chat](./yabbr-chat/chat-settings.md#chat-tags) or responses to [Campaigns](./campaigns/general.md). An agent will start a conversation with a customer with an outbound message, and when the agent decides to end the conversation in the chat, a transcript is created for the conversation. The whole duration of that conversation then is called a ‘session’. Everything recorded by the transcript will be stored in one of the columns outlined below:
 
 ![Transcript Column Names](/img/transcripts-columns.png)
 
@@ -31,7 +31,7 @@ Transcripts are records of conversations you have with customers through either 
 - **Contact**: the contact information of the customer.
 - **Engaging Via**: the contact that the agent(s) used to talk to the customer.
 - **Agents**: all of the agents that were present at any point throughout the session. 
-- **Conclusions**: all of the [Chat Tags](../yabbr-chat/chat-settings/chat-tags.md) associated with the session.
+- **Conclusions**: all of the [Chat Tags](./yabbr-chat/chat-settings.md#chat-tags) associated with the session.
 - **Messages**: the number of messages in the session.
 - **Type**: the medium of conversation (eg email, MMS, SMS).
 
@@ -110,7 +110,7 @@ You can export transcripts to a different format, but only those that meet the c
 ### Export Options
 
 - **Export Destination**: select where you want to export the information to. 'Clipboard' will copy all the information to your clipboard. 'CSV' will download the information as a csv file to your device.
-- **Properties to Include**: select everything recorded by the transcript that you wish to include in the export. 'Metadata' is the properties of the transcript -> the start date, the message type, the contact of the customer, and the contact of the agent. 'Transcript' is the actual conversation -> everything said by either the customer or the agent. 'Contact Attributes' are the contact attributes associated with the customer's contact in [Yabbr Chat](../yabbr-chat/chat-settings/chat-tags.md).
+- **Properties to Include**: select everything recorded by the transcript that you wish to include in the export. 'Metadata' is the properties of the transcript -> the start date, the message type, the contact of the customer, and the contact of the agent. 'Transcript' is the actual conversation -> everything said by either the customer or the agent. 'Contact Attributes' are the contact attributes associated with the customer's contact in [Yabbr Chat](./yabbr-chat/chat-settings.md#chat-tags).
 
 Finally to finish the export, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Export</Tag>.
 
