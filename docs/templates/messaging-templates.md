@@ -1,11 +1,9 @@
 ---
-title: Email
-sidebar_position: 3
+title: Messaging
+sidebar_position: 2
 toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
-
-import CustomisableImage from '@site/src/components/CustomisableImage';
 
 export const Tag = ({children, colour, borderColour, fontColour}) => (
 <span
@@ -22,44 +20,36 @@ style={{
 </span>
 );
 
-# Email Templates
 
-Email templates are templates that can be used in any feature where you are sending an email (eg Campaigns, Yabbr Chat quick replies). It is recommended you read the [General](./general.md) template documentation before this one.
 
+
+# Messaging Templates
+
+Messaging templates are templates for both SMS and MMS. It can also be used for all types of quick reply in Yabbr Chat. It is recommended you read the [General](./general.md) template documentation before this one.
 
 ## Creation
 
 ### Product
 
-There are four different types of Email templates you can create. Select the desired type using the 'Product' drop-down outlined below.
+There are three different types of Messaging templates you can create. Select the desired type using the 'Product' drop-down outlined below.
 
-![Email Template Products](/img/template-email-product.png)
+![Messaging Template Products](/img/template-message-product.png)
 
-- **Yabbr Chat**: used for Email quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat. You can also specify BCC recipients.
-- **Express Message**: used for Email Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template, any BCC recipients, and whether the message sent using the template is recorded by a transcript.
-- **Email Signatures**: this is a signature that will appear at the end of every email sent by the members of your workspace.
-- **Campaigns**: used for Email Campaigns.
+- **Yabbr Chat**: used for all quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat.
+- **Express Message**: used for SMS Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template and whether the message sent using the template is recorded by a transcript.
+- **Campaigns**: used for SMS and MMS Campaigns.
 
+Selecting any option will bring up the following options for your Messaging Template:
 
-Selecting any option will bring up the following options for your Email Template:
-
-![Email Template Options](/img/template-email-settings.png)
+![Messaging Template Options](/img/template-message-options.png)
 
 :::note Note
 Some product types may have extra features that are not shown here.
 :::
 
-### Default Subject
-
-This is will be the subject of your email. This subject can be modified when the template is used later, but this will be the subject's default value.
-
-### Edit Email Template in HTML
-
-See the [Email Message Type](../message-types/emails.md) documentation for an explanation of Email HTML.
-
 ### Message Text
 
-This is the actual content of your message. This is the message that will be sent when you use this template. It is an Email message composer and a rich text editor. For more details about how this [message composer](../message-types/emails.md) and [placeholders](../message-types/general.md#placeholders), see the documentation for the [Email Message Type](../message-types/emails.md) and [General Message Types](../message-types/general.md).
+This is the actual content of your message. This is the message that will be sent when you use this template. It is an SMS message composer. For more details about how this [message composer](../message-types/sms.md#message-composer), [placeholders](../message-types/general.md#placeholders), and [SMS units](../message-types/sms.md#sms-units) work, see the documentation for the [SMS Message Type](../message-types/sms.md) and [General Message Types](../message-types/general.md).
 
 ### Merge Fields
 
@@ -76,15 +66,9 @@ Finally, to add the template to the workspace, click <Tag colour="#1582d8" borde
 
 #### Yabbr Chat
 
-##### BCC Recipient
-
-Your emails can also include a BCC. You may want to include a BCC in your emails so you can ensure that the email sent without problems. Enter the email address of the desired BCC recipient of this email template in the 'BCC Recipient' text box.
-
-##### Keyword Tags
-
 Yabbr Chat has an extra feature called 'Keyword Tags' outlined below.
 
-![Yabbr Chat Template Options](/img/template-email-keyword.png)
+![Yabbr Chat Template Options](/img/template-message-chat.png)
 
 Yabbr Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
 
@@ -96,11 +80,11 @@ Input your desired keyword tag into this text box. When a customer sends a messa
 
 #### Express Message
 
-Express Messages have a few extra specifications. Since they are designed to be quickly sent to a customer with as little input as possible, all of the configuration has to be done prior in the template itself. This includes the location of the message template, the BCC recipient of the email, and whether a transcript is created.
+Express Messages have a few extra specifications. Since they are designed to be quickly sent to a customer with as little input as possible, all of the configuration has to be done prior in the template itself. This includes the sender of the message template, the location of the message, and whether a transcript is created.
 
 These extra options are outlined below:
 
-![Express Email Template Options](/img/template-email-express.png)
+![Express Message Template Options](/img/template-message-express.png)
 
 ##### Categories
 
@@ -112,6 +96,13 @@ To store the message template in the correct Express Message location:
 3. Repeat this process for all the categories you want this message template to appear under.
 
 
+##### Sender
+
+In an Express Message, you need to specify an outbound contact. The customer will receive the Express Message from this contact. Whilst you can specify it when creating the Express Message, you can also specify it beforehand in the template. The 'Default Sender' is this outbound contact. It is one of your workspace's [Sender IDs](../channels/sender-ids.md) or [Virtual Numbers](../channels/virtual-numbers.md). 
+
+Select the desired outbound contact of the Express Message in the 'Default Sender' drop-down menu (outlined on the left). You can ensure that this outbound contact is always used for this message template by enabling 'Lock Sender ID' (outlined on the right). 
+
+![Express Message Template Sender Options](/img/template-message-express-sender.png)
 
 ##### Off the Record
 
@@ -119,13 +110,11 @@ Sending an Express Message will create a [Transcript](../transcripts.md) of the 
 
 ![Express Message Template Transcript Options](/img/template-message-express-record.png)
 
-### Email Signature
 
-Email Signature Email Tempaltes have no specific features.
 
 ### Campaigns
 
-Campaign Email Tempaltes have no specific features.
+Campaign Messaing Tempaltes have no specific features.
 
 
 

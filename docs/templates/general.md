@@ -94,7 +94,6 @@ For example, to order the templates by their product in reverse alphabetical ord
 
 
 
-The search filter
 
 
 

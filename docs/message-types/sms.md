@@ -1,4 +1,13 @@
+---
+title: SMS
+sidebar_position: 2
+toc_min_heading_level: 2
+toc_max_heading_level: 5
+---
+
 [comment]: <> (sms message - unicode, message)
+
+import UnitCounter from '@site/src/components/UnitCounter';
 
 export const Box = ({width,borderColour,bgColour,fontColour,fontSize}) => (
 <span
@@ -15,7 +24,24 @@ style={{
 </span>
 );
 
-<input type="range" />
 
-<textarea />
 
+
+
+
+
+
+# SMS
+
+etc etc about SMS messages
+
+
+
+
+## Message Composer
+
+It's just the default text editor mentioned in general
+
+### SMS Units
+
+<UnitCounter/>

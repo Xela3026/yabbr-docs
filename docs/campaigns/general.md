@@ -492,5 +492,23 @@ At any point after the campaign has started and at least one contact has receive
 
 
 
+[comment]: <> (the whole templates + message types documentation is really scuffed so it's going to need a lot of drafting, editing, refining, improving, and checking.)
+
+[comment]: <> (I also need to add documentation for Express Messages I think because I mention them in messaging templates.)
+
+[comment]: <> (Also, once I add the documentation for Sender IDs, emails, and Virtual Numbers, I need to reference them more throughout the docs because I talk about them alot)
+
+[comment]: <> (To do: template docs, message types docs, channels docs, intro, getting started, Email2SMS docs, contacts docs)
+
+[comment]: <> (I am happy with most of the explanations in the docs. However, the templates + message types docs I am not happy with. They seem clunky, janky, and incohesive. They will need extensive review. Additionally, I need to reference Sender IDs and Virtual Numbers more throughout the docs.)
+
+[comment]: <> (when message type docs are done, I need to delete them from campaigns)
+
+
+
+
+
+
+
 
 
