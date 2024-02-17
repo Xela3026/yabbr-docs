@@ -1,6 +1,6 @@
 {
   "label": "Surveys",
-
+  "position": 10,
   "link": {
     "type": "generated-index",
     "description": "Insert surveys information here"
