@@ -33,7 +33,7 @@ If a respondent's answer to a question is unrecognisable as one of the predeterm
 
 ### Question Content
 
-Survey respondents will receive a call from the survey asking them a question and providing them a list of valid recognised answers. You must configure this message yourself in the question content. The question content is the first customisable option in the New Question menu. Curate your audio message question in the outlined section. For audio-message curation documentation, navigate [here](../campaigns/voice-campaigns.md#message). A detailed example can be found below in [Example SMS Question](#example-sms-question).
+Survey respondents will receive a call from the survey asking them a question and providing them a list of valid recognised answers. You must configure this message yourself in the question content. The question content is the first customisable option in the New Question menu. Curate your audio message question in the outlined section. For audio-message curation documentation, navigate [here](../message-types/audio.md#message). A detailed example can be found below in [Example SMS Question](#example-sms-question).
 
 ![Voice Question Curation](/img/survey-voice-question.png)
 

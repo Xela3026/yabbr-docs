@@ -37,7 +37,7 @@ There are four different types of Email templates you can create. Select the des
 
 - **Yabbr Chat**: used for Email quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat. You can also specify BCC recipients.
 - **Express Message**: used for Email Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template, any BCC recipients, and whether the message sent using the template is recorded by a transcript.
-- **Email Signatures**: this is a signature that will appear at the end of every email sent by the members of your workspace.
+- **Email Signatures**: this is a signature that can appear at the end of emails sent by [email aliases](../channels/email.md) registered in your workspace.
 - **Campaigns**: used for Email Campaigns.
 
 

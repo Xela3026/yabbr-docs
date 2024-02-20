@@ -490,6 +490,16 @@ At any point after the campaign has started and at least one contact has receive
 
 
 
+[comment]: <> (I am going to need more information about Yabbrs manual verification process of the API Keys, domains, emails, sender ids, and virtual numbers.)
+
+[comment]: <> (also, what is an alpha code?)
+
+[comment]: <> (also, i am going to need more information about the inbound functionality of the Email Alias. Is it configuring automatic forwarding to like your workspace id?)
+
+[comment]: <> (I might also need to use Docusaurs tabs in some of my pages instead to break up the content. The general campaign docs could really use this.)
+
+
+
 
 
 

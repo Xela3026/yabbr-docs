@@ -62,7 +62,7 @@ Once you have successfully created your survey, you will have been navigated to 
 
 #### Question Content
 
-Then a new menu will appear, once again looking slightly differently based on survey type. The first option in this menu is the actual content of the message that respondents respond to. For an SMS Survey, this message is created as a text-based [SMS Message](../campaigns/general.md#message). For a Voice Survey, this message is created as an audio-based [Voice Message](../campaigns/voice-campaigns.md#message). The message is usually composed of two parts: the question and the answers. Ask the question you would like respondents to respond to, and then list all the valid recognised answers to the question (these recognised answers are configured below in [Response Handlers](#response-handlers)).
+Then a new menu will appear, once again looking slightly differently based on survey type. The first option in this menu is the actual content of the message that respondents respond to. For an SMS Survey, this message is created as a text-based [SMS Message](../message-types/sms.md#message-composer). For a Voice Survey, this message is created as an audio-based [Voice Message](../message-types/audio.md#message). The message is usually composed of two parts: the question and the answers. Ask the question you would like respondents to respond to, and then list all the valid recognised answers to the question (these recognised answers are configured below in [Response Handlers](#response-handlers)).
 
 An example question content for a Voice Survey may be: "What is your favourite ice-cream flavour? Press 1 for Chocolate, 2 for Vanilla, and 3 for None of the Above"
 
