@@ -5,7 +5,11 @@ import ThreeDBackground from './three-d-background.js';
 const homepage = () => {
   return (
     
+    
+
+    
     <div class="outer-container" id="outerContainer">
+      
         
         <div class="homepage-container">
             <span class="subtitle">Welcome to the</span>

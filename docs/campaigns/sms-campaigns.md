@@ -38,6 +38,10 @@ When you are first creating an SMS campaign, you must also choose from one of th
 - [**Interative Broadcast**](#interactive-broadcast): message sent using a virtual number. These allow two-way communication so that other systems like Yabbr Chat can interact with responses.
 - [**Poll**](#poll): Currently functionally the same as Interactive Broadcast.
 
+#### Message
+
+Navigate to the [SMS Message Type](../message-types/sms.md) documentation for an explanation of message-construction here.
+
 
 
 

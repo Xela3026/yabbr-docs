@@ -55,6 +55,7 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+
         },
       }),
     ],
@@ -63,6 +64,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // add the google icons stylesheet
+      metadata: [
+        {
+          name: 'google-icons',
+          content: '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">'
+        },
+      ],
       // Replace with your project's social card
       image: 'img/yabbr.svg',
       navbar: {
@@ -136,6 +144,10 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    stylesheets: [
+      'https://fonts.googleapis.com/icon?family=Material+Icons',
+      'https://fonts.googleapis.com/css2?family=Roboto',
+    ],
 };
 // questions for Logan:
 // Yabbr logo, colour, font etc.
@@ -143,4 +155,5 @@ const config = {
 // copyright?
 // there's no link to "Members" on the Yabbr page?
 // could potentially use tabs in some places instead of sub-links
+
 export default config;

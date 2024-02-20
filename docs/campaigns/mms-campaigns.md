@@ -37,23 +37,7 @@ The only feature unique to the setup of an MMS Campaign is your Message.
 
 ### Message
 
-Unlike SMS, MMS messages have a subject and can contain attachments.
-
-#### Subject
-
-You are required to add a subject to your MMS. Simply enter the text you want to appear as the subject in the outlined text box below.
-
-![Email Subject](/img/campaign-email-subject.png)
-
-#### Attachments
-
-You can attach certain files to be sent with the MMS. Upload files that you want to be sent with your MMS Campaign by clicking the button outlined below and selecting your desired files.
-
-![Add Attachments to MMS](/img/campaign-mms-attachment.png)
-
-Remove an attachment by clicking the bin icon on the right of the attachment name.
-
-![Delete Attachments from MMS](/img/campaign-delete-attachment.png)
+UNavigate to the [MMS Message Type](../message-types/mms.md) documentation for an explanation of message-construction here.
 
 ---
 

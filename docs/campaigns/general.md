@@ -32,7 +32,6 @@ style={{
 A campaign is a personalised message that is sent out to a set of specified locations all at once. After reading the general documentation, it is recommended to find the documentation for your specific desired campaign type for any extra details.
 
 
-
 ---
 
 ## Setup
@@ -195,7 +194,7 @@ Exclusion Lists and your Opt-Out List are both non-compulsary for your campaign 
 
 #### Templates
 
-The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/sms-templates.md). 
+The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/general.md). 
 
 ![Message Template Drop-down](/img/message-template.png)
 
@@ -208,22 +207,7 @@ Enabling 'Automatically Shorten Links' as above will also enable Link Tracking -
 
 #### Message Content
 
-You can create and edit your message by typing in the text box underneath 'Message Content'. [Email Campaigns](./email-campaigns.md) will have extra content here, so view its specific documentation for extra information.
-
-![Campaign Message Content](/img/message-content-campaign.png)
-
-As you can see in the image above, you can select a checkbox to replace unicode characters in messages to mobile numbers. This will reduce the SMS character and unit usage if unicode characters are present in your message.
-
-[comment]: <> (might move this into specific SMS docs)
-
-##### Placeholders
-
-Along with normal text, this message also supports placeholders. Placeholders are enclosed in double braces like &#123;&#123;this&#125;&#125;. The name of the placeholder inside of the braces will be the name of the column inside your contact information file that you are pulling information from. For example, if your contact file had a column called 'client_name' connected to each contact, your message could start like:
-
-'Hello &#123;&#123;client_name&#125;&#125;,
-...'
-
-When your campaign is sent out, this placeholder will be replaced with the contact's name that is listed in the contact information file. 
+Locate the [Message Type](../message-types/general.md) documentation for an explanation of message-construction. Navigate to the message type documentation for your specific campaign type (eg SMS, MMS, Voice) for more specific message-construction explanations.
 
 ##### Opt Out Link
 

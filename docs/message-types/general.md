@@ -65,3 +65,10 @@ Placeholders don't only have to be the properties of a message recipient. You wi
 ### Templates
 
 For each message type, you can also create a [Template](../templates/general.md). A template is a message scaffold. It is essentially a pre-made message that you can insert into most places in your workspace to save time typing out the same message multiple times. You can also include placeholders in these templates that can be filled in at their later use.
+
+
+## Workspace Contacts
+
+All of your messages need to be sent **by** something or someone. Thus, in your workspace, you can setup some contacts that you can use to send messages to your customers. For phone numbers, these are [Virtual Numbers](../channels/virtual-numbers.md) and [Sender IDs](../channels/sender-ids.md). For emails, these are [Emails](../channels/email.md). 
+
+Then, when you are creating your message, you select one of these contacts. This will be the contact that the customers receive your message from.

@@ -3,7 +3,14 @@ import React, { useState } from 'react';
 
 const UnitCounter = () => {
   const [text, setText] = useState('');
+  const [inputting, setInputting] = useState('');
 
+  const handleCheck = (event) => {
+    return event.target.checked ? setText(text.replace(gsmCharacterSet, '#')) : null;
+  }
+
+
+  // dynamic height adjustment of text area
   const handleTextChange = (event) => {
     setText(event.target.value);
     const element = event.target;
@@ -13,37 +20,36 @@ const UnitCounter = () => {
         element.style.height = "100px";
     }
   };
+
+  // define GSM character pattern
+
+  const gsmCharacterSet = /[^\x0a\x0d\x20-\x5F\x61-\x7E¡£¤¥§¿ÄÅÆÇÉÑÖØÜßàäåæèéìñòöøùüΓΔΘΛΞΠΣΦΨΩ€]/g;
+
+  // check the text area for GSM characters.
+  // returns true if it is all GSM. The text is clean
+  // returns false if there is a non GSM character
+
   const checkNonGSMCharacters = () => {
-    const gsmCharacterSet = "@£$¥èéùìòÇ\nØø\rÅåΔ_ΦΓΛΩΠΨΣΘΞ\x1bÆæßÉ !\"#¤%&'()*+,-./0123456789:;<=>?¡ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÑÜ`¿abcdefghijklmnopqrstuvwxyzäöñüà";
-    let isGSM = 'true';
-    for (let i = 0; i < text.length; i++) {
-      if (gsmCharacterSet.indexOf(text.charAt(i)) == -1) {
-        isGSM = 'false';
-      }
-    }
-    return isGSM;
+
+    // check for the pattern in the text area
+
+    return !gsmCharacterSet.test(text);
   };
 
-  const isGSM = checkNonGSMCharacters();
+  let isGSM = checkNonGSMCharacters();
 
   
 
   const unitCalculator = () => {
     if (checkNonGSMCharacters()) {
-      if (text.length > 160) {
-        return Math.ceil(text.length/153);
-      } else {
-        return Math.ceil(text.length/160);
-      }
+        return text.length > 160 ? Math.ceil(text.length/153) : Math.ceil(text.length/160);
       
     } else {
-      if (text.length > 70) {
-        return Math.ceil(text.length/67);
-      } else {
-        return Math.ceil(text.length/70);
-      }
+      return text.length > 70 ? Math.ceil(text.length/67) : Math.ceil(text.length/70);
     }
   }
+
+
 
   const characterCap = () => {
     return isGSM ? 1530 : 670;
@@ -59,15 +65,17 @@ const UnitCounter = () => {
 
   return (
     <div>
-      <p>{isGSM}</p>
-      <p>SMS Units: {smsUnits}</p>
-    
-      <p>Characters: {text.length} / {cap}</p>
+      <input type="checkbox" onChange={handleCheck}></input><b>Replace Unicode Characters</b>
+      <div style={{
+        border: inputting ? '5px solid rgb(122,189,242,0.2)' : '5px solid rgb(122,189,242,0)',
+        'border-radius': '10px',
+        transition: 'border 0.3s ease',
+    }}>
       <textarea value={text} 
       placeholder = 'Enter your message here'
     
       style={{
-      border: '1px solid #D2D7DD',
+      border: inputting ? '1px solid #7ABDF2' : '1px solid #D2D7DD',
       'font-family': '"Open Sans", Arial, sans-serif',
       'letter-spacing': '0.5px',
       position: 'relative',
@@ -77,9 +85,19 @@ const UnitCounter = () => {
       color: '#000000',
       'border-radius': '5px',
       padding: '10px',
+      display: 'flex',
+      'justify-content': 'center',
+      'align-items': 'center',
 
-    }}onChange={handleTextChange} />
+    }}onChange={handleTextChange} maxLength={cap} onFocus = {() => setInputting(true)}
+    onBlur= {() => setInputting(false)}/>
     </div>
+
+    <p><b>Characters</b>: {text.length} / {cap}</p>
+    <p><b>SMS Units</b>: {smsUnits}</p>
+    </div>
+    
+    
   );
 };
 

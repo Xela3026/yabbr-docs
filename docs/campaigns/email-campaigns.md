@@ -33,58 +33,12 @@ The only feature unique to the setup of an Email Campaign is your Message.
 
 ### Message
 
-#### Subject
-
-Firstly, for an email campaign, you are required to add a subject to your email. Simply enter the text you want to appear as the subject in the outlined text box below.
-
-![Email Subject](/img/campaign-email-subject.png)
-
-#### Email HTML
-
-For the actual content of the email, you can simply use the text editor provided as outlined in [General](./general.md). Alternatively, you can create your email using HTML by toggling the switch above the text editor as outlined below. 
-
-![Enable HTML Editing](/img/campaign-email-html.png)
-
-After enabling this option, use the same text box to create your campaign message. The content entered in here will then be interpreted as HTML. Toggle the above switch again to disable this option.
-
-#### Links
-
-To imbed links into the email, you cannot simply type out the link in the rich text editor or the HTML editor.
-
-##### Rich Text Editor
-
-To imbed a link in the rich text editor, you must first highlight the text that you want to turn into the clickable link. Then, click the button highlighted below (or use Ctrl+K) to bring up a small menu. Enter the full link into the text box that appears and click 'Save' to imbed this link onto the word you highlighted.
-
-![Link Creation](/img/campaign-email-links.png)
-
-The example above will direct users to google.com when they click on the word 'link'.
-
-##### HTML Editor
-
-You can simply imbed your links the same as you would with any other link in HTML as exemplified below.
-
-```HTML title="Example HTML Link"
-<a href="google.com">google.com</a>
-
-<!-- or -->
-
-<a href="google.com">Google</a>
-
-```
+Navigate to the [Email Message Type](../message-types/emails.md) documentation for an explanation of message-construction here.
 
 ##### Link Tracking
 
 To enable the Link Tracking option detailed [here](./general.md#link-tracking), links must follow the appropriate formatting described above, and the 'Automatically Shorten Links' checkbox must be selected.
 
-#### Attachments
-
-In a standard email, you can attach certain files to be sent with the email. Similarly here with an email campaign, you can upload files that will be sent with your email campaign by clicking the button outlined below and selecting your desired files.
-
-![Add Attachments to Email](/img/campaign-email-attachments.png)
-
-Remove an attachment by clicking the bin icon on the right of the attachment name.
-
-![Delete Attachments from Email](/img/campaign-delete-attachment.png)
 
 
 

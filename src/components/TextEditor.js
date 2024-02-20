@@ -16,15 +16,16 @@ const TextEditor = () => {
   return (
     <div 
     style={{
-        border: inputting ? '5px solid rgb(0,0,255,0.2)' : '5px solid rgb(0,0,255,0)',
-        'border-radius': '10px'
+        border: inputting ? '5px solid rgb(122,189,242,0.2)' : '5px solid rgb(122,189,242,0)',
+        'border-radius': '10px',
+        transition: 'border 0.3s ease'
     }}>
     <textarea
 
         placeholder = 'Hello {{client_name}}, would you like to discuss {{case_number}}?'
     
         style={{
-        border: inputting ? '1px solid blue' : '1px solid #D2D7DD',
+        border: inputting ? '1px solid #7ABDF2' : '1px solid #D2D7DD',
         'font-family': '"Open Sans", Arial, sans-serif',
         'letter-spacing': '0.5px',
         position: 'relative',
@@ -33,7 +34,7 @@ const TextEditor = () => {
         resize: 'none',
         color: '#000000',
         'border-radius': '5px',
-        transition: 'border 0.5s ease',
+        transition: 'border 0.3s ease',
         display: 'flex',
         'justify-content': 'center',
         'align-items': 'center',

@@ -20,7 +20,11 @@ style={{
 </span>
 );
 
+import TextEditor from '@site/src/components/TextEditor';
+
 # Audio
+
+The Audio message type is the most unique message type. An audio message is just a phone call. Recipients of an audio message can interact with it using the numberpad. There are two types of audio messages: Audio File and Text to Speech. It is recommended you read the [General](./general.md) documentation before this one.
 
 
 ## Message
@@ -31,7 +35,7 @@ Firstly, you must select what type of message you want to send - a pre-recorded 
 
 ### Audio File
 
-Here, you must select one or more audio files that will be stitched together into one larger audio message that will be sent to your campaign recipients. On the left is your Library where you select the audio files you want to add. These audio files will then appear on the right in the Message Composer.
+Here, you must select one or more audio files that will be stitched together into one larger audio message that will be sent to your recipients. On the left is your Library where you select the audio files you want to add. These audio files will then appear on the right in the Message Composer.
 
 #### Library
 
@@ -61,13 +65,15 @@ Audio files will be played in order from top to bottom as they appear here. You 
 
 ### Text to Speech
 
-By selecting this option, a robot text-to-speech voice will read out your typed message as audio to campaign recipients.
+By selecting this option, a robot text-to-speech voice will read out your typed message as audio to recipients.
 
 #### Content
 
-In the text box outlined below, type out the words you want the text-to-speech bot to read out.
+The creation of the content of the message just uses the General text editor.
 
-![Text Editor for Text-to-Speech](/img/campaign-voice-text-to-speech-content.png)
+<TextEditor />
+
+
 
 #### Pronunciation
 
