@@ -6,21 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
-export const Tag = ({children, colour, borderColour, fontColour}) => (
-<span
-style={{
-    backgroundColor: colour,
-    borderRadius: '4px',
-    color: fontColour,
-    padding: '0.1rem 0.5rem',
-    whiteSpace: 'nowrap',
-    border: '0.5px solid',
-    borderColor: borderColour,
-    }}>
-{children}
-</span>
-);
+import Tag from '@site/src/components/Tag';
 
 # Domains
 
@@ -75,4 +61,6 @@ You can search the domains by name using the 'Filter' text box.
 Clicking on a domain in this menu will open an expanded view of the domain's details. This includes the domain's verification status.
 
 Missing Documentation. Work in Progress.
+
+[comment]: <> (This will need a lot of work and editing it's a bit confusing. DNS etc)
 

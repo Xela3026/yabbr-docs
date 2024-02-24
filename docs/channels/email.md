@@ -7,20 +7,7 @@ toc_max_heading_level: 5
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
-export const Tag = ({children, colour, borderColour, fontColour}) => (
-<span
-style={{
-    backgroundColor: colour,
-    borderRadius: '4px',
-    color: fontColour,
-    padding: '0.1rem 0.5rem',
-    whiteSpace: 'nowrap',
-    border: '0.5px solid',
-    borderColor: borderColour,
-    }}>
-{children}
-</span>
-);
+import Tag from '@site/src/components/Tag';
 
 # Email
 
@@ -55,6 +42,10 @@ These are the settings and configurations of your new email alias. They are the:
 - **Enable Alias**:  this enables/disables the functionality of the email alias within your workspace.
 
 Then, to add the new email alias to your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+
+:::note NOte
+You can immediately use any email aliases created under a Yabbr-registered domain.
+:::
 
 ### Management
 

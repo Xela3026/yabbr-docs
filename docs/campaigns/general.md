@@ -6,21 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
-export const Tag = ({children, colour, borderColour, fontColour}) => (
-<span
-style={{
-    backgroundColor: colour,
-    borderRadius: '4px',
-    color: fontColour,
-    padding: '0.1rem 0.5rem',
-    whiteSpace: 'nowrap',
-    border: '0.5px solid',
-    borderColor: borderColour,
-    }}>
-{children}
-</span>
-);
+import Tag from '@site/src/components/Tag';
 
 
 
@@ -498,6 +484,18 @@ At any point after the campaign has started and at least one contact has receive
 
 [comment]: <> (I might also need to use Docusaurs tabs in some of my pages instead to break up the content. The general campaign docs could really use this.)
 
+
+
+
+[comment]: <> (finish domain docs with the verificaiton and DNS stuff)
+
+[comment]: <> (I need more information about DNS, and verification of domains, sender ids, and virtual numbers)
+
+
+
+
+
+[comment]: <> (emails and api keys are good in channels. Domains I need to talk about verificaiton, management, dns etc.)
 
 
 
