@@ -17,19 +17,19 @@ Yabbr has APIs for all of the features in your workspace. These APIs need some a
 
 To find the API Keys section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'API Keys'.
 
-<img src="/img/api-keys-nav.png" alt="API Keys on the Sidebar" width="300" />
+<CustomisableImage src="/img/api-keys-nav.png" alt="API Keys on the Sidebar" width="300" />
 
 ### Create
 
 Then, to create a new API Key, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Key</Tag>.
 
-<img src="/img/api-keys-new.png" alt="New API Keys" width="550" />
+<CustomisableImage src="/img/api-keys-new.png" alt="New API Keys" width="550" />
 
 #### Configure
 
 Clicking on this button will bring up a small menu like the one below:
 
-<img src="/img/api-keys-menu.png" alt="API Keys Configuration" width="450" />
+<CustomisableImage src="/img/api-keys-menu.png" alt="API Keys Configuration" width="450" />
 
 These are the settings and configurations of your new API Key. They are the:
 - **Name**: the display name of your API Key to identify it within your workspace.
@@ -44,7 +44,7 @@ Next, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Cr
 
 Then, a small menu will appear like the one below. This will show you your API Key. Your API Key will be located where the redacted text is in the screenshot below. Copy and store this API Key in some place safe. Once you have confirmed that you have saved the API Key by selecting the checkbox outlined in the screenshot below, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Close</Tag> to close the menu and finish the API Key creation process.
 
-<img src="/img/api-keys-copy.png" alt="API Keys Save Key" width="450" />
+<CustomisableImage src="/img/api-keys-copy.png" alt="API Keys Save Key" width="450" />
 
 :::warning Warning
 You cannot find your API Key ever again once you have closed this menu.
@@ -54,13 +54,13 @@ You cannot find your API Key ever again once you have closed this menu.
 
 All of your workspace's API Keys will appear here:
 
-<img src="/img/api-keys-overview.png" alt="API Keys Menu" width="550" />
+<CustomisableImage src="/img/api-keys-overview.png" alt="API Keys Menu" width="550" />
 
 This overview will display the enabled status of the API Key, then the key's name. 
 
 To edit an API Key and all of its configurations, click the pencil icon on the right of the API Key:
 
-<img src="/img/api-keys-edit.png" alt="API Keys Edit" width="550" />
+<CustomisableImage src="/img/api-keys-edit.png" alt="API Keys Edit" width="550" />
 
 :::tip TIP
 You can search the API Keys by name using the 'Filter' text box.

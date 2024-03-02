@@ -6,6 +6,8 @@ toc_max_heading_level: 5
 
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
+
 <link rel="stylesheet" type="text/css" href="/src/components/css/custom.css" />
 
 
@@ -63,12 +65,12 @@ The Message Content text editor for SMS is just the one seen in General:
 As you may notice when creating your SMS message, there is a counter in the bottom right for how many characters your message has, but also how many 'SMS Units' it costs. 
 
 
-<img src="/img/message-types-sms-units.png" alt="SMS Units" width="450"/>
+<CustomisableImage src="/img/message-types-sms-units.png" alt="SMS Units" width="450"/>
 
 Yabbr charges you per SMS unit, not per message. Thus, it is ideal to reduce your SMS Usage.
 A message with more SMS units costs more money to send, so it is ideal to reduce them. They are calculated based on GSM characters. A table of all GSM characters is provided below. Most common characters are GSM characters. However, non-GSM characters include [unicode characters](#unicode-characters) and emojis.
 
-<img src="/img/gsm.png" alt="All GSM Characters" width="400"/>
+<CustomisableImage src="/img/gsm.png" alt="All GSM Characters" width="400"/>
 
 
 If a message consists only of GSM characters, then a unit will consist of 160 characters. If there is more than one unit, then each unit will consist of 153 characters.

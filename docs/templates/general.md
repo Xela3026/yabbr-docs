@@ -30,11 +30,11 @@ Templates are message scaffolds. Here, you can create a body of text and replace
 
 To create a template, navigate to the 'Templates' in your workspace, or the 'Audio' section for an audio template. This 'General' documentation primarly focuses on the 'Templates' section. See [Audio](./audio-templates.md) for more specific guides for the 'Audio' section of templates.
 
-<img src="/img/template-navigation.png" alt="Template Navigation Bar" width="300"/>
+<CustomisableImage src="/img/template-navigation.png" alt="Template Navigation Bar" width="300"/>
 
 To navigate between different message types (Messaging and Email), use the tabs at the top of the page and outlined below.
 
-<img src="/img/template-nav-nav.png" alt="Template Tabs" width="500"/>
+<CustomisableImage src="/img/template-nav-nav.png" alt="Template Tabs" width="500"/>
 
 Then, to create a new template, click the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Template</Tag> button.
 
@@ -56,7 +56,7 @@ Finally, once you have finished creating your message template, click <Tag colou
 
 All of your templates are displayed in the template overview section outlined below. This overview will store the 'enabled' status of the template (Enabled), the template's display name (Template), and the product it is for (Product).
 
-<img src="/img/template-overview.png" alt="Template Overview" width="500"/>
+<CustomisableImage src="/img/template-overview.png" alt="Template Overview" width="500"/>
 
 Here, you can view all of your templates.
 
@@ -66,7 +66,7 @@ You can also modify each template. To edit a template, click on the pencil icon.
 
 To delete a template, click on the trash icon and then click 'Confirm'.
 
-<img src="/img/groups-actions.png" alt="Template Actions" width="500"/>
+<CustomisableImage src="/img/groups-actions.png" alt="Template Actions" width="500"/>
 
 ### Filters
 
@@ -76,11 +76,11 @@ If you have a lot of templates, it may be difficult to find them here. To find a
 
 The search filter is the 'Filter' text box at the top of the page and outlined below. Use this to search for the template using text. Only the templates that match the text you input into the search filter will appear. The template could match the searched text with either its display name, message content, or product type. For example, you could search for all Yabbr Chat messages by using 'Yabbr Chat' in the search filter. You could search for all templates that mention success by using 'success' in the search filter.
 
-<img src="/img/template-filter.png" alt="Search Filter" width="500"/>
+<CustomisableImage src="/img/template-filter.png" alt="Search Filter" width="500"/>
 
 #### Order Filter
 
-<img src="/img/template-order.png" alt="Order Filter" width="500"/>
+<CustomisableImage src="/img/template-order.png" alt="Order Filter" width="500"/>
 
 The order filter is the little arrows next to each column title and outlined below. By default, the templates are ordered in alphabetical order. You can change how they are ordered using the order filter. 
 

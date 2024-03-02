@@ -1,60 +1,45 @@
 import React, { useState } from 'react';
 
+import BorderImage from './BorderImage.js';
+
 const CustomisableImage = ({ src, alt, width }) => {
-  const [hovered, setHovered] = useState(false);
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+    document.body.style.overflow = clicked ? "auto" : "hidden";
+  };
+
 
   return (
-    <img
-      src={src}
-      alt={alt}
-      width={width}
-      style={{
-        border: '2px solid #1582d8',
-        'border-radius': '5px',
-        boxShadow: hovered ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none',
-        transition: 'box-shadow 0.3s ease',
-        // border: 'none',
-      }}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    />
+    <div onClick={handleClick}>
+        <BorderImage src={src} alt={alt} width={width} />
+
+        <div 
+        className = {'overlay'} 
+        style= {{
+                opacity: clicked ? 1 : 0,
+                visibility: clicked ? 'visible' : 'hidden',
+                transition: 'opacity 0.3s ease, visibility 0.3s ease',
+                }}
+                >
+
+            <div 
+            className = {'enlarged'}
+            >
+                <p className={'subtitle'}>{alt}</p>
+                <img className={'enlargeImage'}
+                src={src}
+                alt={alt}
+
+                />
+                
+            </div>
+            
+        </div>
+        
+    </div>
   );
 };
 
 export default CustomisableImage;
-
-/**
-
-import React, { useState } from 'react';
-
-const CustomisableImage = ({ src, alt, width }) => {
-  const [enlarged, setEnlarged] = useState(false);
-
-  const handleClick = () => {
-    setEnlarged(!enlarged);
-  };
-
-  const enlargedWidth = width * 3;
-
-  const imageStyle = {
-    boxShadow: enlarged ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none',
-    transition: 'box-shadow 0.3s ease',
-    border: '2px solid #1582d8',
-    'border-radius': '5px',
-    width: enlarged ? enlargedWidth : width, // Toggle between width and enlargedWidth
-  };
-
-  return (
-    <img
-      src={src}
-      alt={alt}
-      style={imageStyle}
-      onClick={handleClick} // Call handleClick function when clicked
-    />
-  );
-};
-
-export default CustomisableImage;**/
-
-
-

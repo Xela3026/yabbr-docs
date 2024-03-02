@@ -28,7 +28,7 @@ The 'Members' are all of the individuals in your workspace. You can organise and
 
 ---
 
-<img src="/img/member-navigation.png" alt="Members Navigation"/>
+<CustomisableImage src="/img/member-navigation.png" alt="Members Navigation"/>
 
 ---
 
@@ -37,7 +37,7 @@ Then, to navigate between the different 'Members' configuration options, click o
 
 ---
 
-<img src="/img/member-nav-nav.png" alt="Members Tab Navigation"/>
+<CustomisableImage src="/img/member-nav-nav.png" alt="Members Tab Navigation"/>
 
 ---
 
@@ -52,7 +52,7 @@ To add a new member to the workspace, first click on the blue <Tag colour="#1582
 
 ---
 
-<img src="/img/member-create.png" alt="Member Create"/>
+<CustomisableImage src="/img/member-create.png" alt="Member Create"/>
 
 ---
 
@@ -60,7 +60,7 @@ Then, a small menu will appear like the one below.
 
 ---
 
-<img src="/img/member-create-menu.png" alt="Member Create Menu" width="450"/>
+<CustomisableImage src="/img/member-create-menu.png" alt="Member Create Menu" width="450"/>
 
 ---
 
@@ -73,7 +73,7 @@ Finally, to confirm and create the new member into the workspace, click <Tag col
 
 All of your workspace's members will appear here:
 
-<img src="/img/member-overview.png" alt="Member Overview"/>
+<CustomisableImage src="/img/member-overview.png" alt="Member Overview"/>
 
 This menu also details some information about each member:
 
@@ -87,7 +87,7 @@ This menu also details some information about each member:
 
 To [update a member](#update-member), click on the pencil icon. To [change the permissions](#permissions) of a member, click on the key icon. To remove a member from the workspace, click on the trash icon and then click the <Tag colour="#f28d35" borderColour="#f28d35" fontColour="#FFFFFF">Confirm</Tag> button that will appear.
 
-<img src="/img/member-management.png" alt="Member Management"/>
+<CustomisableImage src="/img/member-management.png" alt="Member Management"/>
 
 ---
 
@@ -99,7 +99,7 @@ When you update a member, you can change their role, status, and virtual number 
 
 ---
 
-<img src="/img/member-update.png" alt="Member Update Menu" width="450"/>
+<CustomisableImage src="/img/member-update.png" alt="Member Update Menu" width="450"/>
 
 ---
 
@@ -119,7 +119,7 @@ Your workspace has hundreds of available functions. Administrators and Owners wi
 
 ---
 
-<img src="/img/member-permissions.png" alt="Member Permissions Menu" width="450"/>
+<CustomisableImage src="/img/member-permissions.png" alt="Member Permissions Menu" width="450"/>
 
 ---
 
@@ -132,7 +132,7 @@ There are three actions you can perform on the 'Member List'. To access these, c
 
 ---
 
-<img src="/img/member-actions.png" alt="Member Actions"/>
+<CustomisableImage src="/img/member-actions.png" alt="Member Actions"/>
 
 ---
 
@@ -141,7 +141,7 @@ This will give you three options:
 
 ---
 
-<img src="/img/member-actions-extended.png" alt="Member Actions Options" width="450"/>
+<CustomisableImage src="/img/member-actions-extended.png" alt="Member Actions Options" width="450"/>
 
 ---
 
@@ -151,7 +151,7 @@ This will transfer all of the information listed here about each member into a C
 
 ---
 
-<img src="/img/member-timezone.png" alt="CSV File Timezone Selection" width="450"/>
+<CustomisableImage src="/img/member-timezone.png" alt="CSV File Timezone Selection" width="450"/>
 
 ---
 
@@ -161,7 +161,7 @@ You can add several members to the workspace at once. When you click this option
 
 ---
 
-<img src="/img/member-upload-list.png" alt="Upload New Members" width="450"/>
+<CustomisableImage src="/img/member-upload-list.png" alt="Upload New Members" width="450"/>
 
 ---
 
@@ -171,7 +171,7 @@ To be accurately read by the program, your member list must be formatted exactly
 
 ---
 
-<img src="/img/member-list-format.png" alt="Member List Formatting"/>
+<CustomisableImage src="/img/member-list-format.png" alt="Member List Formatting"/>
 
 ---
 
@@ -189,7 +189,7 @@ Each column specifies a different property of each new member:
 
 Once you have uploaded your member list file and it is appropriately formatted, there are some final options you have to specify before completing the bulk upload. After uploading the file, the following options will appear:
 
-<img src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
+<CustomisableImage src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
 
 ---
 
@@ -203,7 +203,7 @@ Enabling each option executes the bulk upload differently:
 
 Next, you need to tell the program how to read your file. You need to outline where certain data is located. Depending on what settings you enabled in the previous step, different settings and configurations will appear here. Below is a screenshot of all possible settings and configurations for the bulk upload. The previously screenshotted CSV file will be referenced as an example for this explanation.
 
-<img src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
+<CustomisableImage src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
 
 Each setting needs different information about your file:
 
@@ -221,7 +221,7 @@ Finally, to upload all the new members to your workspace, click <Tag colour="#15
 
 You can modify the permissions of multiple members in the workspace at once. When you click on this option, a small menu will appear like the one below.
 
-<img src="/img/member-bulk-permission.png" alt="Bulk Permission Modification" width="600"/>
+<CustomisableImage src="/img/member-bulk-permission.png" alt="Bulk Permission Modification" width="600"/>
 
 To modify the permissions of several members at once:
 
@@ -230,7 +230,7 @@ To modify the permissions of several members at once:
 3. Select the permissions you want to add/set/remove. 'Permissions' are the permissions selected for modification (add/set/remove). The rest of the permissions appear under 'Unassigned'. Click on a permission in 'Unassigned' to add it to the 'Permissions'. Click on a permission in 'Permissions' to unselect it and remove it from 'Permissions'.
 4. <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>
 
-<img src="/img/member-bulk-permission-steps.png" alt="Bulk Permission Modification Annotation" width="600"/>
+<CustomisableImage src="/img/member-bulk-permission-steps.png" alt="Bulk Permission Modification Annotation" width="600"/>
 
 :::tip TIP
 If you are struggling to find a member or permission here, you can search them by name using the 'Filter' text box above each section.

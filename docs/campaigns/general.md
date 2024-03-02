@@ -497,6 +497,8 @@ At any point after the campaign has started and at least one contact has receive
 
 [comment]: <> (emails and api keys are good in channels. Domains I need to talk about verificaiton, management, dns etc.)
 
+[comment]: <> (need to use css classes more often instead of hardcoding styling.)
+
 
 
 

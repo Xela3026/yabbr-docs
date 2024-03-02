@@ -32,7 +32,7 @@ You may want members of your workspace to re-authenticate occasionally. Here, yo
 
 To modify the specifics of your workspace's re-authentication, click on <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">New Verification Type</Tag> as outlined below. Then, you need to select the verification type you want to modify out of 'SMS Verification' and 'Google Authenticator (TOTP)'.
 
-<img src="/img/tsv-new.png" alt="New Verification Type" width="450"/>
+<CustomisableImage src="/img/tsv-new.png" alt="New Verification Type" width="450"/>
 
 ### Verification Configuration
 
@@ -40,7 +40,7 @@ To modify the specifics of your workspace's re-authentication, click on <Tag col
 
 When you select a verification type, a small menu will appear like the one below. This menu is identical for both verification types.
 
-<img src="/img/tsv-menu.png" alt="Verification Modification Menu" width="450"/>
+<CustomisableImage src="/img/tsv-menu.png" alt="Verification Modification Menu" width="450"/>
 
 - **Max Member Session Length**: after how many minutes in the workspace should a member be timed out and forced to log in again? 
 - **Require authentication with every login**: enabling this will force members to go through the authentication process every time they log in.

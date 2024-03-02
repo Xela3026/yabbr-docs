@@ -11,13 +11,17 @@ import Tag from '@site/src/components/Tag';
 
 # Sender IDs
 
-The Sender ID is the sender of a phone message. For example, when you get called, the Sender ID is what is calling you. The Sender ID is essentially the 'from' of a phone message. In the context of Yabbr, the Sender IDs are what you use to send outbound messages. You must register a Sender ID with Yabbr to then use it to send outbound phone messages elsewhere in your workspace. A Sender ID can come in three forms in Yabbbr: [Virtual Numbers](./virtual-numbers.md), Alpha Codes, or personal 'BYO' numbers. This documentation is about Alpha Codes and personal numbers.
+[comment]: <> (Similar to email addresses for emails, Sender IDs send and receive phone messages like calls or texts.)
 
-See Virtual Numbers for an explanation of them, but essentially you rent them from Yabbr and you can use them for both outbound and inbound functionality which is required for use in Yabbr Chat.
+Sender IDs are like email addresses, but for phone messages instead of emails. They send and receive phone messages like calls or texts. In Yabbr, Sender IDs are necessary for outbound messaging. They need to be registered within the platform before you can use them across your workspace.
 
-An Alpha Code is a string of text. Usually it is a word or words relating to your brand like 'Brand Name'. Then, when you use this Sender ID, customers will receive a message from a number called 'Brand Name'. However, Alpha Codes have no inbound functionality. Customers cannot respond to messages sent by an Alpha Code.
+Yabbr offers three main forms of Sender IDs:
 
-A personal 'BYO' number is a real existing phone number that you have access to. You can import it into your workspace to use it as a Sender ID. However, whlilst customers can respond to this Sender ID, Yabbr cannot access these responses to a personal number and thus there is no inbound functionality for this type of Sender ID in the workspace.
+Virtual Numbers: These are rented from Yabbr. They offer both inbound and outbound functionality. This is the only Sender ID type with inbound functionality. Therefore, they are the only Sender IDs you can use in Yabbr Chat. Refer to our documentation on Virtual Numbers for comprehensive details.
+
+Alpha Codes: Alpha Codes are alphanumeric (numbers and letters) strings typically representing your brand. These are special because recipients receive phone messages from an alphanumeric string rather than a phone number. However, it's important to note that Alpha Codes lack inbound functionality; recipients cannot respond to messages sent via Alpha Codes.
+
+Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, Yabbr cannot access these responses, rendering inbound functionality unavailable.
 
 :::info Important
 Alpha Codes and personal numbers have to be verified by Yabbr before you can use them in your workspace.
@@ -27,13 +31,13 @@ Alpha Codes and personal numbers have to be verified by Yabbr before you can use
 
 To find the Sender IDs section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Sender IDs'.
 
-<img src="/img/sender-id-nav.png" alt="Sender IDs on the Sidebar" width="300" />
+<CustomisableImage src="/img/sender-id-nav.png" alt="Sender IDs on the Sidebar" width="300" />
 
 ### Create
 
 Then, to create a new Sender ID, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Sender ID</Tag>.
 
-<img src="/img/sender-id-create.png" alt="New Sender ID" width="550" />
+<CustomisableImage src="/img/sender-id-create.png" alt="New Sender ID" width="550" />
 
 #### Configure
 
@@ -41,11 +45,11 @@ Clicking on this button will bring up a small menu like the one below:
 
 **Menu 1 - Alpha Code**
 
-<img src="/img/sender-id-config.png" alt="Sender IDs Configuration Alpha Code" width="450" />
+<CustomisableImage src="/img/sender-id-config.png" alt="Sender IDs Configuration Alpha Code" width="450" />
 
 **Menu 2 - Mobile Number**
 
-<img src="/img/sender-id-mobile.png" alt="Sender IDs Configuration Mobile Number" width="450" />
+<CustomisableImage src="/img/sender-id-mobile.png" alt="Sender IDs Configuration Mobile Number" width="450" />
 
 
 These are the settings and configurations of your new Sender ID. They are the:
@@ -73,13 +77,13 @@ Once this process has been completed, the Sender ID will be approved and verifie
 
 All of your workspace's Sender IDs will appear here:
 
-<img src="/img/sender-id-menu.png" alt="Sender ID Menu" width="550" />
+<CustomisableImage src="/img/sender-id-menu.png" alt="Sender ID Menu" width="550" />
 
 This overview will display the approved status of the Sender ID, then the Sender ID. 
 
 To remove a Sender ID from your workspace, click the trash icon on the right of the Sender ID:
 
-<img src="/img/sender-id-delete.png" alt="Sender ID Delete" width="550" />
+<CustomisableImage src="/img/sender-id-delete.png" alt="Sender ID Delete" width="550" />
 
 :::tip TIP
 You can search the Sender IDs by name using the 'Filter' text box.

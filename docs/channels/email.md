@@ -15,11 +15,11 @@ To send outbound emails using Yabbr, you need an Email Alias to send the email w
 
 To find the Email section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Email'.
 
-<img src="/img/email-nav.png" alt="Email on the Sidebar" width="300" />
+<CustomisableImage src="/img/email-nav.png" alt="Email on the Sidebar" width="300" />
 
 Then, to navigate between Email Aliases and Email Signatures, use the tabs at the top of the page:
 
-<img src="/img/email-tabs.png" alt="Email Tabs" width="550" />
+<CustomisableImage src="/img/email-tabs.png" alt="Email Tabs" width="550" />
 
 ## Email Aliases
 
@@ -27,13 +27,13 @@ Then, to navigate between Email Aliases and Email Signatures, use the tabs at th
 
 Email Aliases are the outbound email senders that are registered for use in your workspace. To create a new email alias, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Email Alias</Tag>.
 
-<img src="/img/email-alias-new.png" alt="New Email Alias" width="550" />
+<CustomisableImage src="/img/email-alias-new.png" alt="New Email Alias" width="550" />
 
 #### Configure
 
 Clicking on this button will bring up a small menu like the one below:
 
-<img src="/img/email-alias-config.png" alt="Email Alias Configuration" width="550" />
+<CustomisableImage src="/img/email-alias-config.png" alt="Email Alias Configuration" width="550" />
 
 These are the settings and configurations of your new email alias. They are the:
 - **Display Name**: the name of your email alias that is used to identify it within your workspace.
@@ -51,13 +51,13 @@ You can immediately use any email aliases created under a Yabbr-registered domai
 
 All of your workspace's email aliases will appear here:
 
-<img src="/img/email-alias-overview.png" alt="Email Alias Menu" width="550" />
+<CustomisableImage src="/img/email-alias-overview.png" alt="Email Alias Menu" width="550" />
 
 This overview will display the enabled status of the email alias, then the alias' name. 
 
 To edit an email alias and all of its settings, click the pencil icon on the right of the email alias:
 
-<img src="/img/email-alias-edit.png" alt="Email Alias Edit" width="550" />
+<CustomisableImage src="/img/email-alias-edit.png" alt="Email Alias Edit" width="550" />
 
 :::tip TIP
 You can search the email aliases by name using the 'Filter' text box.

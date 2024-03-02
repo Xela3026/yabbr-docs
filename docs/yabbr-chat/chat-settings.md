@@ -5,6 +5,10 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+
+
+import CustomisableImage from '@site/src/components/CustomisableImage';
+
 [comment]: <> (i want to add more stuff like this throughout the docs:)
 
 export const CustomDiv = ({ children, width, colour, height, textColour }) => (
@@ -16,6 +20,7 @@ export const CustomDiv = ({ children, width, colour, height, textColour }) => (
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+
     }}
   >
     <span
@@ -58,11 +63,11 @@ Here you can configure various settings and options that appear in the [Yabbr Ch
 
 Firstly, to access chat settings, navigate to the Chat Settings section on the navbar:
 
-<img src="/img/chat-settings-navbar.png" alt="Chat Settings Navbar" width="336"/>
+<CustomisableImage src="/img/chat-settings-navbar.png" alt="Chat Settings Navbar" width="336"/>
 
 Then, to navigate between different chat settings, select the different tabs outlined below. In the screenshot, 'Chat Tags' is currently selected.
 
-<img src="/img/chat-settings-tabs.png" alt="Chat Setting Selection" width="500"/>
+<CustomisableImage src="/img/chat-settings-tabs.png" alt="Chat Setting Selection" width="500"/>
 
 ---
 
@@ -77,13 +82,13 @@ This is where you configure general chat settings. This includes verifications, 
 
 You may want your customers to verify their contact information before they proceed to a conversation with an agent. This is where you configure the verification prompt. 
 
-<img src="/img/chat-settings-general-verify.png" alt="Customer Verification" width="450"/>
+<CustomisableImage src="/img/chat-settings-general-verify.png" alt="Customer Verification" width="450"/>
 
 1. Click on the verification that you want to configure - either SMS or Email.
 2. Then, a small menu will appear like the one below. You need to configure a verification prompt. This is a message that the customer will receive before they have been verified. It should prompt the user to verify their contact information. Create this message under 'Message Content'. See [SMS Templates](../templates/sms-templates) and [Email Templates](../templates/email-templates) for more on how to create these messages.
 3. Enable verification by toggling the button outlined below.
 
-<img src="/img/chat-settings-general-verify-menu.png" alt="Verification Menu" width="400"/>
+<CustomisableImage src="/img/chat-settings-general-verify-menu.png" alt="Verification Menu" width="400"/>
 
 
 To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
@@ -95,11 +100,11 @@ To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#15
 
 Some agents may have connected an SMS to their account. You can choose to notify this SMS when a new customer appears in the Yabbr Chat queue whilst it is unattended. To configure the recipients of this notification, click on the setting outlined below.
 
-<img src="/img/chat-settings-general-notification.png" alt="Agent Notification" width="500"/>
+<CustomisableImage src="/img/chat-settings-general-notification.png" alt="Agent Notification" width="500"/>
 
 A small menu will appear like the one below. The 'Selected Members' will receive the notification, whilst the 'Avaliable Members' will not. Click on an 'Available Member' to add them to the 'Selected Members'. Click on a 'Selected Member' to remove them from the 'Selected Members'. You can remove all members from 'Selected Members' by clicking 'Clear Selection'. You can search members by name using the 'Filter' text box.
 
-<img src="/img/chat-settings-general-notification-menu.png" alt="Agent Notification Menu" width="500"/>
+<CustomisableImage src="/img/chat-settings-general-notification-menu.png" alt="Agent Notification Menu" width="500"/>
 
 To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
 
@@ -109,11 +114,11 @@ To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#15
 
 You can choose to configure a maximum number of [Active Chats](./chat.md#active-chats) for agents to have running at the same time. To configure these chat limitatoins, click on the setting outlined below.
 
-<img src="/img/chat-settings-general-limitations.png" alt="Chat Limitations" width="500"/>
+<CustomisableImage src="/img/chat-settings-general-limitations.png" alt="Chat Limitations" width="500"/>
 
 A small menu will appear like the one below. Maximums are optimal for every category. You can choose to specify a maximum number of total active chats an agent can have, and/or you can specify a maximum number of each type of active chat (Web, SMS, Email).
 
-<img src="/img/chat-settings-general-limitations-menu.png" alt="Chat Limitations Menu" width="400"/>
+<CustomisableImage src="/img/chat-settings-general-limitations-menu.png" alt="Chat Limitations Menu" width="400"/>
 
 To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
 
@@ -129,14 +134,14 @@ Chat tags are used to record and document the outcomes of various chat sessions.
 
 To create a new chat tag, click the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Chat Tag</Tag> button. 
 
-<img src="/img/chat-tags-create.png" alt="Chat Tags Creation"/>
+<CustomisableImage src="/img/chat-tags-create.png" alt="Chat Tags Creation"/>
 
 ---
 
 Next, a small menu will appear where you can create the new chat tag. Enter the name of the new tag in the text box outlined below. You can enable/disable this chat tag from being active in the workspace by toggling the 'Enable Tag' button. 
 
 
-<img src="/img/chat-tags-menu.png" alt="Chat Tags Menu" width="450"/>
+<CustomisableImage src="/img/chat-tags-menu.png" alt="Chat Tags Menu" width="450"/>
 
 Then, to add the chat tag to the workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 
@@ -150,29 +155,29 @@ Chat tags are used to indicate outcomes of a conversation. For example, if a pro
 
 All of your chat tags will appear here:
 
-<img src="/img/chat-tags-overview.png" alt="Chat Tags Overview"/>
+<CustomisableImage src="/img/chat-tags-overview.png" alt="Chat Tags Overview"/>
 
 #### Filter
 
 To search through your chat tags, type into the 'Filter' (outlined below). Only the chat tags that have the searched text in their name will appear. In the below example, only the five chat tags that appear have 're' in either their title or message.
 
-<img src="/img/chat-tags-filter.png" alt="Chat Tags Search"/>
+<CustomisableImage src="/img/chat-tags-filter.png" alt="Chat Tags Search"/>
 
 #### Actions
 
 To edit any of the chat tags, click on the pencil icon. To delete a chat tag, click on the trash icon and then click 'Confirm'.
 
-<img src="/img/chat-tags-actions.png" alt="Chat Tags Actions"/>
+<CustomisableImage src="/img/chat-tags-actions.png" alt="Chat Tags Actions"/>
 
 #### Settings
 
 To configure the minimum and maximum required chat tags on a concluded session, click on the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Settings</Tag> button.
 
-<img src="/img/chat-tags-settings.png" alt="Chat Tags Settings"/>
+<CustomisableImage src="/img/chat-tags-settings.png" alt="Chat Tags Settings"/>
 
 This will bring up a small menu like the one below. 'Minimum' is the smallest number of chat tags needed on a concluded chat, and 'Maximum' is the largest number.
 
-<img src="/img/chat-tags-settings-menu.png" alt="Chat Tags Settings Menu"/>
+<CustomisableImage src="/img/chat-tags-settings-menu.png" alt="Chat Tags Settings Menu"/>
 
 Finally, to apply the settings to the workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
 
@@ -186,7 +191,7 @@ In the Yabbr Chat, there is information stored about every customer. In the Yabb
 
 You can change the order in which customer information appears in the Details section here. All of your workspace's registered Contact Attributes will be listed. They will also be listed in the order that they appear in the Chat Details section. To change this order, hover over the six dots ⠿ (outlined below) and then drag and drop the contact attribute to the new desired spot. The first contact attribute in the order will be the display name of the chat.
 
-<img src="/img/contact-menu-drag.png" alt="Contact Menu Drag and Drop"/>
+<CustomisableImage src="/img/contact-menu-drag.png" alt="Contact Menu Drag and Drop"/>
 
 Then, to confirm this new order, click the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Save Order</Tag> button that will appear on the bottom.
 
@@ -196,11 +201,11 @@ You can modify certain properties of each attribute as well, such as where they 
 
 To modify an attribute, click on the pencil icon to the right of its name:
 
-<img src="/img/contact-menu-edit.png" alt="Contact Menu Edit"/>
+<CustomisableImage src="/img/contact-menu-edit.png" alt="Contact Menu Edit"/>
 
 This will bring up a small menu where you can configure the properties of the attribute:
 
-<img src="/img/contact-menu-edit-menu.png" alt="Contact Menu Edit Menu" width="400"/>
+<CustomisableImage src="/img/contact-menu-edit-menu.png" alt="Contact Menu Edit Menu" width="400"/>
 
 - **Field Visibility**: where the contact attribute will appear. If it appears in Widget, then it will be editable by default.
 - **Required Field**: does the attribute have to be filled for the contact to be valid?
@@ -217,7 +222,7 @@ If an agent belongs to a group, and a customer is routed to that group, then the
 
 This documentation will be referring to the 'Advanced View' of the Routing outlined and selected below:
 
-<img src="/img/routing-advanced.png" alt="Routing Advanced View"/>
+<CustomisableImage src="/img/routing-advanced.png" alt="Routing Advanced View"/>
 
 ---
 
@@ -231,12 +236,12 @@ The first step is to create a route. A route consists of a group, and a set of r
 
 To create a new route, click on the <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414143">**New Route**</Tag> button under 'Inbound Chat Routing' and outlined below.
 
-<img src="/img/routing-new-route.png" alt="New Route"/>
+<CustomisableImage src="/img/routing-new-route.png" alt="New Route"/>
 
 
 Clicking this button will bring up a small menu like the one below:
 
-<img src="/img/routing-new-route-menu.png" alt="New Route Menu" width="400"/>
+<CustomisableImage src="/img/routing-new-route-menu.png" alt="New Route Menu" width="400"/>
 
 - **Route Name**: the display name of the route to identify it within your workspace.
 - **Assigned Group**: the [group](../members/groups.md) that will receive the customer's contact.
@@ -250,7 +255,7 @@ Finally, to create the new route, click <Tag colour="#1582d8" borderColour="#158
 
 All of your routes that you have created will appear here:
 
-<img src="/img/routing-overview.png" alt="Route Overview"/>
+<CustomisableImage src="/img/routing-overview.png" alt="Route Overview"/>
 
 ---
 
@@ -258,7 +263,7 @@ All of your routes that you have created will appear here:
 
 As mentioned earlier, each route has a set of rules. When these rules are met, the route is activated. Read more about rules [here](#rules). Below is what the rule configuration menu looks like.
 
-<img src="/img/routing-apply-rules.png" alt="Apply Rules"/>
+<CustomisableImage src="/img/routing-apply-rules.png" alt="Apply Rules"/>
 
 To configure the rules in a route:
 1. Select a route by clicking on it.
@@ -273,7 +278,7 @@ You can search the rules by name by typing the name of the rule in the 'Filter' 
 
 Routes that appears higher up in this list will have higher priority than routes beneath it. Routes with higher priority will be activated first. For example, if a customer's contact meets the rules for two different routes, then the route with higher priority will be activated. You can reorganise this order by holding down the six dots ⠿ (outlined below) and dragging and dropping each route into the new desired location.
 
-<img src="/img/routing-overview-drag.png" alt="Route Overview Drag and Drop" width="500"/>
+<CustomisableImage src="/img/routing-overview-drag.png" alt="Route Overview Drag and Drop" width="500"/>
 
 ---
 
@@ -281,13 +286,13 @@ Routes that appears higher up in this list will have higher priority than routes
 
 You can edit a route by clicking the pencil icon, and you can delete a route by clicking the trash icon.
 
-<img src="/img/routing-overview-actions.png" alt="Route Overview Actions" width="500"/>
+<CustomisableImage src="/img/routing-overview-actions.png" alt="Route Overview Actions" width="500"/>
 
 #### Saving Changes
 
 You need to save any changes made to your routes (this includes adding new routes and modifying old routes). You can do this by clicking the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Publish Changes</Tag> button outlined below.
 
-<img src="/img/routing-publish-changes.png" alt="Publish Changes"/>
+<CustomisableImage src="/img/routing-publish-changes.png" alt="Publish Changes"/>
 
 ---
 
@@ -299,7 +304,7 @@ As previously mentioned, a customer will activate a route and be redirected to a
 
 Firstly to create a new rule, click the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">New Rule</Tag> button underneath 'Routing Rules' and outlined below. Then, select the type of rule you want to create:
 
-<img src="/img/routing-rule-create.png" alt="Create New Rule"/>
+<CustomisableImage src="/img/routing-rule-create.png" alt="Create New Rule"/>
 
 - **Field**: checks the contact attributes of the customer (eg name and date of birth).
 - **SMS**: checks the details of a customer's SMS message.
@@ -309,7 +314,7 @@ Firstly to create a new rule, click the <Tag colour="#1582d8" borderColour="#158
 
 After selecting a rule type, a small menu will appear like the one below:
 
-<img src="/img/routing-rule-menu.png" alt="New Rule Menu"/>
+<CustomisableImage src="/img/routing-rule-menu.png" alt="New Rule Menu"/>
 
 
 **Rule Properties**:
@@ -334,7 +339,7 @@ Finally, to add the new rule, click <Tag colour="#1582d8" borderColour="#1582d8"
 In the below example, the rule is satisfied when:
 The customer's name is exactly John **AND** the customer's birthday is in February.
 
-<img src="/img/routing-rule-example.png" alt="Rule Creation Example"/>
+<CustomisableImage src="/img/routing-rule-example.png" alt="Rule Creation Example"/>
 
 ---
 
@@ -342,7 +347,7 @@ The customer's name is exactly John **AND** the customer's birthday is in Februa
 
 All of your rules that you have created will appear here:
 
-<img src="/img/routing-rule-overview.png" alt="Rules Overview"/>
+<CustomisableImage src="/img/routing-rule-overview.png" alt="Rules Overview"/>
 
 You can edit a rule by clicking the <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414042">Edit</Tag> button, and you can delete a rule by clicking the <Tag colour="#d92b04" borderColour="#d92b04" fontColour="#FFFFFF">Delete</Tag> button.
 

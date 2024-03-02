@@ -5,6 +5,8 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
+
 export const Tag = ({children, colour, borderColour, fontColour}) => (
 <span
 style={{
@@ -33,7 +35,7 @@ The documentation for Yabbr Chat will be separated into the three main sections 
 
 Below is a screenshot of the left sidebar.
 
-<img src="/img/chat-left-sidebar.png" alt="Chat Left Sidebar" width="336"/>
+<CustomisableImage src="/img/chat-left-sidebar.png" alt="Chat Left Sidebar" width="336"/>
 
 ### Queue
 
@@ -46,7 +48,7 @@ Clicking on a queue and pulling a customer out will move them to the 'Active' se
 Below is an example of what this queue might look like:
 
 
-<img src="/img/chat-queue.png" alt="Chat Queue" width="336"/>
+<CustomisableImage src="/img/chat-queue.png" alt="Chat Queue" width="336"/>
 
 - **Next Waiting**: will pull the absolute first person; the one person who has been waiting the longest in any category. 
 - **General**: this is a compiled queue of all the message mediums. In the above image, there are 5 in the General queue because there are 4 in the SMS queue and 1 in the Email queue, and 4 + 1 = 5.
@@ -61,7 +63,7 @@ The queue for MMS and Web is not pictured above.
 
 To start a new chat with any customer irregardless of queues, click on the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">🗪 New Chat</Tag> button outlined below.
 
-<img src="/img/chat-new-chat.png" alt="New Chat Button" width="336"/>
+<CustomisableImage src="/img/chat-new-chat.png" alt="New Chat Button" width="336"/>
 
 This will bring up a small menu like the one below.
 
@@ -75,16 +77,16 @@ This will bring up a small menu like the one below.
 
 When you pull a customer from the queue, or start a new chat with a customer, they will appear under the "Active Chats" display outlined below. Each customer is designated their own chat with you - the agent. The chat you are currently in is highlighted blue. To enter a different active chat, just click on it in this menu. The rest of the active chats that you are not currently in are grey. The contact of the customer is listed at the top of the chat name. The contact that the agent is using to talk to the customer is listed at the bottom of the chat name.
 
-<img src="/img/chat-active-chats.png" alt="Active Chats" width="336"/>
+<CustomisableImage src="/img/chat-active-chats.png" alt="Active Chats" width="336"/>
 
 Clicking the ↦ button (outlined below) on one of these active chats will [Conclude the Session](#concluding-a-session).
 Clicking the 📌 button when hovering over an active chat (as outlined below) will move the chat to a 'Pinned' section that appears above the 'Active Chats'.
 
-<img src="/img/chat-active-chats-annotation.png" alt="Active Chats Actions Annotation" width="336"/>
+<CustomisableImage src="/img/chat-active-chats-annotation.png" alt="Active Chats Actions Annotation" width="336"/>
 
 **Example Pinned Chat**
 
-<img src="/img/chat-pinned.png" alt="Pinned Chats" width="336"/>
+<CustomisableImage src="/img/chat-pinned.png" alt="Pinned Chats" width="336"/>
 
 
 ### Bulk Actions
@@ -96,25 +98,25 @@ If you have several 'Active Chats', it can be tedious to individually conclude e
 2. Select all the chats you want to apply the action to. Do this by clicking the round green circle that appears on the left of the chat in selection mode. In the example below, 61400000000 has been selected. Unselect a chat at any time by clicking the round green circle again.
 3. Select the action you wish to perform on all selected chats using the drop-down menu outlined below. Currently, the only action supported is 'Conclude'.
 
-<img src="/img/chat-bulk-actions.png" alt="Bulk Actions Annotation" width="336"/>
+<CustomisableImage src="/img/chat-bulk-actions.png" alt="Bulk Actions Annotation" width="336"/>
 
 
 ### Filters
 
 Your 'Active Chats' displays all of the customers that you have an active session with - this is everyone you are currently talking to. If you have multiple session running concurrently, the active chats display might get a bit crowded. The search filter allows you to sort through all of the chats in 'Active Chats'. You just need to type in any text into the filter box outlined below. 
 
-<img src="/img/chat-filter.png" alt="Chat Filter" width="336"/>
+<CustomisableImage src="/img/chat-filter.png" alt="Chat Filter" width="336"/>
 
 Then, only the chats that have this text somewhere in its name (either in the customer contact or the agent contact) will be displayed. An example is shown below. "Demo 3" has been entered into the search filter. Then, only the chat with "Demo 3" in its name (here it is in the agent's contact name) appears.
 
 
-<img src="/img/chat-filter-example.png" alt="Chat Filter Example" width="336"/>
+<CustomisableImage src="/img/chat-filter-example.png" alt="Chat Filter Example" width="336"/>
 
 ### Group By
 
 If you have multiple session running concurrnently with different customers, the 'Active Chats' display can be hard to navigate and find the right customer. Using the 'Group By' functionality, you can separate the 'Active Chats' display into multiple sections or 'groups'. The chats are divided into different groups based on different properties they have. You can select which property you want to group by using the drop-down menu outlined below.
 
-<img src="/img/chat-group-by.png" alt="Chat Group By" width="336"/>
+<CustomisableImage src="/img/chat-group-by.png" alt="Chat Group By" width="336"/>
 
 - **Default**: ungroups all the chats. All chats appear under 'Active Chats'.
 - **Medium**: groups chats into sections based on the type of message being used (eg SMS, Email).
@@ -123,7 +125,7 @@ If you have multiple session running concurrnently with different customers, the
 
 Below is an example. The 'Active Chats' have been grouped by their 'Medium'. All the current active chats in the example use SMS, so they all appear in the 'SMS' group.
 
-<img src="/img/chat-group-by-example.png" alt="Chat Group By Example" width="336"/>
+<CustomisableImage src="/img/chat-group-by-example.png" alt="Chat Group By Example" width="336"/>
 
 
 
@@ -161,7 +163,7 @@ To send a new message to the customer, just type the message in the text box at 
 
 :::tip Tip
 You can add emojis to your message by clicking the emoji icon on the right of the message text box, and then selecting your desired emoji:
-<img src="/img/chat-emoji.png" alt="Chat Emojis" width="336"/>
+<CustomisableImage src="/img/chat-emoji.png" alt="Chat Emojis" width="336"/>
 :::
 
 ---
@@ -182,7 +184,7 @@ You can choose to redact messages sent by the customer by clicking the 'X' on th
 
 ---
 
-<img src="/img/chat-redact.png" alt="Chat Redact" width="336"/>
+<CustomisableImage src="/img/chat-redact.png" alt="Chat Redact" width="336"/>
 
 ---
 
@@ -191,14 +193,14 @@ This will bring up a small confirmation menu. Click <Tag colour="#FFFFFF" border
 ---
 
 
-<img src="/img/chat-redact-confirm.png" alt="Confirm Redaction" width="336"/>
+<CustomisableImage src="/img/chat-redact-confirm.png" alt="Confirm Redaction" width="336"/>
 
 
 ---
 
 :::caution Caution
 Redacting a message does not completely eliminate its existence from any records. A message still appears as being 'sent'. Only the contents of the message is redacted:
-<img src="/img/chat-redact-example.png" alt="Example Redaction" width="336"/>
+<CustomisableImage src="/img/chat-redact-example.png" alt="Example Redaction" width="336"/>
 :::
 
 ---
@@ -215,7 +217,7 @@ All text usually has some connotation from positive to neutral to negative. This
 ---
 
 **Examples of Emotions**:
-<img src="/img/chat-emotion.png" alt="Emotions Example" width="336"/>
+<CustomisableImage src="/img/chat-emotion.png" alt="Emotions Example" width="336"/>
 
 ---
 
@@ -257,7 +259,7 @@ To navigate between sections of the right sidebar, click on the different tabs s
 
 ---
 
-<img src="/img/chat-right-sidebar.png" alt="Chat Right Sidebar" width="500"/>
+<CustomisableImage src="/img/chat-right-sidebar.png" alt="Chat Right Sidebar" width="500"/>
 
 ---
 
@@ -271,7 +273,7 @@ To use a quick reply, just click on the desired quick reply on the right sidebar
 
 ---
 
-<img src="/img/chat-quick-reply.png" alt="Chat Quick Replies" width="500"/>
+<CustomisableImage src="/img/chat-quick-reply.png" alt="Chat Quick Replies" width="500"/>
 
 ---
 
@@ -281,7 +283,7 @@ The example below has a placeholder for the customer's email. Under the 'Templat
 
 ---
 
-<img src="/img/chat-quick-reply-placeholder.png" alt="Input Placeholder Quick Reply"/>
+<CustomisableImage src="/img/chat-quick-reply-placeholder.png" alt="Input Placeholder Quick Reply"/>
 
 ---
 
@@ -295,7 +297,7 @@ If you have a lot of quick replies setup, it may be difficult to find the one yo
 
 ---
 
-<img src="/img/chat-quick-reply-filter-by.png" alt="Quick Reply Filter"/>
+<CustomisableImage src="/img/chat-quick-reply-filter-by.png" alt="Quick Reply Filter"/>
 
 ---
 
@@ -305,7 +307,7 @@ In the below example, 'hi' is being searched for. The three quick replies that a
 
 ---
 
-<img src="/img/chat-quick-reply-filter.png" alt="Filter Quick Replies Example"/>
+<CustomisableImage src="/img/chat-quick-reply-filter.png" alt="Filter Quick Replies Example"/>
 
 ---
 
@@ -313,7 +315,7 @@ In the below example, 'hi' is being searched for. The three quick replies that a
 
 You can temporarily add a new quick reply to appear here. Just type the message content of the new quick reply in the text box outlined below. Then, to add it to the list, click the grey <Tag colour="#d8dde1" borderColour="#d8dde1" fontColour="#414042 ">+</Tag> button.
 
-<img src="/img/chat-new-quick-reply.png" alt="Add New Quick Reply"/>
+<CustomisableImage src="/img/chat-new-quick-reply.png" alt="Add New Quick Reply"/>
 
 ---
 
@@ -324,7 +326,7 @@ Navigate between different sections of 'Info' using the tabs outlined below. In 
 
 ---
 
-<img src="/img/chat-info-nav.png" alt="Info Nav Bar"/>
+<CustomisableImage src="/img/chat-info-nav.png" alt="Info Nav Bar"/>
 
 ---
 
@@ -340,7 +342,7 @@ In the below example a note has been made on the chat that says 'This is a test 
 
 ---
 
-<img src="/img/chat-notes.png" alt="Example Chat Notes"/>
+<CustomisableImage src="/img/chat-notes.png" alt="Example Chat Notes"/>
 
 ---
 
@@ -348,7 +350,7 @@ To add a new note, type the text content of the note into the text box 'Add note
 
 ---
 
-<img src="/img/chat-notes-add.png" alt="Chat Notes Add" width="600"/>
+<CustomisableImage src="/img/chat-notes-add.png" alt="Chat Notes Add" width="600"/>
 
 ---
 
@@ -367,7 +369,7 @@ The only current action is adding the contact to an 'Opt Out' list (opt-out list
 
 ---
 
-<img src="/img/chat-opt-out.png" alt="Chat Opt Out" width="600"/>
+<CustomisableImage src="/img/chat-opt-out.png" alt="Chat Opt Out" width="600"/>
 
 ---
 
@@ -375,7 +377,7 @@ Then a small menu will appear where you select which opt-out list to add the con
 
 ---
 
-<img src="/img/chat-opt-out-menu.png" alt="Chat Opt Out Menu" width="600"/>
+<CustomisableImage src="/img/chat-opt-out-menu.png" alt="Chat Opt Out Menu" width="600"/>
 
 ---
 
@@ -392,13 +394,13 @@ Once you have configured all of these, add them to the list by clicking <Tag col
 
 This calendar icon is where you create bookings. 
 
-<img src="/img/chat-booking-icon.png" alt="Booking Icon" width="600"/>
+<CustomisableImage src="/img/chat-booking-icon.png" alt="Booking Icon" width="600"/>
 
 A booking is a new session between a customer and a group of agents. All of the agents in the group will interact with the one customer through a single contact, and in a single chat. You configure the booking using the inputs outlined below.
 
 ---
 
-<img src="/img/chat-booking.png" alt="Booking Creation" width="600"/>
+<CustomisableImage src="/img/chat-booking.png" alt="Booking Creation" width="600"/>
 
 ---
 
@@ -414,7 +416,7 @@ After using any of the various methods of concluding a chat/session, you will se
 
 ---
 
-<img src="/img/chat-conclude.png" alt="Conclude Chat Menu" width="600"/>
+<CustomisableImage src="/img/chat-conclude.png" alt="Conclude Chat Menu" width="600"/>
 
 ---
 

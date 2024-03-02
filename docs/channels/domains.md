@@ -16,19 +16,19 @@ To send outbound emails using Yabbr, you need an [Email Alias](./email.md#email-
 
 To find the domains section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Domains'.
 
-<img src="/img/domains-nav.png" alt="Domains on the Sidebar" width="300" />
+<CustomisableImage src="/img/domains-nav.png" alt="Domains on the Sidebar" width="300" />
 
 ### Create
 
 Then, to create a new Domain, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Domain</Tag>.
 
-<img src="/img/domains-new.png" alt="New Domain" width="550" />
+<CustomisableImage src="/img/domains-new.png" alt="New Domain" width="550" />
 
 #### Configure
 
 Clicking on this button will bring up a small menu like the one below:
 
-<img src="/img/domains-menu.png" alt="Domain Configuration" width="450" />
+<CustomisableImage src="/img/domains-menu.png" alt="Domain Configuration" width="450" />
 
 These are the settings and configurations of your new domain. They are the:
 - **Friendly Name**: the display name of your domain to identify it within your workspace.
@@ -46,11 +46,11 @@ Your domains will not be immediately ready for use. They have to be verified by 
 
 All of your workspace's domains will appear here:
 
-<img src="/img/domains-overview.png" alt="Domains Menu" width="550" />
+<CustomisableImage src="/img/domains-overview.png" alt="Domains Menu" width="550" />
 
 To delete a domain from your workspace, click on the trash icon on the right of the domain:
 
-<img src="/img/domains-delete.png" alt="Delete Domains" width="550" />
+<CustomisableImage src="/img/domains-delete.png" alt="Delete Domains" width="550" />
 
 :::tip TIP
 You can search the domains by name using the 'Filter' text box.
