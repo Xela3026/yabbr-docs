@@ -5,12 +5,15 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+
+
 import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
 # Domains
 
-To send outbound emails using Yabbr, you need an [Email Alias](./email.md#email-aliases) to send the email with. This email alias also needs a Domain (eg 'example.com' is the domain in 'abc123@example.com'). Here is where you create the domains that are registered for use in your workspace.
+To send outbound emails using Yabbr, you need an [Email Alias](./email.md#email-aliases) to send the email with. This email alias also needs a Domain (eg 'example.com' is the domain in 'abc123@example.com'). You must register these domains with Yabbr before you can use them for emails within your workspace. Here is where you register your domains with Yabbr.
+
 
 ## Setup
 
@@ -20,7 +23,7 @@ To find the domains section in your workspace: on the left sidebar, navigate to 
 
 ### Create
 
-Then, to create a new Domain, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Domain</Tag>.
+Then, to register a new Domain, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Domain</Tag>.
 
 <CustomisableImage src="/img/domains-new.png" alt="New Domain" width="550" />
 
@@ -30,23 +33,36 @@ Clicking on this button will bring up a small menu like the one below:
 
 <CustomisableImage src="/img/domains-menu.png" alt="Domain Configuration" width="450" />
 
-These are the settings and configurations of your new domain. They are the:
+These are the settings and configurations of the domain. They are the:
 - **Friendly Name**: the display name of your domain to identify it within your workspace.
-- **Domain**: the name of the new domain. For example, the domain in the email address 'abc123@example.com' would be 'example.com'.
+- **Domain**: the name of your domain. For example, the domain in the email address 'abc123@example.com' would be 'example.com'.
 
-Then, to add the new domain to your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+Then, to register your domain in your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 
 :::important Important
-Your domains will not be immediately ready for use. They have to be verified by Yabbr before you can use them in your workspace.
+These domains will not be immediately ready for use. Yabbr must verify that you own and have access to a domain before you can use it in your workspace.
 :::
 
-## Management
+### Verification
 
-### Overview
-
-All of your workspace's domains will appear here:
+Once you have added a domain for registration, it will be listed in a menu similar to the one shown below:
 
 <CustomisableImage src="/img/domains-overview.png" alt="Domains Menu" width="550" />
+
+To verify the domain with Yabbr:
+
+1. Click on the domain to access the DNS records that Yabbr automatically generated for the domain. The records have been outlined below (details have been redacted for documentation):
+
+<CustomisableImage src="/img/domain-record.png" alt="Domain Records" width="550" />
+
+2. Copy and save these DNS records. The <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Copy</Tag> button will copy the DNS records to your clipboard.
+
+3. Navigate to the DNS settings of your domain and insert the copied DNS records.
+
+Once the records have been added, the domain is automatically verified and enabled within your workspace.
+
+
+## Management
 
 To delete a domain from your workspace, click on the trash icon on the right of the domain:
 
@@ -54,13 +70,11 @@ To delete a domain from your workspace, click on the trash icon on the right of 
 
 :::tip TIP
 You can search the domains by name using the 'Filter' text box.
+
+<CustomisableImage src="/img/filter.png" alt="Search Domains" width="400" />
+
 :::
 
-### Details
 
-Clicking on a domain in this menu will open an expanded view of the domain's details. This includes the domain's verification status.
 
-Missing Documentation. Work in Progress.
-
-[comment]: <> (This will need a lot of work and editing it's a bit confusing. DNS etc)
 

@@ -5,6 +5,10 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+
+
 import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
@@ -241,15 +245,15 @@ This is where you specify when you want your campaign to run and be sent out. To
 ![Campaign Schedule](/img/campaign-schedule.png)
 
 Here are step by step instructions on how this works:
-###### 1. Select a desired start time and end time during the day. E.g. 12:00pm to 5:30pm. This will be referred to as your 'hourly time period' in the following steps.
+1. Select a desired start time and end time during the day. E.g. 12:00pm to 5:30pm. This will be referred to as your 'hourly time period' in the following steps.
 
 ![Campaign Start Time](/img/campaign-start-time.png)
 
-###### 2. Select the dates you want your hourly time period to be active for. Select a start and end date. E.g. 14th of January 2024 to the 18th of January 2024.
+2. Select the dates you want your hourly time period to be active for. Select a start and end date. E.g. 14th of January 2024 to the 18th of January 2024.
 
 ![Campaign Start Date](/img/campaign-start-date.png)
 
-###### 3. Select the days within the above dates you want your hourly time period to be active for. E.g. Monday, Tuesday, and Wednesday. 
+3. Select the days within the above dates you want your hourly time period to be active for. E.g. Monday, Tuesday, and Wednesday. 
 
 [comment]: <> (I need to fix the proportions of this image. It is way too big currently)
 ![Campaign Day Selection](/img/day-selection-campaign.png)
@@ -262,7 +266,7 @@ Here are step by step instructions on how this works:
 
 - If no dates are selected in the step 2, the campaign will just run during the days selected in step 3 until every contact has been contacted.
 
-###### 4. Click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#1582d8">+</Tag> button next to the schedule to add this entire time period into the campaign's run times. Remove a time period with the 'X' on the far right of the time period's label.
+4. Click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#1582d8">+</Tag> button next to the schedule to add this entire time period into the campaign's run times. Remove a time period with the 'X' on the far right of the time period's label.
 
 ![Campaign Remove/Add Date](/img/campaign-remove-date.png)
 
@@ -499,6 +503,19 @@ At any point after the campaign has started and at least one contact has receive
 
 [comment]: <> (need to use css classes more often instead of hardcoding styling.)
 
+
+
+
+
+
+[comment]: <> (finally figured out how to use the google fonts. I should now go and incorporate them throughout all the files.)
+
+
+
+
+[comment]: <> (going back and reading some of these docs - poor quality, incohesive. For example, the keyword reply docs in sms campaigns. Needs work.)
+
+[comment]: <> (If someone manages to make it this far down the dev logs here's just a note - the explanations I created earlier on in the project were way too detailed and convuluted. I explained what a drop down menu was at one point. Anyways I believe the newer docs have much better wording and explanations, so I will have to refine the older docs to match this.)
 
 
 

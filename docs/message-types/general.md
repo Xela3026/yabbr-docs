@@ -12,20 +12,7 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 import TextEditor from '@site/src/components/TextEditor';
 
-export const Tag = ({children, colour, borderColour, fontColour}) => (
-<span
-style={{
-    backgroundColor: colour,
-    borderRadius: '4px',
-    color: fontColour,
-    padding: '0.1rem 0.5rem',
-    whiteSpace: 'nowrap',
-    border: '0.5px solid',
-    borderColor: borderColour,
-    }}>
-{children}
-</span>
-);
+import Tag from '@site/src/components/Tag';
 
 
 # General

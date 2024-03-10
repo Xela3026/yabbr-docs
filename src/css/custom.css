@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #7ec7ff;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -121,7 +121,30 @@
   background-color: #FFFFFF;
   max-height: 100%;
   max-width: 100%;
+  position: relative;
+}
 
+
+.subtitle::after {
+  position: absolute;
+  content: '\00D7';
+  right: -0.7em;
+  font-size: 3em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-60%);
+  cursor: pointer;
+  color: white;
+  animation: pulse infinite 5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {color:white;}
+  50% {color:rgb(255, 72, 72);}
+  100% {color:white;}
 }
 
 .overlay {
@@ -132,7 +155,6 @@
   height: 100%;
   z-index: 200;
   background-color:  rgba(45, 45, 45, 0.7);
-  cursor: pointer;
   backdrop-filter: blur(4px);
 }
 
@@ -144,7 +166,76 @@
   margin: 0 auto;
   text-align: center;
   z-index: 201;
+  width: 100%;
+  position: relative;
 }
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  height: fit-content;
+  text-shadow: 2px 2px 5px black;
+  padding: 0.5em;
+}
+
+h1 {
+  background-color: #1582d8;
+
+}
+
+h2 {
+  background-color: #5a5a5a;
+
+}
+
+h3 {
+  border: 2px solid #1582d8;
+  color: #1582d8;
+  text-shadow: none;
+
+}
+
+h4 {
+  border: 2px solid #1582d8;
+  color: black;
+  text-shadow: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+h5 {
+  border: 2px solid black;
+  color: black;
+  text-shadow: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  
+
+}
+
+h6 {
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  text-shadow: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  box-shadow: 0px 0 white, 0 1px white, 0px 0 white, 0 0px white;
+
+}
+
+
+
 
 
 

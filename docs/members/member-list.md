@@ -7,20 +7,8 @@ toc_max_heading_level: 6
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
-export const Tag = ({children, colour, borderColour, fontColour}) => (
-<span
-style={{
-    backgroundColor: colour,
-    borderRadius: '4px',
-    color: fontColour,
-    padding: '0.1rem 0.5rem',
-    whiteSpace: 'nowrap',
-    border: '0.5px solid',
-    borderColor: borderColour,
-    }}>
-{children}
-</span>
-);
+
+import Tag from '@site/src/components/Tag';
 
 # Members
 
@@ -107,7 +95,7 @@ You can change each option below by selecting a new option in the drop-down menu
 
 - **Role**: the role of the member in the workspace.
 - **Status**: whether the member's profile is enabled within the workspace. A disabled member's profile is not functional. This status can either be 'Enabled' or 'Disable'.
-- **Virtual Number Assignment**: this is the [Virtual Number](../channels/virtual-numbers.md) registered in your workspace that this member will use for [Email2SMS](#email2sms) communications. To disable Email2SMS functionality for the member, just select 'Disabled' for this option.
+- **Virtual Number Assignment**: this is the [Virtual Number](../channels/virtual-numbers.md) that this member will use for [Email2SMS](#email2sms) communications. To disable Email2SMS functionality for the member, just select 'Disabled' for this option.
 
 Finally, to confirm and register the changes, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
 
@@ -122,6 +110,7 @@ Your workspace has hundreds of available functions. Administrators and Owners wi
 <CustomisableImage src="/img/member-permissions.png" alt="Member Permissions Menu" width="450"/>
 
 ---
+
 
 Each permission is described by its title. For example, the 'Initiate SMS Chats' permission allows a member to start a new chat with a customer via SMS. Permissions under 'Permissions' are active for the member. Permissions under 'Unassigned' are inactive for the member. To switch permissions between categories, click on them. For example, to add a permission to 'Permissions', click on it in 'Unassigned'. To remove a permission from 'Permissions', click on it in 'Permissions'. You can also search permissions by their name by using the 'Filter' text box.
 
@@ -240,5 +229,34 @@ If you are struggling to find a member or permission here, you can search them b
 
 #### Email2SMS
 
-Missing Documentation. Work In Progress.
+Email2SMS allows members to send an SMS via an email. 
+
+##### Setup
+
+An extended menu will appear for configuring Email2SMS:
+
+<CustomisableImage src="/img/member-list-emailsms.png" alt="Email2SMS Configuration" width="500"/>
+
+To configure Email2SMS for a member:
+
+1. Select the virtual number within Yabbr that will be used to send your SMS. This is the 'Virtual Number Assignment'.
+
+2. Select whether the content of your SMS will be generated from the email’s Subject or Body. This is the 'SMS Content from'. By default, it is the subject. 
+
+3. Select the maximum SMS unit count that will be translated into SMS from the email. This allows you to cap the length of your messages. This is the 'Max SMS Units'. By default, this is 10. For an explanation of SMS Units, navigate [here](../message-types/sms.md#sms-units).
+
+Click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>. This Member is now configured for Email2SMS.
+
+##### Using Email2SMS
+
+Each member has a registered email. If a member is registered for Email2SMS, they can send an SMS using this email address by following three steps.:
+
+1. Address an email to the Australia mobile number they want to send the SMS to using this format: &#123;&#123;number&#125;&#125;@sms.yabbr.io.
+For example 0412345678@sms.yabbr.io
+
+2. Enter the desired message to be sent into the email's subject or body depending on how you configured it.
+
+3. Send the email. The SMS will be sent via Yabbr through the Virtual Number you have set-up with the Member.
+
+
 

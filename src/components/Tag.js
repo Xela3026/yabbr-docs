@@ -21,9 +21,9 @@ const Tag = ({ children, colour, borderColour, fontColour }) => {
         <span
             style={{
                 backgroundColor: isHovered ? darkenColor(colour, 0.2) : colour,
-                borderRadius: '4px',
+                borderRadius: '0.3em',
                 color: fontColour,
-                padding: '0.1rem 0.5rem',
+                padding: '0.2em 0.6em 0.3em 0.6em',
                 whiteSpace: 'nowrap',
                 border: '0.5px solid',
                 borderColor:  isHovered ? darkenColor(borderColour, 0.2) : borderColour,
@@ -32,6 +32,7 @@ const Tag = ({ children, colour, borderColour, fontColour }) => {
                 '-webkit-user-select':'none',
                 '-ms-user-select': 'none',
                 'user-select': 'none',
+
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}

@@ -21,7 +21,7 @@ Virtual Numbers: These are rented from Yabbr. They offer both inbound and outbou
 
 Alpha Codes: Alpha Codes are alphanumeric (numbers and letters) strings typically representing your brand. These are special because recipients receive phone messages from an alphanumeric string rather than a phone number. However, it's important to note that Alpha Codes lack inbound functionality; recipients cannot respond to messages sent via Alpha Codes.
 
-Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, Yabbr cannot access these responses, rendering inbound functionality unavailable.
+Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, these responses will only appear on your personal phones. Yabbr cannot access these responses, rendering inbound functionality unavailable.
 
 :::info Important
 Alpha Codes and personal numbers have to be verified by Yabbr before you can use them in your workspace.

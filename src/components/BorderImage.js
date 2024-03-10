@@ -10,6 +10,7 @@ const BorderImage = ({ src, alt, width }) => {
         alt={alt}
         width={width}
         style={{
+          margin: '1em',
           border: '2px solid #1582d8',
           'border-radius': '5px',
           boxShadow: hovered ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none',

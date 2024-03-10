@@ -76,12 +76,160 @@ The next step in making your VNs fully functioning throughout your workspace is 
 
 #### SMS Auto-Replies
 
+When someone responds to a VN, Yabbr can intercept these responses. Then, you can configure your VN to automatically respond based on certain conditions. For SMS messaging, the only condition you can detect is if an agent is online or not. When a condition is met, the auto reply is activated and sent.
 
+For example, you can configure an automated reply so that when users contact a VN and there are no agents currently online, the VN will say "Sorry but no agents are currently available for contact. Agents are online from 9am-5pm on weekdays." A similar concept can apply for if an agent **is** online.
+
+To add or edit an automated reply for either of these conditions, click the pencil icon outlined below next to the desired condition (Agents Offline, Agents Online).
+
+<CustomisableImage src="/img/vn-sms-auto.png" alt="VN Auto SMS Configure" width="500" />
+
+Clicking on this button will open the below menu:
+
+<CustomisableImage src="/img/vn-sms-auto-menu.png" alt="VN Auto SMS Configure" width="500" />
+
+The 'Type' will change depending on the automated reply condition you selected. Turning on the 'Enabled' button will enable the functionality of this automated reply on the VN. The 'Message' is the SMS you want the VN to send as the automated reply, eg "Sorry but no agents are currently available for contact. Agents are online from 9am-5pm on weekdays." See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging. To apply this automatic reply to the VN, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>.
 
 #### Keyword Auto-Replies
 
+A keyword auto reply serves a similar purpose as an [SMS Auto Reply](#sms-auto-replies). However, it instead detects for certain words or phrases in a customer's message. If this 'keyword' phrase is detected, then the automated reply is activated and sent to the customer.
+
+To add a new keyword auto reply to your VN, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">+ Reply</Tag> button outlined below.
+
+<CustomisableImage src="/img/vn-keyword-reply.png" alt="VN Keyword Reply" width="500" />
+
+Clicking on this button will open the below menu:
+
+<CustomisableImage src="/img/vn-keyword-reply-menu.png" alt="VN Keyword Reply Configuration" width="500" />
+
+Use each section to customise and configure your keyword and the reply:
+- **Keyword**: these are the word(s) or phrase(s) you are trying to detect. For example, "no", "n", "y", "yes", "maybe not". To add a keyword reply, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">+</Tag> button on the right of the text box. You can add multiple keywords here. To delete a keyword from this list, click the 'X' on the right of its name. The VN will then compare these keywords to the actual message it receives. If the message meets the correct conditions configured here, then the auto reply is activated and sent.
+- **Type**: this is *how* a message to the VN is compared to the keyword.
+    - **Equals**: the message only includes the keyword.
+    - **Includes**: the keyword appears somewhere in the message
+    - **Begins with**: the keyword appears at the start of the mess.age.
+    - **Ends with**: the keyword appears at the end of the message.
+    - **Not equal**: the keyword does not appear somewhere in the message.
+    - **Less than**: the value of the message is less than the value of the keyword.
+    - **Greater than**: the value of the message is greater than the value of the keyword.
+- **Case Senstiive**: if this is enabled, then the comparison between the message to the VN and the keyword is case sensitive. This means a capital letter is not equivalent to its lower-case counterpart. If this is disabled, the capitalisation of letters is ignored.
+- **Message**: when the condition is met, this is the SMS the VN will send as an automated reply. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging. 
+- **Schedule**: the keyword reply will only be detected within this schedule. See [Schedule](../campaigns/general.md#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work (Note: the schedule documentation is for a campaign. Where it talks about the running times of the campaign, replace it with the active times for the keyword reply).
+- **Call Me**: see [further documentation](../campaigns/sms-campaigns.md#call-me) for an explanation (Note: this documentation is for an SMS campaign. Where it talks about a campaign-recipient, replace it with the customer that has sent a message to the VN).
+- **Enabled**: this will enable/disable the functionality of the keyword auto reply for the VN.
+
+Finally, to add this keyword auto reply to the VN, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+
+Once you have created a keyword reply, it will appear in the below menu. To edit a keyword reply, click the pencil icon. To delete a keyword reply, click the trash icon.
+
+<CustomisableImage src="/img/vn-keyword-reply-edit.png" alt="VN Keyword Reply Management" width="500" />
+
 #### SMS Forwarding
+
+When a VN receives a message, you can choose to forward this message to another location. For example, messages received by your sales VN can be sent to an salesperson's email address. Alternately, you could send them to an API endpoint and collect them in a database.
+
+To create a new forwarding destination, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">+ Forwarder</Tag> button outlined below.
+
+<CustomisableImage src="/img/vn-new-forward.png" alt="VN New SMS Forwarder" width="500" />
+
+Clicking on this button will open the below menu:
+
+<CustomisableImage src="/img/vn-sms-forward-menu.png" alt="VN New SMS Forwarder Menu" width="400" />
+
+There are three types of locations you can forward a message to: Email, HTTP (API endpoint), SMS, and Yabbr Chat. The first step in configuring the message forwarding is selecting one of these three options in the 'Type' drop-down menu. Each one of these forwarding types will have different customisations and configurations.
+
+##### Email
+
+The configuration options will be as seen in the above image:
+- **Destination**: the email address you are forwarding the message to. Eg 'abc123@example.com'
+- **History Messages** (Optional): the forwarded message can include a list of previous messages sent to the VN. This is the number of previous messages that will be sent to the email.
+- **History Messages**: the message history includes the time each messages was sent. This is the timezone you want those send times to be displayed in.
+- **Enabled**: this will enable/disable the functionality of this forwarding process.
+
+##### HTTP
+
+Below are the configuration options for the HTTP forwarding type:
+
+<CustomisableImage src="/img/vn-sms-forward-menu-http.png" alt="VN New SMS Forwarder Menu HTTP" width="400" />
+
+Use these options to configure the forwarding process:
+- **Destination**: the location you are sending the forwarded message to. This is usually an API endpoint.
+- **Enabled**: this will enable/disable the functionality of this forwarding process.
+
+##### SMS
+
+Below are the configuration options for the SMS forwarding type:
+
+<CustomisableImage src="/img/vn-sms-forward-menu-sms.png" alt="VN New SMS Forwarder Menu SMS" width="400" />
+
+Use these options to configure the forwarding process:
+- **Destination**: the number you are forwarding the message to. Eg 0400 000 000 Use the drop-down menu on the left of the text box to specify the region of the phone number.
+- **Prefix** (Optional): the text that will appear before the forwarded message. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging.
+- **Suffix** (Optional): the text that will appear after the forwarded message. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging.
+- **Enabled**: this will enable/disable the functionality of this forwarding process.
+
+##### Yabbr Chat
+
+No configuration is required for Yabbr Chat. The message will be automatically forwarded to Yabbr Chat.
+
+##### Finalising
+
+Finally, to add this forwarder to the VN, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+
+Once you have created a forwarder, it will appear in the below menu. To edit a forwarder, click the pencil icon. To delete a keyword reply, click the trash icon.
+
+<CustomisableImage src="/img/vn-sms-forward-edit.png" alt="VN SMS Forwarding Management" width="500" />
 
 #### MMS Forwarding
 
+This process is identical to SMS Forwarding. See [SMS Forwarding](#sms-forwarding) documentation for an explanation. This forwarding option is only available for MMS VNs. MMS Forwarding is only compatible with the 'HTTP' type.
+
 #### Voice Forwarding
+
+Similarly to [SMS Forwarding](#sms-forwarding), you can forward a phone call to a different phone number. This is called Voice Forwarding. This option is only available for VNs compatible with the 'Voice' message type. 
+
+To create a new forwarding destination, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">+ Forwarder</Tag> button outlined below.
+
+<CustomisableImage src="/img/vn-voice-new-forward.png" alt="VN New Voice Forwarder" width="500" />
+
+Clicking on this button will open the below menu:
+
+<CustomisableImage src="/img/vn-voice-forward-menu.png" alt="VN New Voice Forwarder Menu" width="400" />
+
+Use these options to configure the forwarding process:
+- **Destination**: the phone number you are forwarding the call to. Eg 0400 000 000 Use the drop-down menu on the left of the text box to specify the region of the phone number.
+- **Enabled**: this will enable/disable the functionality of this forwarding process.
+- **Notify Via SMS**: enabling this will send an SMS to the forwarding destination before they are called with teh forwarded message.
+
+Finally, to add this forwarder to the VN, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+
+Once you have created a forwarder, it will appear in the below menu. To edit a forwarder, click the pencil icon. To delete a keyword reply, click the trash icon.
+
+<CustomisableImage src="/img/vn-voice-forward-edit.png" alt="VN Voice Forwarding Management" width="500" />
+
+[comment]: <> (this is an educated guess. I am not 100% sure this information is accurate/correct)
+
+#### Bulk Configuration
+
+If you have selected multiple numbers for feature configuration, an extra option will appear. You can configure a feature for multiple numbers simultaneously by clicking the 'Add to X numbers' outlined below (sometimes this will be 'Edit X numbers').
+
+<CustomisableImage src="/img/vn-bulk-configure.png" alt="VN Bulk Configuration" width="500" />
+
+Clicking on this button will open the relevant feature configuration menu. Configure the options you want to apply to all the selected VNs, and then click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag> or <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag> to apply the changes to all the selected numbers simultaneously.
+
+#### Copy Settings
+
+You can copy the settings/configurations on one VN to another. Every feature configuration will have a 'Copy Settings' button like the one outlined below.
+
+<CustomisableImage src="/img/vn-copy-settings.png" alt="VN Copy Settings" width="500" />
+
+Clicking on this button will open the below menu:
+
+<CustomisableImage src="/img/vn-copy-settings-menu.png" alt="VN Copy Settings Menu" width="400" />
+
+To copy settings from one VN to others you need to specify:
+- **Add to or Overwrite Settings**: this is the type of copying you want to use. 'Add' will insert the settings on this VN into the selected VNs without deleting any pre-existing settings. 'Overwrite' will replace all the settings on the selected VNs with the settings on this VN (pre-existing settings on selected VNs will be deleted).
+- **Copy To**: all the VNs you are copying the settings into.
+
+Finally, to copy the settings over, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Copy</Tag>.
+

@@ -8,6 +8,7 @@ const CustomisableImage = ({ src, alt, width }) => {
   const handleClick = () => {
     setClicked(!clicked);
     document.body.style.overflow = clicked ? "auto" : "hidden";
+    document.body.style.paddingRight = clicked ? "0px" : "16px";
   };
 
 
@@ -28,11 +29,13 @@ const CustomisableImage = ({ src, alt, width }) => {
             className = {'enlarged'}
             >
                 <p className={'subtitle'}>{alt}</p>
+                
                 <img className={'enlargeImage'}
                 src={src}
                 alt={alt}
 
                 />
+                
                 
             </div>
             
