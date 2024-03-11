@@ -5,6 +5,7 @@ toc_max_heading_level: 6
 ---
 
 import Tag from '@site/src/components/Tag';
+import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Chat Stats
 
@@ -30,7 +31,7 @@ Each metric is measured as an average for each day. Here, the y-axis represents 
 
 Below is an example duration summary. In this month, there were 12 messages total, and 14 total units. On the 17th of August, the average wait time was 1,121,541 seconds.
 
-![Stats Duration Example](/img/report-stats-example.png)
+<CustomisableImage src="/img/report-stats-example.png" alt="Stats Duration Example"/>
 
 :::tip Tip
 Hovering over a point on the plot will show the exact number of seconds.
@@ -38,7 +39,7 @@ Hovering over a point on the plot will show the exact number of seconds.
 
 Below is an annotated version (annotations are in blue to avoid confusion with other points):
 
-![Stats Duration Example Annotation](/img/report-stats-example-annotation.png)
+<CustomisableImage src="/img/report-stats-example-annotation.png" alt="Stats Duration Example Annotation"/>
 
 
 
@@ -50,11 +51,11 @@ By scrolling down, you will see the next graphical summary of metrics. This one 
 
 Below is an example session-quantity summary. On the 17th of August, there was 1 session.
 
-![Stats Duration Example](/img/report-stats-quantity-example.png)
+<CustomisableImage src="/img/report-stats-quantity-example.png" alt="Stats Duration Example" width="550"/>
 
 Below is an annotated version (annotations are in red to avoid confusion with green line):
 
-![Stats Duration Example Annotation](/img/report-stats-quantity-example-annotation.png)
+<CustomisableImage src="/img/report-stats-quantity-example-annotation.png" alt="Stats Duration Example Annotation" width="550"/>
 
 ---
 
@@ -62,7 +63,7 @@ Below is an annotated version (annotations are in red to avoid confusion with gr
 
 By clicking on the name of a data set in the key (eg 'Average Response Time' or 'Session Count'), you can remove a data set from the graph. In the below example, the 'Average Wait Time' has been removed.
 
-![Remove Data From Graph](/img/report-stats-remove.png)
+<CustomisableImage src="/img/report-stats-remove.png" alt="Remove Data From Graph" width="550"/>
 
 ---
 
@@ -70,7 +71,7 @@ By clicking on the name of a data set in the key (eg 'Average Response Time' or 
 
 Each month has its own chat metrics. Navigate between the months using the <Tag colour="#FFFFFF" borderColour="#dadfe3" fontColour="#96989b">˂</Tag> button to go to the previous month and <Tag colour="#FFFFFF" borderColour="#dadfe3" fontColour="#96989b">˃</Tag> button to go the the next month. The selector is outlined in blue below.
 
-![Metrics Date Selector](/img/report-stats-date.png)
+<CustomisableImage src="/img/report-stats-date.png" alt="Metrics Date Selector"/>
 
 ---
 
@@ -78,7 +79,7 @@ Each month has its own chat metrics. Navigate between the months using the <Tag 
 
 Each chat metric has particular properties. For example, some chats may be on SMS, or some may be with a particular agent. You can filter through these properties using the drop-down menus outlined below. Then, it will only show the chat metrics for chats that statisfy that filter.
 
-![Stats Filters](/img/report-stats-filters.png)
+<CustomisableImage src="/img/report-stats-filters.png" alt="Stats Filters" width="600"/>
 
 - **Types**: the medium that the chat was using. The type can either be 'Web' or 'SMS'.
 - **Conclusions**: the chat tag associated with the session.

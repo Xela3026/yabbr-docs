@@ -5,6 +5,8 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
+
 # Voice Surveys
 
 Voice Surveys are surveys that occur via calls. The system asks the questions via audio on a call, and the respondents give their answers to the system via clicking 1-9#* on the call. It is recommended you read the [General](./general.md) documentation first before reading the specific voice documentation.
@@ -15,7 +17,7 @@ Voice Surveys are surveys that occur via calls. The system asks the questions vi
 
 If a user gives an invalid response - one that is not recognised by the response handlers - they may try and answer the question again with a valid answer. The amount of times they can do this is the Maximum Invalid Responses. Enter your desired value for the Maximum Invalid Responses in the outlined box below. In the example below, survey respondent's can attempt to give a valid answer to a question 3 times before it moves on.
 
-![Maximum Invalid Responses Text Box](/img/survey-voice-invalid-responses.png)
+<CustomisableImage src="/img/survey-voice-invalid-responses.png" alt="Maximum Invalid Responses Text Box" width="500"/>
 
 ---
 
@@ -23,9 +25,7 @@ If a user gives an invalid response - one that is not recognised by the response
 
 If a respondent's answer to a question is unrecognisable as one of the predetermined answers, they will receive this 'Unrecognised Response Fallback Message'. Simply curate the audio message you would like to be played in the call in the outlined section. For audio-message curation documentation, navigate [here](../campaigns/voice-campaigns.md#message). In the example below, if a survey respondent gives an invalid answer, a text-to-speech bot will say 'Sorry we do not recognise that response.'
 
-
-![Voice Fallback Message](/img/survey-voice-fallback.png)
-
+<CustomisableImage src="/img/survey-voice-fallback.png" alt="Voice Fallback Message" width="500"/>
 
 ---
 
@@ -35,7 +35,7 @@ If a respondent's answer to a question is unrecognisable as one of the predeterm
 
 Survey respondents will receive a call from the survey asking them a question and providing them a list of valid recognised answers. You must configure this message yourself in the question content. The question content is the first customisable option in the New Question menu. Curate your audio message question in the outlined section. For audio-message curation documentation, navigate [here](../message-types/audio.md#message). A detailed example can be found below in [Example SMS Question](#example-sms-question).
 
-![Voice Question Curation](/img/survey-voice-question.png)
+<CustomisableImage src="/img/survey-voice-question.png" alt="Voice Question Curation" width="500"/>
 
 ---
 
@@ -63,7 +63,7 @@ Surveys can also be linked to campaigns. There is an option to pause a campaign 
 
 Below is a full example of a Voice Question using the New Question menu. 
 
-![Example New SMS Question](/img/survey-voice-example.png)
+<CustomisableImage src="/img/survey-voice-example.png" alt="Example New SMS Question" width="500"/>
 
 In the above example, when survey respondent's reach Q2 in the decision tree, they will receive an SMS that says: "What is your favourite ice-cream flavour? Press '1' for Chocolate, '2' for Vanilla, or '3' for Strawberry."
 If the survey respondent presses '1' on the call, their response will be recorded as 'Chocolate'. The same applies for '2' & 'Vanilla', and '3' and 'Strawberry'. If the survey receives no response to a question, it will be repeated after 7.5 seconds. If the question is repeated 3 times, the call will be ended. If the respondent gives an invalid response 3 times, the call will also be ended. If the question is completed and receives a valid response, it will not count towards the 'completion' counter in a campaign survey.

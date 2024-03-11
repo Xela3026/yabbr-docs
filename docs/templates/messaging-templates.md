@@ -7,7 +7,7 @@ toc_max_heading_level: 5
 
 import Tag from '@site/src/components/Tag';
 
-
+import CustomisableImage from '@site/src/components/CustomisableImage';
 
 
 # Messaging Templates
@@ -20,7 +20,7 @@ Messaging templates are templates for both SMS and MMS. It can also be used for 
 
 There are three different types of Messaging templates you can create. Select the desired type using the 'Product' drop-down outlined below.
 
-![Messaging Template Products](/img/template-message-product.png)
+<CustomisableImage src="/img/template-message-product.png" alt="Messaging Template Products" width="600"/>
 
 - **Yabbr Chat**: used for all quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat.
 - **Express Message**: used for SMS Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template and whether the message sent using the template is recorded by a transcript.
@@ -28,7 +28,7 @@ There are three different types of Messaging templates you can create. Select th
 
 Selecting any option will bring up the following options for your Messaging Template:
 
-![Messaging Template Options](/img/template-message-options.png)
+<CustomisableImage src="/img/template-message-options.png" alt="Messaging Template Options" width="500"/>
 
 :::note Note
 Some product types may have extra features that are not shown here.
@@ -55,7 +55,7 @@ Finally, to add the template to the workspace, click <Tag colour="#1582d8" borde
 
 Yabbr Chat has an extra feature called 'Keyword Tags' outlined below.
 
-![Yabbr Chat Template Options](/img/template-message-chat.png)
+<CustomisableImage src="/img/template-message-chat.png" alt="Yabbr Chat Template Options" width="500"/>
 
 Yabbr Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
 
@@ -71,7 +71,7 @@ Express Messages have a few extra specifications. Since they are designed to be 
 
 These extra options are outlined below:
 
-![Express Message Template Options](/img/template-message-express.png)
+<CustomisableImage src="/img/template-message-express.png" alt="Express Message Template Options" width="500"/>
 
 ##### Categories
 
@@ -89,13 +89,13 @@ In an Express Message, you need to specify an outbound contact. The customer wil
 
 Select the desired outbound contact of the Express Message in the 'Default Sender' drop-down menu (outlined on the left). You can ensure that this outbound contact is always used for this message template by enabling 'Lock Sender ID' (outlined on the right). 
 
-![Express Message Template Sender Options](/img/template-message-express-sender.png)
+<CustomisableImage src="/img/template-message-express-sender.png" alt="Express Message Template Sender Options" width="500"/>
 
 ##### Off the Record
 
 Sending an Express Message will create a [Transcript](../transcripts.md) of the message. You can disable this feature by enabling 'Off the Record'.
 
-![Express Message Template Transcript Options](/img/template-message-express-record.png)
+<CustomisableImage src="/img/template-message-express-record.png" alt="Express Message Template Transcript Options" width="500"/>
 
 
 

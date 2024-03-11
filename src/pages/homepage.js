@@ -12,9 +12,9 @@ const homepage = () => {
       
         
         <div class="homepage-container">
-            <span class="subtitle">Welcome to the</span>
+            <span class="subtext">Welcome to the</span>
             <img className="logo-img" src="/img/yabbr.svg" alt="Yabbr Logo" width="400"/>
-            <span class="subtitle">Documentation</span>
+            <span class="subtext">Documentation</span>
             <a href="../docs/intro"><button class="btn-primary">Enter</button></a>
             
         </div>

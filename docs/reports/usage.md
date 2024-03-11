@@ -6,6 +6,7 @@ toc_max_heading_level: 6
 ---
 
 import Tag from '@site/src/components/Tag';
+import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Usage
 
@@ -17,7 +18,7 @@ Here you can view a graphical summary of message usage. It is separated into eac
 
 Click on the message type that you would like to view the usage of. The navigation menu for message types is outlined below. SMS usage is currently selected.
 
-![Usage Navigation](/img/report-usage-nav.png)
+<CustomisableImage src="/img/report-usage-nav.png" alt="Usage Navigation" width="400"/>
 
 ---
 
@@ -27,11 +28,11 @@ After selecting a message type, you will see a bar graph that represents the usa
 
 Below is an example usage summary for SMS. In this month, there were 12 messages total, and 14 total units. The blue columns represent the number of messages, and the red columns represent the number of units. On the 12th of January, there were 2 messages, and 4 units used. 
 
-![Usage SMS Example](/img/report-usage-example.png)
+<CustomisableImage src="/img/report-usage-example.png" alt="Usage SMS Example"/>
 
 Below is an annotated version (annotations are in green to avoid confusion with red bar graph):
 
-![Usage SMS Example Annotation](/img/report-usage-annotation.png)
+<CustomisableImage src="/img/report-usage-annotation.png" alt="Usage SMS Example Annotation"/>
 
 ---
 
@@ -39,7 +40,7 @@ Below is an annotated version (annotations are in green to avoid confusion with 
 
 Each month has its own usage summary. Navigate between the months using the <Tag colour="#FFFFFF" borderColour="#dadfe3" fontColour="#96989b">˂</Tag> button to go to the previous month and <Tag colour="#FFFFFF" borderColour="#dadfe3" fontColour="#96989b">˃</Tag> button to go the the next month. Select 'Use UTC' to use UTC timezone for the date selector. The selector is outlined in green below.
 
-![Usage SMS Date Selector](/img/report-usage-date.png)
+<CustomisableImage src="/img/report-usage-date.png" alt="Usage SMS Date Selector"/>
 
 ---
 
@@ -47,7 +48,7 @@ Each month has its own usage summary. Navigate between the months using the <Tag
 
 Each usage record has particular properties. For example, some usage may come from campaigns, some from surveys. You can filter through these properties using the drop-down menus outlined below. 
 
-![Usage SMS Filters](/img/report-usage-filters.png)
+<CustomisableImage src="/img/report-usage-filters.png" alt="Usage SMS Filters"/>
 
 - **Products**: where the usage occurred. For example, an SMS may have been used in a campaign, in a survey, or just in general chat.
 - **Numbers**: (only for Voice) which number was calling. For example, 'Demo 1' may have had 10 minutes of usage in January, whilst 'Demo 2' only had 3.

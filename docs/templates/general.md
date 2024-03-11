@@ -25,11 +25,11 @@ To navigate between different message types (Messaging and Email), use the tabs 
 
 Then, to create a new template, click the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Template</Tag> button.
 
-![Create Template Button](/img/template-creation.png)
+<CustomisableImage src="/img/template-creation.png" alt="Create Template Button" width="500"/>
 
 Then, a small menu will appear when you can start to customise your template:
 
-![Create Template Menu](/img/template-menu.png)
+<CustomisableImage src="/img/template-menu.png" alt="Create Template Menu" width="500"/>
 
 - **Name**: Give your template a display name to identify it within your workspace. Enter the desired name into the text box under 'Friendly Name' or 'Name'.
 
@@ -43,7 +43,7 @@ Finally, once you have finished creating your message template, click <Tag colou
 
 All of your templates are displayed in the template overview section outlined below. This overview will store the 'enabled' status of the template (Enabled), the template's display name (Template), and the product it is for (Product).
 
-<CustomisableImage src="/img/template-overview.png" alt="Template Overview" width="500"/>
+<CustomisableImage src="/img/template-overview.png" alt="Template Overview" width="600"/>
 
 Here, you can view all of your templates.
 

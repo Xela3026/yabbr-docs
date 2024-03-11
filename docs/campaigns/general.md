@@ -5,9 +5,6 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-
-
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
@@ -98,7 +95,7 @@ Finally, to upload your contact list, simply navigate to the <Tag colour="#FFFFF
 
 After uploading your contacts file, if it contains multiple columns of information, click on the drop-down menu outlined below. Then, you must select the title of the column in your contacts file that contains the actual contact. In the example below, the 'phone' column contains all the phone numbers.
 
-![Field Selection](/img/campaign-audience-field.png)
+<CustomisableImage src="/img/campaign-audience-field.png" alt="Field Selection"/>
 
 
 
@@ -115,11 +112,11 @@ After uploading your contacts file, if it contains multiple columns of informati
 
 There are two list selections here - your 'Opt-Out List' and your 'Exclusion Lists'. Your Exclusion Lists include all the lists of contacts you do not want to receive the campaign. The documentation for lists and how to create them can be found [here](../contacts/opt-out-lists). To add one of your lists to the Exclusion Lists for this campaign, simply click on the drop-down box under 'Exclusion Lists', and click the desired list as below:
 
-![Exclusion Lists Drop-down](/img/opt-out-dropdown.png)
+<CustomisableImage src="/img/opt-out-dropdown.png" alt="Exclusion Lists Drop-down"/>
 
 To remove a list from your Exclusion Lists, either click on the 'X' next to its name, or navigate back to the drop-down menu and reselect the list you wish to remove.
 
-![Exclusion Deletion](/img/exclusion-deletion.png)
+<CustomisableImage src="/img/exclusion-deletion.png" alt="Exclusion Deletion"/>
 
 :::tip Tip
 You can add multiple lists to your Exclusion Lists
@@ -132,15 +129,15 @@ You can add multiple lists to your Exclusion Lists
 
 You may give the recipient of your campaign the option to opt-out. For this functionality, you first have to select a list from the drop-down underneath 'Opt-Out List'.
 
-![Opt-Out List Drop-down](/img/opt-out-dropdown-two.png)
+<CustomisableImage src="/img/opt-out-dropdown-two.png" alt="Opt-Out List Drop-down"/>
 
 This will be your 'Opt-Out List', and all recipients of the campaign that opt-out will be added to this list. You can also choose to create a new list for this by selecting '-- New Opt-Out List --', and entering the new list's name in the text box as shown below.
 
-![New Opt-Out List Name](/img/opt-out-list-name.png)
+<CustomisableImage src="/img/opt-out-list-name.png" alt="New Opt-Out List Name"/>
 
 Once you have selected a list for opt-out contacts to be added to, an extended menu will appear (as below) to customise this opt-out process for campaign-recipients. Some features may not be available depending on campaign type.
 
-![Extended Opt-Out Options](/img/opt-out-extended.png)
+<CustomisableImage src="/img/opt-out-extended.png" alt="Extended Opt-Out Options"/>
 
 ---
 
@@ -154,11 +151,11 @@ The phrases are case insensitive (e.g. 'stop' keyword will include 'Stop' and 'S
 
 To add one of these to your campaigns, type your desired opt-out phrase into the text box under 'Opt-Out Response Keywords', and then click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#1582d8">+</Tag> button to the right of the text box or click 'Enter' on your keyboard. Alternatively, you can disable/enable Opt-Out Keywords by selecting the checkbox above the red box in the image below.
 
-![Add Opt-Out Keywords](/img/opt-out-keywords.png)
+<CustomisableImage src="/img/opt-out-keywords.png" alt="Add Opt-Out Keywords"/>
 
 Alternatively, you can click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#77828a">Use Default Keywords</Tag> button, and several standard opt-out phrases will be added to this list of keywords. You can add as many opt-out phrases as you desire, and you can remove an opt-out phrase by clicking the 'X' next to the phrase. 
 
-![Remove Keywords](/img/remove-keywords.png)
+<CustomisableImage src="/img/remove-keywords.png" alt="Remove Keywords" width="500"/>
 
 
 If Opt-Out Keywords are not available for the selected campaign type or you have disabled them, you can instead use the &#123;&#123;opt-out&#125;&#125; placeholder in your Message. This will be replaced with an opt-out URL, that will opt-out the campaign-recipient if they click it. This is reiterated in the [Message](#message) section under [Opt-Out Link](#opt-out-link).
@@ -168,7 +165,7 @@ If Opt-Out Keywords are not available for the selected campaign type or you have
 
 The Opt-Out Message is the message campaign-recipients will receive after a successful opt-out. Enter the message you desire them to receive in this text box. 
 
-![Opt-Out Message](/img/opt-out-message.png)
+<CustomisableImage src="/img/opt-out-message.png" alt="Opt-Out Message"/>
 
 You can optionally replace unicode characters for mobile-number-recipients by selecting the checkbox above the text box as seen in the previous image. This will simply reduce the SMS character count and/or the SMS units if unicode characters are present.
 
@@ -186,7 +183,7 @@ Exclusion Lists and your Opt-Out List are both non-compulsary for your campaign 
 
 The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/general.md). 
 
-![Message Template Drop-down](/img/message-template.png)
+<CustomisableImage src="/img/message-template.png" alt="Message Template Drop-down"/>
 
 :::info Information
 To shorten the URLs that appear in your message, select the checkbox seen at the bottom of the image. 
@@ -216,7 +213,7 @@ To opt-out of this campaign, follow this link: &#123;&#123;opt-out&#125;&#125;'
 
 The final step in most campaigns is to configure the send conditions of the campaign. Below is what this menu should look like.
 
-![Campaign Send Config](/img/campaign-send-config.png)
+<CustomisableImage src="/img/campaign-send-config.png" alt="Campaign Send Config"/>
 
 #### Sending From
 
@@ -226,37 +223,37 @@ This drop-down menu is where you select the sender of your campaign. This is the
 
 This section determines how quickly the campaign will be sent out. Messages per hour is the number of contacts in your contact information file the program will send your campaign to in one hour. If you select 100, the program will send the campaign to a new contact in your file every 36 seconds. If you have 200 contacts in your file and you select a rate of 100/messages/hour, the campaign will be finished being sent out to everyone in 2 hours. Simply click on the drop-down menu, and select the rate you desire.
 
-![Messages Per Hour](/img/messages-per-hour.png)
+<CustomisableImage src="/img/messages-per-hour.png" alt="Messages Per Hour" width="400"/>
 
 Alternatively, you can select a 'Custom' amount that doesn't appear in the drop-down, and you can specify it in a text box on the right. 
 
-![Custom Messages Per Hour](/img/custom-messages-per-hour.png)
+<CustomisableImage src="/img/custom-messages-per-hour.png" alt="Custom Messages Per Hour" width="500"/>
 
 #### Timezone
 
 This drop-down menu is simply to select the timezone you are using for scheduling in the next section. 
 
-![Timezone Selection](/img/timezone-campaign.png)
+<CustomisableImage src="/img/timezone-campaign.png" alt="Timezone Selection" width="500"/>
 
 #### Schedule
 
 This is where you specify when you want your campaign to run and be sent out. To do this, you must add time periods in which the program will run and send out your campaign to your contacts.
 
-![Campaign Schedule](/img/campaign-schedule.png)
+<CustomisableImage src="/img/campaign-schedule.png" alt="Campaign Schedule" width="500"/>
 
 Here are step by step instructions on how this works:
 1. Select a desired start time and end time during the day. E.g. 12:00pm to 5:30pm. This will be referred to as your 'hourly time period' in the following steps.
 
-![Campaign Start Time](/img/campaign-start-time.png)
+<CustomisableImage src="/img/campaign-start-time.png" alt="Campaign Start Time" width="300"/>
 
 2. Select the dates you want your hourly time period to be active for. Select a start and end date. E.g. 14th of January 2024 to the 18th of January 2024.
 
-![Campaign Start Date](/img/campaign-start-date.png)
+<CustomisableImage src="/img/campaign-start-date.png" alt="Campaign Start Date" width="250"/>
 
 3. Select the days within the above dates you want your hourly time period to be active for. E.g. Monday, Tuesday, and Wednesday. 
 
-[comment]: <> (I need to fix the proportions of this image. It is way too big currently)
-![Campaign Day Selection](/img/day-selection-campaign.png)
+<CustomisableImage src="/img/day-selection-campaign.png" alt="Campaign Day Selection" width="400"/>
+
 
 - You can delete selected days by reselecting them in the drop-down menu. Selected days will be bolded in the drop-down menu.
 
@@ -268,24 +265,21 @@ Here are step by step instructions on how this works:
 
 4. Click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#1582d8">+</Tag> button next to the schedule to add this entire time period into the campaign's run times. Remove a time period with the 'X' on the far right of the time period's label.
 
-![Campaign Remove/Add Date](/img/campaign-remove-date.png)
+<CustomisableImage src="/img/campaign-remove-date.png" alt="Campaign Remove/Add Date"/>
 
 ###### Summary
 To create a new time period, select dates during the year, days during the dates, and a time during the days. Add this to your campaign's schedule. The program will send out the campaign during this time period and all other time periods you have added.
 
 Below is what an example campaign schedule could look like. Every weekend from the 15th of January 2024 to the 29th of January 2024, from 12pm to 3pm, the campaign will be sent out to new contacts in the file at a rate of 100 contacts every hour, from a mobile number named 'YabbrDemo'. If there were 1200 contacts, this schedule would send out the campaign to the first half of the contacts on the first weekend, and then the second half of the contacts on the second weekend.
 
-![Example Campaign Schedule](/img/example-campaign-schedule.png)
+<CustomisableImage src="/img/example-campaign-schedule.png" alt="Example Campaign Schedule"/>
 
 Finally, to create this campaign, click on the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create and Review</Tag> button in the top right.
 
-
-![Create and Review Campaign](/img/create-and-review-campaign.png)
+<CustomisableImage src="/img/create-and-review-campaign.png" alt="Create and Review Campaign"/>
 
 [comment]: <> (Ask Logan about the screenshots with 'YabbrDemo' in them and if they need to be changed for other clients)
 
-
-[comment]: <> (After this point, I need to check more to make sure this is 'General' because it is based off of email and SMS)
 
 ---
 
@@ -295,11 +289,11 @@ Finally, to create this campaign, click on the <Tag colour="#1582d8" borderColou
 
 After creating your campaign, if you want to change one of the options you have selected, navigate to the option you wish to change and click the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#77828a">🖉</Tag> button in the top right of the option's box as outlined below.
 
-![Campaign Editing Button](/img/campaign-editing.png)
+<CustomisableImage src="/img/campaign-editing.png" alt="Campaign Editing Button"/>
 
 Once you have changed what you desire, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Update</Tag> button to save your changes.
 
-![Update Campaign Button](/img/campaign-update.png)
+<CustomisableImage src="/img/campaign-update.png" alt="Update Campaign Button"/>
 
 ---
 
@@ -309,15 +303,15 @@ Once you have changed what you desire, click the <Tag colour="#FFFFFF" borderCol
 
 Once a campaign has been created, within the campaign and in the campaign menu, a button will appear in the top right called <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag>. This will show you a set of actions you can perform on your campaign like in the menu below (Remember different campaign types may have more or less features. See relevant documentation for more specificity).
 
-![Campaign Actions](/img/actions-campaign-manage.png)
+<CustomisableImage src="/img/actions-campaign-manage.png" alt="Campaign Actions"/>
 
 #### Duplicate Campaign
 
 This will create a copy of the current campaign and all the settings you have selected for it. When you select this option, a menu will show up like the one below. Firstly, you must give the duplicate a different name with the text box under 'Name'. Next, you need to decide if you want to keep the same audience or upload a new contact list by selecting your desired option under 'Use the same Recipient List?'. If you opt for a new audience, select the <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#77828a">Upload Contact List</Tag> button outlined below and select your new contact list (and then if necessary select the column name that contains all the contacts). Then, select the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Duplicate</Tag> button to finish the duplication. You will automatically be navigated to the menu of the new duplicate.
 
-[comment]: <> (need to fix the size/proportions of this image too. too big and too blurry)
 
-![Duplicate Campaign Menu](/img/new-contact-duplicate-campaign.png)
+
+<CustomisableImage src="/img/new-contact-duplicate-campaign.png" alt="Duplicate Campaign Menu" width="450"/>
 
 :::info Information
 Some campaign types may have extra options. See their relevant documentation for more specificity.
@@ -334,8 +328,7 @@ Terminating the campaign will kill the campaign. You cannot start the campaign a
 
 Archiving the campaign will store the campaign in a separate tab near the top of the screen called 'Archive'. Here, your campaigns cannot be run. They can be unarchived by repeating the archival process - selecting the desired campaign, clicking on <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag>, and selecting 'Remove from Archive'. 
 
-[comment]: <> (need to fix the size/proportions of this image too. too big and too blurry)
-![Campaign Archives](/img/archive-campaign.png)
+<CustomisableImage src="/img/archive-campaign.png" alt="Campaign Archives" width="400"/>
 
 #### Preview Campaign
 
@@ -351,7 +344,7 @@ This option allows you to send an example 'test' campaign to a selected contact 
 
 Before you can run your campaign, the program may ask you about something called 'deduplication'. 
 
-![Campaign Deduplication Options](/img/campaign-deduplicate.png)
+<CustomisableImage src="/img/campaign-deduplicate.png" alt="Campaign Deduplication Options" width="600"/>
 
 Within your contact file, there maybe be duplicates of either your contacts or your placeholders. 
 - **Don't Deduplicate:** This will run through the contact file in its current state and will send the campaign to the same contact multiple times if that contact appears multiple times.
@@ -366,7 +359,7 @@ If there are no errors or warnings that appear in your campaign, you can then cl
 
 This will start your campaign, and it will send out your message to your contacts as per your selected schedule at the rate of messages/hour you selected. Clicking the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Go Live</Tag> button will also automatically navigate you to a page where you can view the progress of your campaign as it is running. It will show you how many contacts have already been sent the campaign and how many are left to contact. To pause and temporarily stop the campaign from running, at any time you can simply click the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Pause</Tag> button in the top right where the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Go Live</Tag> button used to be.
 
-![Running the Campaign](/img/campaign-running.png)
+<CustomisableImage src="/img/campaign-running.png" alt="Running the Campaign"/>
 
 ---
 
@@ -380,7 +373,7 @@ There are two files you can download for information about your campaign:
 
 After your campaign is created, you can access this file before, during, or after you have run it. It includes the content of the original contacts file you uploaded, and a report on the validity of the contacts and other details from your campaign setup. If a listed contact is not valid, the report explains what is wrong. E.g. no contact or invalid contact. Click on the button outlined below to access this file.
 
-![Download Campaign Info](/img/campaign-file-download.png)
+<CustomisableImage src="/img/campaign-file-download.png" alt="Download Campaign Info" width="400"/>
 
 The other downloadable file on the left is just a copy of your contacts file.
 
@@ -388,15 +381,14 @@ The other downloadable file on the left is just a copy of your contacts file.
 
 At any point after the campaign has started and at least one contact has received the campaign, in the top right, on the left of the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag> button, a <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Download Reports ˅</Tag> button will appear as outlined below. Click on this drop-down and select 'Campaign Results' to download the current outcomes of the campaign. This will include which contacts have received the campaign, at what time were they received, did the recipient opt-out, and more depending on campaign type.
 
-![Download Campaign Report](/img/campaign-download-reports.png)
+<CustomisableImage src="/img/campaign-download-reports.png" alt="Download Campaign Report" width="400"/>
 
 
 
 
 
-[comment]: <> (Notes: Fix the images. They are too big and look bad.)
-[comment]: <> (Need to review the 'Management' section to make sure it aligns with most campaign types.)
-[comment]: <> (Need to update 'Duplicate Campaign' with the field/column drop-down for contacts)
+
+
 [comment]: <> (Need to understand exclusion lists.)
 [comment]: <> (Need to understand data collection. It can be vague though since this is just general)
 [comment]: <> (Need to see if there are any more errors or warnings for campaign creation)
@@ -516,6 +508,17 @@ At any point after the campaign has started and at least one contact has receive
 [comment]: <> (going back and reading some of these docs - poor quality, incohesive. For example, the keyword reply docs in sms campaigns. Needs work.)
 
 [comment]: <> (If someone manages to make it this far down the dev logs here's just a note - the explanations I created earlier on in the project were way too detailed and convuluted. I explained what a drop down menu was at one point. Anyways I believe the newer docs have much better wording and explanations, so I will have to refine the older docs to match this.)
+
+
+
+[comment]: <> (fix up the docsaurus.config.js file so that all information and links are accurate.)
+
+[comment]: <> (in a future version of these docs, firstly I would personalise it more to Yabbr and have less of the default Docusaurus styling. I would also create a General section for all of Yabbr about creating new items, managing items in a menu, searching using a filter, ordering items by name, editing items, and deleting items.)
+
+
+
+
+[comment]: <> (missing docs: virtual number assignment)
 
 
 

@@ -5,6 +5,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 6
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
 # Transcripts
@@ -13,7 +14,7 @@ For the purposes of the documentation, the person sending outbound messages usin
 
 Transcripts are records of conversations you have with customers through either [Yabbr Chat](./yabbr-chat/chat-settings.md#chat-tags) or responses to [Campaigns](./campaigns/general.md). An agent will start a conversation with a customer with an outbound message, and when the agent decides to end the conversation in the chat, a transcript is created for the conversation. The whole duration of that conversation then is called a ‘session’. Everything recorded by the transcript will be stored in one of the columns outlined below:
 
-![Transcript Column Names](/img/transcripts-columns.png)
+<CustomisableImage src="/img/transcripts-columns.png" alt="Transcript Column Names" width="800" />
 
 - **Date**: the start time of the session in the UTC timezone.
 - **Contact**: the contact information of the customer.
@@ -28,7 +29,7 @@ Transcripts are records of conversations you have with customers through either 
 ## Transcript Menu
 When you click on a transcript here, it will open an extended menu of that transcript. The top of the page will have the message type, the start time of the session, and the number of the customer. The main view of the transcript will display every message sent during the session. Messages sent by the agent will be in blue on the right, and messages sent by the customer will be in grey on the left. The below transcript has recorded a session between an agent and the number +61 400 000 000. The session started at 3/2/24 at 4:29am, and only one message was said in the session: the agent said "Hello! This is an example message for Documentation!"
 
-![Transcript Expanded View Annotation](/img/transcript-annotation.png)
+<CustomisableImage src="/img/transcript-annotation.png" alt="Transcript Expanded View Annotation" width="500" />
 
 Obviously, you can have multiple sessions with a single customer. You can navigate between transcripts of sessions with the same customer using the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Previous Interaction</Tag> and <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Next Interaction</Tag> buttons.
 
@@ -51,7 +52,8 @@ To apply any of the filters below, click the <Tag colour="#1582d8" borderColour=
 
 Each transcript has certain properties like the customer's contact, and the type of message. You can sort through these properties using the filters. For example, if you only want to view transcripts of SMS messages, you would select 'SMS' in the 'Chat Type' filter. The property filters are outlined below.
 
-![Transcript Filters](/img/transcript-filters.png)
+<CustomisableImage src="/img/transcript-filters.png" alt="Transcript Filters" width="800" />
+
 
 - **Contact**: the contact information of the customer. 
 - **Agents**: the agent(s) that participated in the session.
@@ -63,11 +65,13 @@ Each transcript has certain properties like the customer's contact, and the type
 
 Each session has a specific start time recorded by the transcript. You can sort through the transcripts by when they occur. For example, if you only want to view the transcripts of sessions from New Years Day 2024, you would select the date 1/1/24. The date filter is outlined in red below. 
 
-![Transcript Date Selection](/img/transcript-date.png)
+<CustomisableImage src="/img/transcript-date.png" alt="Transcript Date Selection" />
+
 
 Additionally, by clicking the button outlined in black above, you can expand the date filter to a date range. Selecting this option will reveal the selection of two dates as outlined in red below. The first date selection is for the start of the date range. The second date selection is for the end of the date range. You can also specify a time within the date to filter with. Applying this date filter will show you any transcripts that occur between the two selected dates. 
 
-![Transcript Date Selection Expanded](/img/transcript-date-expand.png)
+<CustomisableImage src="/img/transcript-date-expand.png" alt="Transcript Date Selection Expanded" />
+
 
 :::tip Tip
 Clicking the button outlined in black again will revert the date filter to a single date selection.
@@ -80,7 +84,7 @@ Clicking the button outlined in black again will revert the date filter to a sin
 
 After doing a search for transcripts, you should get several results. Sometimes there are too many results to display on one screen. Thus, Yabbr will automaticaly separate the transcripts into pages. You can specify how many transcripts appear on each page with the drop-down menu outlined below.
 
-![Transcript Pages](/img/transcript-pages.png)
+<CustomisableImage src="/img/transcript-pages.png" alt="Transcript Pages" />
 
 You can navigate between pages using the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Previous</Tag> and <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Next</Tag> buttons.
 
@@ -90,7 +94,7 @@ You can navigate between pages using the <Tag colour="#FFFFFF" borderColour="#15
 
 You can export transcripts to a different format, but only those that meet the current filters will be exported. Clicking the <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414042">**⭳ Exports**</Tag> will bring up a menu like the one below where you specify how you want to export the transcripts' information. 
 
-![Transcript Export Menu](/img/transcript-export.png)
+<CustomisableImage src="/img/transcript-export.png" alt="Transcript Export Menu" />
 
 
 ---

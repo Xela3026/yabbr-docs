@@ -1,10 +1,12 @@
 ---
 title: General
+sidebar_position: 1
 toc_min_heading_level: 2
 toc_max_heading_level: 6
 ---
 
 import Tag from '@site/src/components/Tag';
+import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # General
 
@@ -18,15 +20,16 @@ Surveys are interactive decision trees. Respondents are asked a series of custom
 
 To create a new survey, navigate to your desired survey type using the sidebar.
 
-![Survey Navigation](/img/survey-nav.png)
+<CustomisableImage src="/img/survey-nav.png" alt="Survey Navigation" width="300"/>
+
 
 Then, click the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Survey</Tag> button to create a new survey.
 
-![Create Survey Button](/img/survey-creation.png)
+<CustomisableImage src="/img/survey-creation.png" alt="Create Survey Button" width="550"/>
 
 Next, a menu will appear like the one below:
 
-![Create Survey Menu](/img/survey-create-menu.png)
+<CustomisableImage src="/img/survey-create-menu.png" alt="Create Survey Menu"/>
 
 Depending on the survey type, this menu will look slightly different.
 
@@ -44,7 +47,7 @@ Whilst this will look different for both survey types, this section is the messa
 
 Once you have successfully created your survey, you will have been navigated to a new menu like the one below, and here is where you create your questions. To create a new question, click the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ New Question</Tag> button outlined below.
 
-![New Question for a Survey](/img/survey-new-question.png)
+<CustomisableImage src="/img/survey-new-question.png" alt="New Question for a Survey" width="650"/>
 
 
 #### Question Content
@@ -71,12 +74,12 @@ To remove a question from the decision tree, click the 'Remove' button in the bo
 
 After creating a question or two, you will notice them start to appear in an overview like the one below. This overview is your decision tree. 
 
-![Survey Decision Tree](/img/survey-decision-tree.png)
+<CustomisableImage src="/img/survey-decision-tree.png" alt="Survey Decision Tree"/>
 
 
 This decision tree will show all the paths that respondents can take depending on their answers to the survey. Every question in your survey is linked together, and you can customise how this happens. In the above example, all the answers to the first question will always lead to the second question, and then the survey ends. However, by going back and changing the 'Follow-up Question' in the response handlers, you can link different answers to different questions, creating a full branching decision tree. You can edit any question simply by clicking on it in the decision tree. You can also create all your questions first and then link them all together later, or link them along the way. A more complex decision tree is visualised below. 
 
-![Survey Decision Tree Example](/img/survey-decision-tree-example.png)
+<CustomisableImage src="/img/survey-decision-tree-example.png" alt="Survey Decision Tree Example" width="400"/>
 
 In this decision tree, respondents who respond to Q1 with 'Pasta' are asked Q2, then Q3, then Q4. However, respondents who respond to Q1 with 'Pizza' get asked just Q3, then Q4. Essentially, picking 'Pizza' for Q1 skips Q2. 
 
@@ -86,15 +89,15 @@ If a question appears multiple times in the decision tree - like Q3 - its branch
 
 In the top right of the decision tree, there are extra actions to manage your tree. 
 
-![Survey Decision Tree Extra Actions](/img/survey-decision-tree-extra.png)
+<CustomisableImage src="/img/survey-decision-tree-extra.png" alt="Survey Decision Tree Extra Actions" />
 
 The <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414042">⤢</Tag> button will resize your decision tree to fit the display. The magnifying glass with the '-' sign will zoom the decision tree out, and the magnifying glass with the '+' sign will zoom the decision tree in. 
 
-Clicking the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">˅</Tag> next to the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Survey</Tag> button, and then selecting 'Toggle Question Selection', will enter your decision tree into question selection mode.
+Clicking the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">˅</Tag> next to the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ New Question</Tag> button, and then selecting 'Toggle Question Selection', will enter your decision tree into question selection mode.
 
 In question selection mode, clicking on any of the questions in your decision tree will 'select' them. Once you have one or more questions selected, you can perform a 'bulk' action on them by clicking <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414042">Select Bulk Action</Tag>. You can cancel the question selection mode by clicking 'Cancel Selection' on the left of the bulk action button. Finally, the number of selected questions is displayed on the left of the 'Cancel Selection' button.
 
-![Survey Decision Tree Bulk Annotation](/img/survey-decision-tree-bulk-annotation.png)
+<CustomisableImage src="/img/survey-decision-tree-bulk-annotation.png" alt="Survey Decision Tree Bulk Annotation" />
 
 ##### Bulk Actions
 
@@ -102,7 +105,7 @@ Clicking on <Tag colour="#ced4da" borderColour="#ced4da" fontColour="#414042">Se
 
 First, you must select what action you want to perform on all the selected questions. Do this by clicking on the bubble to the left of the desired action. In the example below, 'Copy' has been selected.
 
-![Survey Decision Tree Bulk Annotation](/img/survey-bulk-menu.png)
+<CustomisableImage src="/img/survey-bulk-menu.png" alt="Survey Decision Tree Bulk Annotation" />
 
 If you would like to apply the bulk action to all the questions that follow it, then select the checkbox that says 'Include follow-on questions'. For example, in the previous decision tree annotation, every question is a follow-up to Q1. Thus, if you were to delete or copy it in bulk actions and included follow-on questions, every question in the survey would be deleted or copied. Finally, to execute the bulk action, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Confirm</Tag>.
 
@@ -112,7 +115,7 @@ If you would like to apply the bulk action to all the questions that follow it, 
 
 You can navigate between different sections of your survey setup and management using the sidebar outlined below.
 
-![Survey Sidebar Navigation](/img/survey-navigation.png)
+<CustomisableImage src="/img/survey-navigation.png" alt="Survey Sidebar Navigation" />
 
 To access the details of your campaign, click on 'Details'. Here you will see a brief summary of your survey. [Name](#name) and [Unrecognised Response Fallback Message](#unrecognised-response-fallback-message) are the same as explained earlier in [Create](#create). Save any changes made to the current survey details by clicking <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Save</Tag> in the bottom right.
 
@@ -126,7 +129,7 @@ Navigate to 'Results' on the sidebar. Here you will see an overview of every que
 
 In the example below, Q1 is being viewed. The answer summary is currently in 'count' mode - displaying the objective number of votes each answer received.
 
-![Survey Results Annotation](/img/survey-results-annotation.png)
+<CustomisableImage src="/img/survey-results-annotation.png" alt="Survey Results Annotation" />
 
 
 ---
@@ -135,7 +138,7 @@ In the example below, Q1 is being viewed. The answer summary is currently in 'co
 
 In the top-right of your survey menu, you will find two buttons: <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Download Report</Tag> and <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag>.
 
-![Survey Management Options](/img/survey-management.png)
+<CustomisableImage src="/img/survey-management.png" alt="Survey Management Options" />
 
 ---
 
@@ -143,7 +146,7 @@ In the top-right of your survey menu, you will find two buttons: <Tag colour="#F
 
 This button will download a .csv file onto your device with a summary of all the questions, current answers, and times of responses to your survey. When you first click <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Download Report</Tag>, it will bring up a menu like the one below. Here you must select the timezone you want your report to be in. In the example below, the 'UTC' timezone is selected. Then, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Get Report</Tag> for the file to be downloaded onto your device.
 
-![Survey Report Timezone Selection](/img/survey-timezone.png)
+<CustomisableImage src="/img/survey-timezone.png" alt="Survey Report Timezone Selection" />
 
 
 
@@ -153,13 +156,13 @@ This button will download a .csv file onto your device with a summary of all the
 
 Clicking on <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag> will bring up a small menu where you can select your desired action:
 
-![Survey Actions](/img/survey-actions.png)
+<CustomisableImage src="/img/survey-actions.png" alt="Survey Actions" />
 
 #### Duplicate Survey
 
 Selecting this option will bring up a small menu like the one below. Simply enter the name of the new duplicate campaign in the outlined textbox, and then click <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Create</Tag> to make the new duplicate.
 
-![Duplicate Survey](/img/survey-duplicate.png)
+<CustomisableImage src="/img/survey-duplicate.png" alt="Duplicate Survey" width="400"/>
 
 #### Export Survey
 
@@ -173,7 +176,7 @@ Selecting this option will copy a link onto your clipboard. You can give this li
 
 Selecting this option will move the survey's location into the 'Archive'. Now, instead of appearing in the 'Survey List' with all the other active surveys, it will appear in the 'Archive' as outlined below. You can remove a survey from the archive by repeating the archival process: navigate to the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag> of the desired survey, and click 'Remove From Archive'.
 
-![Survey Archive Location](/img/survey-archive.png)
+<CustomisableImage src="/img/survey-archive.png" alt="Survey Archive Location" width="400"/>
 
 
 

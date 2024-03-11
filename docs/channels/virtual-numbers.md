@@ -199,7 +199,7 @@ Clicking on this button will open the below menu:
 Use these options to configure the forwarding process:
 - **Destination**: the phone number you are forwarding the call to. Eg 0400 000 000 Use the drop-down menu on the left of the text box to specify the region of the phone number.
 - **Enabled**: this will enable/disable the functionality of this forwarding process.
-- **Notify Via SMS**: enabling this will send an SMS to the forwarding destination before they are called with teh forwarded message.
+- **Notify Via SMS**: enabling this will send an SMS to the forwarding destination to provide some context about the incoming forwarded call.
 
 Finally, to add this forwarder to the VN, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 

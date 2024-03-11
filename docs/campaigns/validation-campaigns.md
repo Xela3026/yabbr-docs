@@ -2,6 +2,7 @@
 title: Validation Campaigns
 ---
 
+import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
 
@@ -25,7 +26,7 @@ A Validation Campaign is used to validate phone numbers. Just upload a contact l
 
 Whilst your validation campaign runs and validates every contact in your file, you will receive receipts for each validation in real time. It will show you how many contacts, and what percentage of all contacts, fall under each connection status. An example is shown below.
 
-![Validation Campaign Receipts](/img/campaign-validation-receipts.png)
+<CustomisableImage src="/img/campaign-validation-receipts.png" alt="Validation Campaign Receipts"/>
 
 
 ---
@@ -34,10 +35,10 @@ Whilst your validation campaign runs and validates every contact in your file, y
 
 Below is the Test Campaign menu for a Validation Campaign. First, select the region of the number you want to validate, then enter the mobile number you want to validate. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Validate</Tag> button to validate the inputted number.
 
-![Validation Campaign Test Menu](/img/campaign-validation-test.png)
+<CustomisableImage src="/img/campaign-validation-test.png" alt="Validation Campaign Test Menu"/>
 
 After a short period, you should receive a notification on the right hand side of the screen near the top like the one below.
 
-![Validation Campaign Test Notification](/img/campaign-validate-test-two.png)
+<CustomisableImage src="/img/campaign-validate-test-two.png" alt="Validation Campaign Test Notification"/>
 
 A valid connected number will be indicated by a green tick on the left of the notification as above. It also provides a status of the number that is explained in [Connection Status](#connection-status).

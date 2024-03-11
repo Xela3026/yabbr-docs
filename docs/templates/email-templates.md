@@ -20,7 +20,7 @@ Email templates are templates that can be used in any feature where you are send
 
 There are four different types of Email templates you can create. Select the desired type using the 'Product' drop-down outlined below.
 
-![Email Template Products](/img/template-email-product.png)
+<CustomisableImage src="/img/template-email-product.png" alt="Email Template Products" width="600"/>
 
 - **Yabbr Chat**: used for Email quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat. You can also specify BCC recipients.
 - **Express Message**: used for Email Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template, any BCC recipients, and whether the message sent using the template is recorded by a transcript.
@@ -30,7 +30,7 @@ There are four different types of Email templates you can create. Select the des
 
 Selecting any option will bring up the following options for your Email Template:
 
-![Email Template Options](/img/template-email-settings.png)
+<CustomisableImage src="/img/template-email-settings.png" alt="Email Template Options" width="500"/>
 
 :::note Note
 Some product types may have extra features that are not shown here.
@@ -71,7 +71,8 @@ Your emails can also include a BCC. You may want to include a BCC in your emails
 
 Yabbr Chat has an extra feature called 'Keyword Tags' outlined below.
 
-![Yabbr Chat Template Options](/img/template-email-keyword.png)
+<CustomisableImage src="/img/template-email-keyword.png" alt="Yabbr Chat Template Options" width="500"/>
+
 
 Yabbr Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
 
@@ -87,7 +88,7 @@ Express Messages have a few extra specifications. Since they are designed to be 
 
 These extra options are outlined below:
 
-![Express Email Template Options](/img/template-email-express.png)
+<CustomisableImage src="/img/template-email-express.png" alt="Express Email Template Options" width="500"/>
 
 ##### Categories
 
@@ -104,7 +105,7 @@ To store the message template in the correct Express Message location:
 
 Sending an Express Message will create a [Transcript](../transcripts.md) of the message. You can disable this feature by enabling 'Off the Record'.
 
-![Express Message Template Transcript Options](/img/template-message-express-record.png)
+<CustomisableImage src="/img/template-message-express-record.png" alt="Express Message Template Transcript Options" width="500"/>
 
 ### Email Signature
 

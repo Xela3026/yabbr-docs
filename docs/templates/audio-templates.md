@@ -22,17 +22,17 @@ There are two ways you can add a new audio template to your workspace. You can e
 
 To upload a new audio file and add it to the workspace as an audio template, click on the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Upload</Tag> button. Then, select the desired audio file from your device to upload it to the workspace.
 
-![Audio Upload](/img/template-audio-upload.png)
+<CustomisableImage src="/img/template-audio-upload.png" alt="Audio Upload" width="600"/>
 
 ### Audio Compiler
 
 To stitch together multiple audio files into a new audio template, click on the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">˅</Tag> button next to the upload button, and then click 'Audio Compiler'.
 
-![Audio Compiler](/img/template-audio-compiler.png)
+<CustomisableImage src="/img/template-audio-compiler.png" alt="Audio Compiler" width="600"/>
 
 This will open a small menu like the one below.
 
-![Audio Compiler Menu](/img/template-audio-compiler-menu.png)
+<CustomisableImage src="/img/template-audio-compiler-menu.png" alt="Audio Compiler Menu" width="600"/>
 
 Here you can create a new audio template for your workspace by stitching together multiple audio files. The 'Name' will be the display name of this audio template so you can identify it within the workspace. The rest of the menu here is the [Audio Message Composer](../message-types/audio.md). Click on that link for a detailed explanation of how it works.
 
@@ -43,9 +43,9 @@ Then, to add this new audio clip to your workspace, click <Tag colour="#1582d8" 
 
 In the overview of all of your audio templates, there is some extra information that doesn't appear for other template types. Firstly, it displays the length of each audio clip:
 
-![Audio Template Overview](/img/template-audio-time.png)
+<CustomisableImage src="/img/template-audio-time.png" alt="Audio Template Overview" width="600"/>
 
 Additionally, when you click on an audio template in this menu, an audio player will appear at the top of the page for that audio clip. It will also include a transcript of what is said in the audio clip.
 
-![Audio Template Audio Player](/img/template-audio-player.png)
+<CustomisableImage src="/img/template-audio-player.png" alt="Audio Template Audio Player" width="600"/>
 

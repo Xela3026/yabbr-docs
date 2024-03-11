@@ -54,10 +54,10 @@ To start a new chat with any customer irregardless of queues, click on the <Tag 
 
 This will bring up a small menu like the one below.
 
-![New Chat Menu](/img/chat-new-chat-menu.png)
+<CustomisableImage src="/img/chat-new-chat-menu.png" alt="New Chat Menu" width="400"/>
 
 - **Message Type**: the message medium the new chat will start in. This can either be 'SMS' or 'Email'. Select an option from the drop-down menu.
-- **From**: the Virtual Number or Email that the agent will contact the customer through. 
+- **From**: the Virtual Number or Email Alias that the agent will contact the customer through. 
 - **Recipient**: the contact of the customer you want to start a chat with.
 
 ### Active Chats
@@ -144,7 +144,7 @@ To send a new message to the customer, just type the message in the text box at 
 
 ---
 
-![Chat Annotation](/img/chat-annotation.png)
+<CustomisableImage src="/img/chat-annotation.png" alt="Chat Annotation" width="600"/>
 
 ---
 
@@ -161,7 +161,7 @@ Toggling this option will make the above text box a lot larger. Use this option 
 
 ---
 
-![Message Composer](/img/chat-message-compose.png)
+<CustomisableImage src="/img/chat-message-compose.png" alt="Message Composer" width="600"/>
 
 ---
 
@@ -216,7 +216,7 @@ Every chat session automatically records a full [Transcript](../transcripts.md) 
 
 ---
 
-![Chat Transcripts](/img/chat-transcripts.png)
+<CustomisableImage src="/img/chat-transcripts.png" alt="Chat Transcripts" width="500"/>
 
 
 ---
@@ -227,7 +227,7 @@ In the top right of the screen, there are two actions you can perform on the cur
 
 ---
 
-![Chat Extra Actions](/img/chat-actions.png)
+<CustomisableImage src="/img/chat-actions.png" alt="Chat Extra Actions" width="500"/>
 
 ---
 
@@ -284,7 +284,7 @@ If you have a lot of quick replies setup, it may be difficult to find the one yo
 
 ---
 
-<CustomisableImage src="/img/chat-quick-reply-filter-by.png" alt="Quick Reply Filter"/>
+<CustomisableImage src="/img/chat-quick-reply-filter-by.png" alt="Quick Reply Filter" width="400"/>
 
 ---
 
@@ -294,7 +294,7 @@ In the below example, 'hi' is being searched for. The three quick replies that a
 
 ---
 
-<CustomisableImage src="/img/chat-quick-reply-filter.png" alt="Filter Quick Replies Example"/>
+<CustomisableImage src="/img/chat-quick-reply-filter.png" alt="Filter Quick Replies Example" width="400"/>
 
 ---
 
@@ -302,7 +302,7 @@ In the below example, 'hi' is being searched for. The three quick replies that a
 
 You can temporarily add a new quick reply to appear here. Just type the message content of the new quick reply in the text box outlined below. Then, to add it to the list, click the grey <Tag colour="#d8dde1" borderColour="#d8dde1" fontColour="#414042 ">+</Tag> button.
 
-<CustomisableImage src="/img/chat-new-quick-reply.png" alt="Add New Quick Reply"/>
+<CustomisableImage src="/img/chat-new-quick-reply.png" alt="Add New Quick Reply" width="400"/>
 
 ---
 
@@ -313,7 +313,7 @@ Navigate between different sections of 'Info' using the tabs outlined below. In 
 
 ---
 
-<CustomisableImage src="/img/chat-info-nav.png" alt="Info Nav Bar"/>
+<CustomisableImage src="/img/chat-info-nav.png" alt="Info Nav Bar" width="400"/>
 
 ---
 
@@ -329,7 +329,7 @@ In the below example a note has been made on the chat that says 'This is a test 
 
 ---
 
-<CustomisableImage src="/img/chat-notes.png" alt="Example Chat Notes"/>
+<CustomisableImage src="/img/chat-notes.png" alt="Example Chat Notes" width="400"/>
 
 ---
 
@@ -337,7 +337,7 @@ To add a new note, type the text content of the note into the text box 'Add note
 
 ---
 
-<CustomisableImage src="/img/chat-notes-add.png" alt="Chat Notes Add" width="600"/>
+<CustomisableImage src="/img/chat-notes-add.png" alt="Chat Notes Add" width="400"/>
 
 ---
 
@@ -356,7 +356,7 @@ The only current action is adding the contact to an 'Opt Out' list (opt-out list
 
 ---
 
-<CustomisableImage src="/img/chat-opt-out.png" alt="Chat Opt Out" width="600"/>
+<CustomisableImage src="/img/chat-opt-out.png" alt="Chat Opt Out" width="400"/>
 
 ---
 
@@ -364,7 +364,7 @@ Then a small menu will appear where you select which opt-out list to add the con
 
 ---
 
-<CustomisableImage src="/img/chat-opt-out-menu.png" alt="Chat Opt Out Menu" width="600"/>
+<CustomisableImage src="/img/chat-opt-out-menu.png" alt="Chat Opt Out Menu" width="500"/>
 
 ---
 
@@ -381,13 +381,13 @@ Once you have configured all of these, add them to the list by clicking <Tag col
 
 This calendar icon is where you create bookings. 
 
-<CustomisableImage src="/img/chat-booking-icon.png" alt="Booking Icon" width="600"/>
+<CustomisableImage src="/img/chat-booking-icon.png" alt="Booking Icon" width="400"/>
 
 A booking is a new session between a customer and a group of agents. All of the agents in the group will interact with the one customer through a single contact, and in a single chat. You configure the booking using the inputs outlined below.
 
 ---
 
-<CustomisableImage src="/img/chat-booking.png" alt="Booking Creation" width="600"/>
+<CustomisableImage src="/img/chat-booking.png" alt="Booking Creation" width="500"/>
 
 ---
 
@@ -403,7 +403,7 @@ After using any of the various methods of concluding a chat/session, you will se
 
 ---
 
-<CustomisableImage src="/img/chat-conclude.png" alt="Conclude Chat Menu" width="600"/>
+<CustomisableImage src="/img/chat-conclude.png" alt="Conclude Chat Menu" width="400"/>
 
 ---
 

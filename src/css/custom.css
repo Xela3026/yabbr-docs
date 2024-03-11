@@ -63,7 +63,7 @@
   max-width: 100%;
 }
 
-.subtitle {
+.subtext {
   font-weight: bold;
   font-size: 40px;
   
@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5em;
 }
 
+
 h1 {
   background-color: #1582d8;
 
@@ -233,6 +234,9 @@ h6 {
   box-shadow: 0px 0 white, 0 1px white, 0px 0 white, 0 0px white;
 
 }
+
+
+
 
 
 
