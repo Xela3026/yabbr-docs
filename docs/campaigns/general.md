@@ -523,6 +523,35 @@ At any point after the campaign has started and at least one contact has receive
 
 
 
+[comment]: <> (Do a search in VS Code for - Missing, WIP, Work in progress)
+
+[comment]: <> (Fix up the homepage - don't make a landing page, just make it part of the docs. Take inspiration from the stripe docs and the octopus deploy docs - think getting started, introduction, tutorial, quick links etc.)
+
+[comment]: <> (off the top of my head for a quick links getting started thing - you will probably want to organise and manage your workspace's members first, then setup some contacts like Emails or VNs. Then make some template messages to use, and finally use whatever product you like to contact your customers - campaign, chat, survey etc.)
+
+[comment]: <> (ok that is step one. The next step is fixing up any missing documentation, inaccurate documentation, or WIP documentation)
+
+[comment]: <> (then maybe you can think about doing some swizzling to make it more customised than just the default docusaurus layout. Once again take inspiriation from stripe docs and octopus deploy docs)
+
+[comment]: <> (also fix the headings I think they look ugly.)
+
+[comment]: <> (reorganise everything as well. For example, the general campaings page is HUGE. Separate pages like these out into multiple pages. Double-tiered collapsibility. So, for example, under the collapsible Campaign link, make another collapsible General link. This should also help with the ugly headings because you would only need to differentiate them by size because there is not too many layers. TLDR separate large pages into multiple pages.)
+
+[comment]: <> (oh also while you're at it, fix the X button on the expandable images, it's really annoying that it does not have a hover effect. I need to get rid of the pseudo element and make it a real element so I can give it a hover effect.)
+
+[comment]: <> (oh and also add a search bar)
+
+[comment]: <> (some optional things to include here are a getting started page and introduction page. Then I can also optionally go over every single page and make sure all information is comprhensive, concise, cohesive, and accurate)
+
+[comment]: <> (after all of that I need to get it ready for production - deleting all the comments, pushing all to master and remote branch, getting people to review it, and then maybe adding some placeholders for the white label clients)
+
+[comment]: <> (then finally I can move on to the workflows docs)
+
+[comment]: <> (refer back to this as the whole checklist of things to do.)
+
+
+
+
 
 
 

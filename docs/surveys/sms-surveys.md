@@ -6,6 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
+import Tag from '@site/src/components/Tag';
 
 # SMS Surveys
 
@@ -52,11 +53,28 @@ If the survey respondent responds to the SMS with and SMS saying 'choco' or 'cho
 
 ## Virtual Number Assignment
 
-You can automatically allocate a survey to one or more of your virtual numbers you have set up. If a survey has been assigned to a virtual number - WIP
+You can automatically allocate a survey to one or more of your virtual numbers (VNs) you have set up. If a customer contacts a VN with an assigned survey, the survey will automatically start.
 
+To assign surveys to your VNs, first navigate to the 'Virtual Number Assignment' tab at the top of the page.
 
+<CustomisableImage src="/img/survey-sms-vn-ass.png" alt="VN Assignment Navigation" width="500"/>
 
+To assign a survey to a VN:
+1. Click on the VN you want to assign a survey to
+2. Click on the survey you want to assign
+3. Click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>
+
+:::important Important
+A VN cannot have more than one survey assigned to it. However, the same survey can be assigned to multiple VNs.
+:::
+
+The steps should look something like this:
+
+<CustomisableImage src="/img/survey-sms-vn-ass-annotate.png" alt="VN Assignment Annotation"/>
+
+:::tip Tip
+You can search through your VNs and surveys by name using the 'Filter' search box.
+:::
 
 
 [comment]: <> (include an example of a question, an example of a fallback message etc.)
-[comment]: <> (include virtual number assignment)

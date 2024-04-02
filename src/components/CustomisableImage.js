@@ -28,7 +28,7 @@ const CustomisableImage = ({ src, alt, width }) => {
             <div 
             className = {'enlarged'}
             >
-                <p className={'subtitle'}>{alt}</p>
+                <p className={'subtitle'}>{alt}<span className={'exit'}>×</span></p>
                 
                 <img className={'enlargeImage'}
                 src={src}

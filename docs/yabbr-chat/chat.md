@@ -235,7 +235,23 @@ In the top right of the screen, there are two actions you can perform on the cur
  
 ### History
 
-Missing Documentatoin. Work in Progress.
+All of your conversations/sessions with a customer are saved in 'History'. To access this history of conversations with a contact, click on the 'History' tab outlined below.
+
+<CustomisableImage src="/img/chat-history.png" alt="Chat History" width="500"/>
+
+Here, you will be able to view a transcript of every conversation you have had with the customer. Each transcript should look like this:
+
+<CustomisableImage src="/img/chat-history-transcript.png" alt="Chat History Transcripts"/>
+
+To find a specific transcript, you can look at the date and time of the conversation that is listed on the top right of the transcript. All of the transcripts are organised in chronological order, with the oldest transcripts at the top of the page.
+
+All of the transcripts are collapsible as well. So, to view the full transcript of the conversation, click on the transcript and it will expand to show you the full conversation. You can collapse the transcript by clicking it again.
+
+The collapsed transcript will show you the message type (phone, email, etc.), the time period of the conversation, the number of chats, the conversation's chat tags, and give you the option to save the transcript. To save the transcript, you can either click the overlapping rectangles to copy the transcript to your clipboard, or click the ˅ button and select 'Print to PDF' to download a PDF of the transcript.
+
+<CustomisableImage src="/img/chat-history-transcript-annotated.png" alt="Chat History Transcripts Annotated"/>
+
+
 
 
 
@@ -344,11 +360,7 @@ To add a new note, type the text content of the note into the text box 'Add note
 
 #### Recent Bookings
 
-Any recent bookings that have occured with this contact will appear here. See [Bookings](#bookings) for more info about booking.
-
-Missing Documentation. Work In Progress.
-
-
+Any recent bookings that have occured with this contact will appear here. See [Bookings](#bookings) for more info about bookings.
 
 ### Actions
 
@@ -371,8 +383,8 @@ Then a small menu will appear where you select which opt-out list to add the con
 In the drop-down menus, you need to select the:
 
 - **List**: the specific opt-out list to add the contact to.
-- **Message Type**: missing documentation. Work in progress.
-- **Destination**: missing documentation. Work in progress.
+- **Message Type**: the type of contact you are adding - a phone number (Phone) or an email address (Email).
+- **Destination**: the contact you are adding to the opt-out list.
 
 Once you have configured all of these, add them to the list by clicking <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Submit</Tag>.
 
@@ -412,3 +424,14 @@ After using any of the various methods of concluding a chat/session, you will se
 
 Finally, to conclude the chat, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Submit</Tag>.
 
+### Concluded Chats
+
+After concluding a chat, it will appear underneath your Active Chats in the 'Concluded' group.
+
+
+<CustomisableImage src="/img/chat-concluded.png" alt="Concluded Chats" width="400"/>
+
+These concluded chats give you two options. To restart the chat with the customer, click the refresh button. To remove the chat from your sidebar, click the X button. To remove all concluded chats from your sidebar, click 'Dismiss All'.
+
+
+<CustomisableImage src="/img/chat-concluded-annotated.png" alt="Concluded Chats Annotated" width="500"/>

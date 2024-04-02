@@ -43,16 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+
         theme: {
           customCss: './src/css/custom.css',
 
@@ -64,17 +56,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // add the google icons stylesheet
-      metadata: [
-        {
-          name: 'google-icons',
-          content: '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">'
-        },
-      ],
+
       // Replace with your project's social card
       image: 'img/yabbr.svg',
       navbar: {
-        title: 'Yabbr Docs',
+        title: 'Home',
         logo: {
           alt: 'Yabbr Site Logo',
           src: 'img/yabbr.svg',
@@ -82,60 +68,44 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Yabbr Products',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Yabbr Website',
+                to: 'https://yabbr.com.au/',
+              },
+              {
+                label: 'Yabbr App',
+                to: 'https:/go.yabbr.io',
+              },
+              {
+                label: 'API Documentation',
+                to: 'https://api.yabbr.io/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/yabbr/?originalSubdomain=au',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Yabbr.`,
       },
@@ -144,16 +114,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-    stylesheets: [
-      'https://fonts.googleapis.com/icon?family=Material+Icons',
-      'https://fonts.googleapis.com/css2?family=Roboto',
-    ],
+
 };
-// questions for Logan:
-// Yabbr logo, colour, font etc.
-// Github link and version control?
-// copyright?
-// there's no link to "Members" on the Yabbr page?
+
 // could potentially use tabs in some places instead of sub-links
 
 export default config;

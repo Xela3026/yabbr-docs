@@ -43,7 +43,7 @@ export default function Home() {
 }**/
 
 
-import homepage from './homepage';
+import newHomepage from './new-homepage';
 
-export default homepage;
+export default newHomepage;
 

@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/custom.css';
 import ThreeDBackground from './three-d-background.js';
 
-const homepage = () => {
+const newHomepage = () => {
   return (
     
     
@@ -10,7 +10,7 @@ const homepage = () => {
     
     <div class="outer-container" id="outerContainer" style={{'overflowX': 'hidden', 'overflowY': 'hidden'}}>
       
-      <div className="homepage-three-d">
+      <div className="homepage">
       <div className="homepage-container">
           <span className="subtext">Welcome to the</span>
           <img className="logo-img" src="/img/yabbr.svg" alt="Yabbr Logo" width="400"/>
@@ -20,7 +20,7 @@ const homepage = () => {
       </div>
       </div>
       
-      <ThreeDBackground class="background"/>
+      
           
        
         
@@ -30,5 +30,5 @@ const homepage = () => {
   );
 };
 
-export default homepage;
+export default newHomepage;
 
