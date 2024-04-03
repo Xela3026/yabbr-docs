@@ -11,7 +11,7 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 <link rel="stylesheet" type="text/css" href="/src/components/css/custom.css" />
 
 
-[comment]: <> (sms message - unicode, message)
+import BrandName from '@site/src/components/BrandName';
 
 import UnitCounter from '@site/src/components/UnitCounter';
 
@@ -54,7 +54,7 @@ As you may notice when creating your SMS message, there is a counter in the bott
 
 <CustomisableImage src="/img/message-types-sms-units.png" alt="SMS Units" width="450"/>
 
-Yabbr charges you per SMS unit, not per message. Thus, it is ideal to reduce your SMS Usage.
+<BrandName/> charges you per SMS unit, not per message. Thus, it is ideal to reduce your SMS Usage.
 A message with more SMS units costs more money to send, so it is ideal to reduce them. They are calculated based on GSM characters. A table of all GSM characters is provided below. Most common characters are GSM characters. However, non-GSM characters include [unicode characters](#unicode-characters) and emojis.
 
 <CustomisableImage src="/img/gsm.png" alt="All GSM Characters" width="400"/>
@@ -64,10 +64,12 @@ If a message consists only of GSM characters, then a unit will consist of 160 ch
 
 If a message contains any non-GSM characters, then a unit will consist of 70 charactres. If there is more than one unit, then each unit will consist of 67 characters. 
 
-Yabbr supports messages up to 10 units. That means a character cap of 1530 for all GSM characters or 670 for not all GSM characters.
+<BrandName/> supports messages up to 10 units. That means a character cap of 1530 for all GSM characters or 670 for not all GSM characters.
 
 Use the unit calculator provided below to test out unit calculations and your SMS messages.
 
 ### Unit Calculator
 
 <UnitCounter/>
+
+

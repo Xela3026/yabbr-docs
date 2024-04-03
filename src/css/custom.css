@@ -377,6 +377,124 @@ h6 {
 }
 
 
+.card-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cards {
+  margin: 0.5em;
+  
+  border-radius: 0.4em;
+  width: 100%;
+  
+  height: 17em;
+  border-bottom: 1px solid lightgray;
+  transition: border 0.3s;
+  padding-right: 0.1em;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+.cards:hover {
+  border-bottom: 2px solid rgb(0, 0, 0)
+}
+
+
+
+
+
+
+.img-container {
+  position: relative;
+
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  
+
+
+}
+
+
+
+
+
+
+
+.cards p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0.5em;
+}
+
+.img-container img {
+  object-fit: cover;
+  border-top-left-radius: 0.4em;
+  border-top-right-radius: 0.4em;
+}
+
+
+.header {
+  font-size: 1.3em;
+  color: var(--ifm-color-primary);
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
+}
+
+
+.message-card p {
+  font-size: 1.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
+
+}
+
+.message-card * {
+  text-align: center;
+}
+
+.message-card {
+  margin: 1.2em;
+  width: 100%;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  border-radius: 4em;
+  position: relative;
+}
+
+.message-card:hover {
+  box-shadow: 2px 2px 10px lightgrey
+}
+
+.link {
+  position:absolute; 
+  height: 100%;
+
+  z-index: 1;
+
+  top: 0;
+  left:0;
+  width: 100%;
+
+}
+
+.hint {
+  text-align: center;
+  width: 100%;
+  color: var(--ifm-color-primary);
+  font-size: 1.5em;
+}
+
 
 
 

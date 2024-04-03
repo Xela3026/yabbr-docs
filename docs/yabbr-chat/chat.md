@@ -6,7 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 
 # Chat
@@ -15,7 +15,7 @@ Chat is where you handle communications with customers. When a customer contacts
 
 In the chat, you can take a customer out of the queue to start a conversation with them. Then once you end the conversation or leave the page, the whole conversation will be recorded as session. You can add notes or tags on the outcome of the session or the topic of conversation (eg Dispute, No resolution, Transferred).
 
-The documentation for Yabbr Chat will be separated into the three main sections as they appear on the screen: the left sidebar, the main middle section, and the right sidebar.
+The documentation for <BrandName/> Chat will be separated into the three main sections as they appear on the screen: the left sidebar, the main middle section, and the right sidebar.
 
 
 ## Left Sidebar
@@ -126,7 +126,7 @@ Below is an example. The 'Active Chats' have been grouped by their 'Medium'. All
 
 ## Main Chat (Middle)
 
-This is the main functionality of Yabbr Chat. The middle of your screen is the actual chat itself. This is where you and your agents can communicate with your customers.
+This is the main functionality of <BrandName/> Chat. The middle of your screen is the actual chat itself. This is where you and your agents can communicate with your customers.
 
 ### The Chat
 

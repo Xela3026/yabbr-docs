@@ -6,25 +6,25 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 
 # Sender IDs
 
-[comment]: <> (Similar to email addresses for emails, Sender IDs send and receive phone messages like calls or texts.)
 
-Sender IDs are like email addresses, but for phone messages instead of emails. They send and receive phone messages like calls or texts. In Yabbr, Sender IDs are necessary for outbound messaging. They need to be registered within the platform before you can use them across your workspace.
 
-Yabbr offers three main forms of Sender IDs:
+Sender IDs are like email addresses, but for phone messages instead of emails. They send and receive phone messages like calls or texts. In <BrandName/>, Sender IDs are necessary for outbound messaging. They need to be registered within the platform before you can use them across your workspace.
 
-Virtual Numbers: These are rented from Yabbr. They offer both inbound and outbound functionality. This is the only Sender ID type with inbound functionality. Therefore, they are the only Sender IDs you can use in Yabbr Chat. Refer to our documentation on Virtual Numbers for comprehensive details.
+<BrandName/> offers three main forms of Sender IDs:
+
+Virtual Numbers: These are rented from <BrandName/>. They offer both inbound and outbound functionality. This is the only Sender ID type with inbound functionality. Therefore, they are the only Sender IDs you can use in <BrandName/> Chat. Refer to our documentation on Virtual Numbers for comprehensive details.
 
 Alpha Codes: Alpha Codes are alphanumeric (numbers and letters) strings typically representing your brand. These are special because recipients receive phone messages from an alphanumeric string rather than a phone number. However, it's important to note that Alpha Codes lack inbound functionality; recipients cannot respond to messages sent via Alpha Codes.
 
-Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, these responses will only appear on your personal phones. Yabbr cannot access these responses, rendering inbound functionality unavailable.
+Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, these responses will only appear on your personal phones. <BrandName/> cannot access these responses, rendering inbound functionality unavailable.
 
 :::info Important
-Alpha Codes and personal numbers have to be verified by Yabbr before you can use them in your workspace.
+Alpha Codes and personal numbers have to be verified by <BrandName/> before you can use them in your workspace.
 :::
 
 ## Setup
@@ -65,11 +65,11 @@ These types of Sender IDs need approval before they can be used elsewhere in you
 
 ## Approval and Verification
 
-Once you create a Sender ID using an Alpha Code or a Mobile Number, Yabbr needs to make sure you have a right to use it.
+Once you create a Sender ID using an Alpha Code or a Mobile Number, <BrandName/> needs to make sure you have a right to use it.
 
-For an Alpha Code, Yabbr needs to make sure that the name aligns with your brand or business in some way.
+For an Alpha Code, <BrandName/> needs to make sure that the name aligns with your brand or business in some way.
 
-For a Mobile Number, Yabbr needs to send the number a message and receive a message back from it confirming that they would like it to be used within a Yabbr workspace.
+For a Mobile Number, <BrandName/> needs to send the number a message and receive a message back from it confirming that they would like it to be used within a <BrandName/> workspace.
 
 Once this process has been completed, the Sender ID will be approved and verified and can then be used throughout your workspace.
 
@@ -88,5 +88,6 @@ To remove a Sender ID from your workspace, click the trash icon on the right of 
 :::tip TIP
 You can search the Sender IDs by name using the 'Filter' text box.
 :::
+
 
 

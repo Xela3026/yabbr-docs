@@ -10,7 +10,7 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
 
-
+import BrandName from '@site/src/components/BrandName';
 
 
 

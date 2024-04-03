@@ -41,8 +41,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: '/', // Set this value to '/'.
+
         },
 
         theme: {
@@ -60,20 +60,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/yabbr.svg',
       navbar: {
-        title: 'Home',
+        title: 'Documentation',
         logo: {
           alt: 'Yabbr Site Logo',
           src: 'img/yabbr.svg',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'docsSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
 
-        ],
       },
       footer: {
         style: 'dark',

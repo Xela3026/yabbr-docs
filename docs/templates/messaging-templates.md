@@ -6,13 +6,13 @@ toc_max_heading_level: 5
 ---
 
 import Tag from '@site/src/components/Tag';
-
+import BrandName from '@site/src/components/BrandName';
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
 
 # Messaging Templates
 
-Messaging templates are templates for both SMS and MMS. It can also be used for all types of quick reply in Yabbr Chat. It is recommended you read the [General](./general.md) template documentation before this one.
+Messaging templates are templates for both SMS and MMS. It can also be used for all types of quick reply in <BrandName/> Chat. It is recommended you read the [General](./general.md) template documentation before this one.
 
 ## Creation
 
@@ -22,7 +22,7 @@ There are three different types of Messaging templates you can create. Select th
 
 <CustomisableImage src="/img/template-message-product.png" alt="Messaging Template Products" width="600"/>
 
-- **Yabbr Chat**: used for all quick replies in Yabbr Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Yabbr Chat when certain words appear in the chat.
+- **<BrandName/> Chat**: used for all quick replies in <BrandName/> Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in <BrandName/> Chat when certain words appear in the chat.
 - **Express Message**: used for SMS Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template and whether the message sent using the template is recorded by a transcript.
 - **Campaigns**: used for SMS and MMS Campaigns.
 
@@ -40,7 +40,7 @@ This is the actual content of your message. This is the message that will be sen
 
 ### Merge Fields
 
-These are placeholders that are built into your workspace already. They are properties of the 'Product' you selected. For example, a built-in Campaign placeholder would be the opt-out link. A built-in Yabbr Chat placeholder would be one of your workspace's [Contact Attributes](../contacts/attributes.md). Since these placeholders are already defined for the 'Product' type you selected, you will not need to specify their value when you use the template.
+These are placeholders that are built into your workspace already. They are properties of the 'Product' you selected. For example, a built-in Campaign placeholder would be the opt-out link. A built-in <BrandName/> Chat placeholder would be one of your workspace's [Contact Attributes](../contacts/attributes.md). Since these placeholders are already defined for the 'Product' type you selected, you will not need to specify their value when you use the template.
 
 ### Enable Template
 
@@ -51,15 +51,15 @@ Finally, to add the template to the workspace, click <Tag colour="#1582d8" borde
 
 ### Product-Specific Features
 
-#### Yabbr Chat
+#### <BrandName/> Chat
 
-Yabbr Chat has an extra feature called 'Keyword Tags' outlined below.
+<BrandName/> Chat has an extra feature called 'Keyword Tags' outlined below.
 
-<CustomisableImage src="/img/template-message-chat.png" alt="Yabbr Chat Template Options" width="500"/>
+<CustomisableImage src="/img/template-message-chat.png" alt="<BrandName/> Chat Template Options" width="500"/>
 
-Yabbr Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
+<BrandName/> Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
 
-Input your desired keyword tag into this text box. When a customer sends a message to an agent in Yabbr Chat that contains this keyword tag, this messaging template will be suggested to the agent as a quick reply.
+Input your desired keyword tag into this text box. When a customer sends a message to an agent in <BrandName/> Chat that contains this keyword tag, this messaging template will be suggested to the agent as a quick reply.
 
 [comment]: <> (I do not really know how this feature works, I'm just guessing)
 

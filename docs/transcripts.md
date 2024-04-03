@@ -5,14 +5,16 @@ toc_min_heading_level: 2
 toc_max_heading_level: 6
 ---
 
+import BrandName from '@site/src/components/BrandName';
+
 import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
 
 # Transcripts
 
-For the purposes of the documentation, the person sending outbound messages using Yabbr will be referred to as an ‘agent’, and the recipients of these messages will be called ‘customers’.
+For the purposes of the documentation, the person sending outbound messages using <BrandName/> will be referred to as an ‘agent’, and the recipients of these messages will be called ‘customers’.
 
-Transcripts are records of conversations you have with customers through either [Yabbr Chat](./yabbr-chat/chat-settings.md#chat-tags) or responses to [Campaigns](./campaigns/general.md). An agent will start a conversation with a customer with an outbound message, and when the agent decides to end the conversation in the chat, a transcript is created for the conversation. The whole duration of that conversation then is called a ‘session’. Everything recorded by the transcript will be stored in one of the columns outlined below:
+Transcripts are records of conversations you have with customers through either [<BrandName/> Chat](./yabbr-chat/chat-settings.md#chat-tags) or responses to [Campaigns](./campaigns/general.md). An agent will start a conversation with a customer with an outbound message, and when the agent decides to end the conversation in the chat, a transcript is created for the conversation. The whole duration of that conversation then is called a ‘session’. Everything recorded by the transcript will be stored in one of the columns outlined below:
 
 <CustomisableImage src="/img/transcripts-columns.png" alt="Transcript Column Names" width="800" />
 
@@ -82,7 +84,7 @@ Clicking the button outlined in black again will revert the date filter to a sin
 
 ### General Navigation
 
-After doing a search for transcripts, you should get several results. Sometimes there are too many results to display on one screen. Thus, Yabbr will automaticaly separate the transcripts into pages. You can specify how many transcripts appear on each page with the drop-down menu outlined below.
+After doing a search for transcripts, you should get several results. Sometimes there are too many results to display on one screen. Thus, <BrandName/> will automaticaly separate the transcripts into pages. You can specify how many transcripts appear on each page with the drop-down menu outlined below.
 
 <CustomisableImage src="/img/transcript-pages.png" alt="Transcript Pages" />
 
@@ -102,7 +104,7 @@ You can export transcripts to a different format, but only those that meet the c
 ### Export Options
 
 - **Export Destination**: select where you want to export the information to. 'Clipboard' will copy all the information to your clipboard. 'CSV' will download the information as a csv file to your device.
-- **Properties to Include**: select everything recorded by the transcript that you wish to include in the export. 'Metadata' is the properties of the transcript -> the start date, the message type, the contact of the customer, and the contact of the agent. 'Transcript' is the actual conversation -> everything said by either the customer or the agent. 'Contact Attributes' are the contact attributes associated with the customer's contact in [Yabbr Chat](./yabbr-chat/chat-settings.md#chat-tags).
+- **Properties to Include**: select everything recorded by the transcript that you wish to include in the export. 'Metadata' is the properties of the transcript -> the start date, the message type, the contact of the customer, and the contact of the agent. 'Transcript' is the actual conversation -> everything said by either the customer or the agent. 'Contact Attributes' are the contact attributes associated with the customer's contact in [<BrandName/> Chat](./yabbr-chat/chat-settings.md#chat-tags).
 
 Finally to finish the export, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Export</Tag>.
 

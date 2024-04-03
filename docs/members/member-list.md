@@ -6,7 +6,7 @@ toc_max_heading_level: 6
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
+import BrandName from '@site/src/components/BrandName';
 
 import Tag from '@site/src/components/Tag';
 
@@ -239,7 +239,7 @@ An extended menu will appear for configuring Email2SMS:
 
 To configure Email2SMS for a member:
 
-1. Select the virtual number within Yabbr that will be used to send your SMS. This is the 'Virtual Number Assignment'.
+1. Select the virtual number within <BrandName/> that will be used to send your SMS. This is the 'Virtual Number Assignment'.
 
 2. Select whether the content of your SMS will be generated from the email’s Subject or Body. This is the 'SMS Content from'. By default, it is the subject. 
 
@@ -256,7 +256,7 @@ For example 0412345678@sms.yabbr.io
 
 2. Enter the desired message to be sent into the email's subject or body depending on how you configured it.
 
-3. Send the email. The SMS will be sent via Yabbr through the Virtual Number you have set-up with the Member.
+3. Send the email. The SMS will be sent via <BrandName/> through the Virtual Number you have set-up with the Member.
 
 
 

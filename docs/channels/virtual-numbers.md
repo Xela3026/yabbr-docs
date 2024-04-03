@@ -6,13 +6,13 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 
 
 # Virtual Numbers
 
-Read [Sender ID](./sender-ids.md#sender-ids) documentation for an in-depth explanation of Sender IDs and their differen types. A Virtual Number (VN) is just one type of Sender ID in Yabbr. It is a phone number that you can rent from Yabbr to use in your workspace as a Sender ID. Messages sent using Virtual Numbers can be responded to, and these responses can be recorded and accessed by Yabbr. Thus, Virtual Numbers are the only Sender IDs that can have inbound functionality in your workspace. Therefore, they are the only phone numbers you can use in Yabbr Chat.
+Read [Sender ID](./sender-ids.md#sender-ids) documentation for an in-depth explanation of Sender IDs and their differen types. A Virtual Number (VN) is just one type of Sender ID in <BrandName/>. It is a phone number that you can rent from <BrandName/> to use in your workspace as a Sender ID. Messages sent using Virtual Numbers can be responded to, and these responses can be recorded and accessed by <BrandName/>. Thus, Virtual Numbers are the only Sender IDs that can have inbound functionality in your workspace. Therefore, they are the only phone numbers you can use in <BrandName/> Chat.
 
 ## Setup
 
@@ -76,7 +76,7 @@ The next step in making your VNs fully functioning throughout your workspace is 
 
 #### SMS Auto-Replies
 
-When someone responds to a VN, Yabbr can intercept these responses. Then, you can configure your VN to automatically respond based on certain conditions. For SMS messaging, the only condition you can detect is if an agent is online or not. When a condition is met, the auto reply is activated and sent.
+When someone responds to a VN, <BrandName/> can intercept these responses. Then, you can configure your VN to automatically respond based on certain conditions. For SMS messaging, the only condition you can detect is if an agent is online or not. When a condition is met, the auto reply is activated and sent.
 
 For example, you can configure an automated reply so that when users contact a VN and there are no agents currently online, the VN will say "Sorry but no agents are currently available for contact. Agents are online from 9am-5pm on weekdays." A similar concept can apply for if an agent **is** online.
 
@@ -136,7 +136,7 @@ Clicking on this button will open the below menu:
 
 <CustomisableImage src="/img/vn-sms-forward-menu.png" alt="VN New SMS Forwarder Menu" width="400" />
 
-There are three types of locations you can forward a message to: Email, HTTP (API endpoint), SMS, and Yabbr Chat. The first step in configuring the message forwarding is selecting one of these three options in the 'Type' drop-down menu. Each one of these forwarding types will have different customisations and configurations.
+There are three types of locations you can forward a message to: Email, HTTP (API endpoint), SMS, and <BrandName/> Chat. The first step in configuring the message forwarding is selecting one of these three options in the 'Type' drop-down menu. Each one of these forwarding types will have different customisations and configurations.
 
 ##### Email
 
@@ -168,9 +168,9 @@ Use these options to configure the forwarding process:
 - **Suffix** (Optional): the text that will appear after the forwarded message. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging.
 - **Enabled**: this will enable/disable the functionality of this forwarding process.
 
-##### Yabbr Chat
+##### <BrandName/> Chat
 
-No configuration is required for Yabbr Chat. The message will be automatically forwarded to Yabbr Chat.
+No configuration is required for <BrandName/> Chat. The message will be automatically forwarded to <BrandName/> Chat.
 
 ##### Finalising
 

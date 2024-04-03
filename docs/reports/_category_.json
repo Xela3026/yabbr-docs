@@ -2,7 +2,6 @@
   "label": "Reports",
   "position": 11,
   "link": {
-    "type": "generated-index",
-    "description": "Insert reports information here"
+    "type": "generated-index"
   }
 }

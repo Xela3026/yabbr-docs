@@ -5,6 +5,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 6
 ---
 
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
@@ -62,7 +63,7 @@ Next, you must create and manage the **answers** to this question. The managemen
 
 - **Label**: the display name of the answer.
 - **Matching-on**: this is a list of your recognised answers. If a respondent responds with any of these words to this question, it will trigger this response handler. To create the list, just separate each recognised answer you want to use with a comma. E.g. For the label 'Yes', you might use: yes, ys, yeah, yup. If the respondent does not respond with any of the recognised answers to the question, a response handler with a recognised answer as an asterisk (&#42;), will be activated. If there is no response handler that recognises an asterisk (&#42;), then the [Unrecognised Response Fallback Message](#unrecognised-response-fallback-message) will be triggered.
-- **Follow-up Question**: this is the event that will occur after the response-handler is activated. You select your desired event in the drop-down menu. You can either stop the survey with '-- Stop here --', move the respondent interaction over to the [Yabbr Chat Console](../yabbr-chat/) with '-- Transfer to Chat Console --', continue to the next sequential question in the decision tree (e.g. Q1 -> Q2, Q4 -> Q5) with '-- Next Question --', or you can direct the respondent to a specific question anywhere in the decision tree. 
+- **Follow-up Question**: this is the event that will occur after the response-handler is activated. You select your desired event in the drop-down menu. You can either stop the survey with '-- Stop here --', move the respondent interaction over to the [<BrandName/> Chat Console](../yabbr-chat/) with '-- Transfer to Chat Console --', continue to the next sequential question in the decision tree (e.g. Q1 -> Q2, Q4 -> Q5) with '-- Next Question --', or you can direct the respondent to a specific question anywhere in the decision tree. 
 
 :::tip Tip
 To remove a question from the decision tree, click the 'Remove' button in the bottom left of the menu that appears when you edit the question.

@@ -3,7 +3,6 @@
   "position": 7,
 
   "link": {
-    "type": "generated-index",
-    "description": "Insert contacts information here"
+    "type": "generated-index"
   }
 }

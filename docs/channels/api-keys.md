@@ -8,10 +8,11 @@ toc_max_heading_level: 5
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
 import Tag from '@site/src/components/Tag';
+import BrandName from '@site/src/components/BrandName';
 
 # API Keys
 
-Yabbr has APIs for all of the features in your workspace. These APIs need some authentication. One method of authenticaion is using an API Key. This is where you create new API keys to use in the Yabbr API.
+<BrandName/> has APIs for all of the features in your workspace. These APIs need some authentication. One method of authenticaion is using an API Key. This is where you create new API keys to use in the <BrandName/> API.
 
 ## Setup
 
@@ -33,9 +34,9 @@ Clicking on this button will bring up a small menu like the one below:
 
 These are the settings and configurations of your new API Key. They are the:
 - **Name**: the display name of your API Key to identify it within your workspace.
-- **POSTback URL**: some Yabbr endpoints deliver live events via a POST request to a nominated URL. This is that URL. It is most commonly used for message receipts from outbound messages on the messages endpoint.
+- **POSTback URL**: some <BrandName/> endpoints deliver live events via a POST request to a nominated URL. This is that URL. It is most commonly used for message receipts from outbound messages on the messages endpoint.
 - **Allowed CIDRs**: these are the range of IP addresses that are permitted to access and use this API Key. Only requests originating from these IP addresses are permitted. Type in the CIDR into the text box, and then click <Tag colour="#FFFFFF" borderColour="#d8dde1" fontColour="#1582d8">+</Tag> to add it to the 'Allowed CIDRs' list. Click the 'X' next to a CIDR in this list to remove it from the list.
-- **Off the Record**: Yabbr logs every logs every request made with the Yabbr API in a database. Enabling 'Off the Record' means that any request made with this API will not be logged.
+- **Off the Record**: <BrandName/> logs every logs every request made with the <BrandName/> API in a database. Enabling 'Off the Record' means that any request made with this API will not be logged.
 - **Enabled**: this enables/disables the functionality of the API Key.
 
 #### Finalisation

@@ -6,7 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import Tag from '@site/src/components/Tag';
-
+import BrandName from '@site/src/components/BrandName';
 import TextEditor from '@site/src/components/TextEditor';
 
 # MMS
@@ -25,7 +25,7 @@ Additionally, this file must be in the format of:
 
 .jpg, .jpeg, .png, .gif, .wav, .mp3, .3gp, .mp4, .mpg, .mpeg, .avi, .pdf, .vcf, .vcard, .cal
 
-Finally, there is a size limit on the file. Yabbr will automatically compress files that are too large, however it should be noted that if the file is too large, this compression can make the content unrecognisable.
+Finally, there is a size limit on the file. <BrandName/> will automatically compress files that are too large, however it should be noted that if the file is too large, this compression can make the content unrecognisable.
 
 
 ## Message

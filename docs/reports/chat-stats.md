@@ -4,12 +4,13 @@ toc_min_heading_level: 2
 toc_max_heading_level: 6
 ---
 
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Chat Stats
 
-Here you can view a graphical summary of Yabbr Chat metrics. It is separated into monthly metrics.
+Here you can view a graphical summary of <BrandName/> Chat metrics. It is separated into monthly metrics.
 
 ---
 

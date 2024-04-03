@@ -6,6 +6,7 @@ toc_max_heading_level: 6
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
 import Tag from '@site/src/components/Tag';
+import BrandName from '@site/src/components/BrandName';
 
 
 # SMS Campaigns
@@ -23,7 +24,7 @@ When you are first creating an SMS campaign, you must also choose from one of th
 <CustomisableImage src="/img/campaign-sms-type.png" alt="SMS Campaign Type Selection" width="550"/>
 
 - [**Broadcast**](#broadcast): one-way outbound message sent using a registered alpha code or sender ID. It automatically disables inbound capabilities.
-- [**Interative Broadcast**](#interactive-broadcast): message sent using a virtual number. These allow two-way communication so that other systems like Yabbr Chat can interact with responses.
+- [**Interative Broadcast**](#interactive-broadcast): message sent using a virtual number. These allow two-way communication so that other systems like <BrandName/> Chat can interact with responses.
 - [**Poll**](#poll): Currently functionally the same as Interactive Broadcast.
 
 #### Message
@@ -69,15 +70,15 @@ Interactive broadcasts have inbound functionality. These are: [Contact Import](#
 
 #### Contact Import
 
-If a campaign-recipient responds to your SMS Campaign, the chat and its details will be imported into [Yabbr Chat](../category/yabbr-chat). There, you can start and continue an interaction with a campaign-recipient. The contact import helps this process. 
+If a campaign-recipient responds to your SMS Campaign, the chat and its details will be imported into [<BrandName/> Chat](../category/yabbr-chat). There, you can start and continue an interaction with a campaign-recipient. The contact import helps this process. 
 
-Contact Import is all the information about the campaign-recipient that will be imported into [Yabbr Chat](../category/yabbr-chat) if they respond. As mentioned in [General](./general.md), your contacts file may contain information about each contact such as their name. This information is also stored under column headings in the contacts file. 
+Contact Import is all the information about the campaign-recipient that will be imported into [<BrandName/> Chat](../category/yabbr-chat) if they respond. As mentioned in [General](./general.md), your contacts file may contain information about each contact such as their name. This information is also stored under column headings in the contacts file. 
 
-Under each drop-down in the Contact Import, you can optionally select one of these column headings. Then, if a campaign-recipient responds, the information stored about them in the contacts file under the selected column header will be imported into [Yabbr Chat](../category/yabbr-chat) under the title you selected.
+Under each drop-down in the Contact Import, you can optionally select one of these column headings. Then, if a campaign-recipient responds, the information stored about them in the contacts file under the selected column header will be imported into [<BrandName/> Chat](../category/yabbr-chat) under the title you selected.
 
 In the example below, the contacts file has two columns: 'name' and 'phone'. 'phone' stores the phone number of the contact, and 'name' stores their corresponding full name. The 'Name' attribute has been connected to the 'name' column heading, and 'Phone' has connected to 'phone'. 
 
-If a campaign-recipient responds, their information will be imported into [Yabbr Chat](../category/yabbr-chat). It will list their 'Phone' as the information stored under 'phone' in the contacts file, and will list their 'Name' as the information stored under 'name' in the contacts file.
+If a campaign-recipient responds, their information will be imported into [<BrandName/> Chat](../category/yabbr-chat). It will list their 'Phone' as the information stored under 'phone' in the contacts file, and will list their 'Name' as the information stored under 'name' in the contacts file.
 
 <CustomisableImage src="/img/campaign-sms-contact-import.png" alt="Contact Import Example"/>
 

@@ -6,7 +6,7 @@ toc_max_heading_level: 5
 ---
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
-
+import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 
 # Templates
@@ -61,7 +61,7 @@ If you have a lot of templates, it may be difficult to find them here. To find a
 
 #### Search Filter
 
-The search filter is the 'Filter' text box at the top of the page and outlined below. Use this to search for the template using text. Only the templates that match the text you input into the search filter will appear. The template could match the searched text with either its display name, message content, or product type. For example, you could search for all Yabbr Chat messages by using 'Yabbr Chat' in the search filter. You could search for all templates that mention success by using 'success' in the search filter.
+The search filter is the 'Filter' text box at the top of the page and outlined below. Use this to search for the template using text. Only the templates that match the text you input into the search filter will appear. The template could match the searched text with either its display name, message content, or product type. For example, you could search for all <BrandName/> Chat messages by using '<BrandName/> Chat' in the search filter. You could search for all templates that mention success by using 'success' in the search filter.
 
 <CustomisableImage src="/img/template-filter.png" alt="Search Filter" width="500"/>
 
@@ -77,7 +77,7 @@ To order the templates by a specific property:
 1. Click on the arrow next to the column title of the specific property.
 2. Click on the up arrow to order by alphabetical order. Click on the bottom arrow to order in reverse alphabetical order.
 
-For example, to order the templates by their product in reverse alphabetical order (eg Yabbr Chat first, then Campaigns next), click on the bottom arrow next to the 'Product' column title.
+For example, to order the templates by their product in reverse alphabetical order (eg <BrandName/> Chat first, then Campaigns next), click on the bottom arrow next to the 'Product' column title.
 
 
 
