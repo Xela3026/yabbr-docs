@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1582d8;
+  --ifm-color-primary: #d81515;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -54,7 +54,7 @@
 }
 
 .enlargeImage {
-  border: 2px solid #1582d8;
+  border: 2px solid var(--ifm-color-primary);
   border-radius: 5px;
   display: block;
   background-color: #FFFFFF;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  background-color: #1582d8;
+  background-color: var(--ifm-color-primary);
 
 }
 
@@ -143,14 +143,14 @@ h2 {
 }
 
 h3 {
-  border: 2px solid #1582d8;
-  color: #1582d8;
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
   text-shadow: none;
 
 }
 
 h4 {
-  border: 2px solid #1582d8;
+  border: 2px solid var(--ifm-color-primary);
   color: black;
   text-shadow: none;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -228,9 +228,9 @@ h6 {
 
 
 .btn-primary {
-  background-color: #1582d8;
+  background-color: var(--ifm-color-primary);
   color: white;
-  border: 5px solid #1582d8;
+  border: 5px solid var(--ifm-color-primary);
   padding: 10px 20px;
   font-weight: bold;
   font-size: 30px;
@@ -240,8 +240,8 @@ h6 {
 
 .btn-primary:hover {
   background-color: white;
-  color: #1582d8;
-  border: 5px solid #1582d8;
+  color: var(--ifm-color-primary);
+  border: 5px solid var(--ifm-color-primary);
   padding: 10px 20px;
   cursor: pointer;
   font-weight: bold;
@@ -493,6 +493,10 @@ h6 {
   width: 100%;
   color: var(--ifm-color-primary);
   font-size: 1.5em;
+}
+
+.custom-border {
+  border: 2px solid var(--ifm-color-primary);
 }
 
 
