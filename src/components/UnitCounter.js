@@ -6,13 +6,16 @@ const UnitCounter = () => {
   const [inputting, setInputting] = useState('');
 
   const handleCheck = (event) => {
+    
     return event.target.checked ? setText(text.replace(gsmCharacterSet, '#')) : null;
+
   }
 
 
   // dynamic height adjustment of text area
   const handleTextChange = (event) => {
     setText(event.target.value);
+    
     const element = event.target;
     element.style.height = "1px";
     element.style.height = (25 + element.scrollHeight) + "px";

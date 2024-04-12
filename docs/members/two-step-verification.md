@@ -29,7 +29,7 @@ When you select a verification type, a small menu will appear like the one below
 
 <CustomisableImage src="/img/tsv-menu.png" alt="Verification Modification Menu" width="450"/>
 
-- **Max Member Session Length**: after how many minutes in the workspace should a member be timed out and forced to log in again? 
+- **Max Member Session Length**: after how many minutes in the workspace should a member be timed out and forced to log in again.
 - **Require authentication with every login**: enabling this will force members to go through the authentication process every time they log in.
 
 [comment]: <> (this will definitely need to be reviewed and changed because this is not descriptive and I do not know what I am talking about.)
