@@ -12,7 +12,7 @@ import BrandName from '@site/src/components/BrandName';
 
 # Attributes
 
-Within your workspace, you will be dealing with several different contacts, especially in <BrandName/> Chat. To effectively keep track of each of these contacts and their details, you can create Contact Attributes. A contact attribute is a piece of information you can store about a contact (eg name, date of birth, phone number). Then, when your agents are communicating with contacts in <BrandName/> Chat, all relevant contact information will then be readily available, providing agents with a comprehensive understanding of the contact's profile. These contact attributes can also be used as placeholders in [Quick Replies](../yabbr-chat/quick-replies.md).
+Within your workspace, you will be dealing with several different contacts, especially in Chat. To effectively keep track of each of these contacts and their details, you can create Contact Attributes. A contact attribute is a piece of information you can store about a contact (eg name, date of birth, phone number). Then, when your agents are communicating with contacts in Chat, all relevant contact information will then be readily available, providing agents with a comprehensive understanding of the contact's profile. These contact attributes can also be used as placeholders in [Quick Replies](../chat/quick-replies).
 
 ## Setup
 

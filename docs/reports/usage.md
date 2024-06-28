@@ -24,7 +24,7 @@ Click on the message type that you would like to view the usage of. The navigati
 
 ## Usage Summary
 
-After selecting a message type, you will see a bar graph that represents the usage at different points during the month. The x-axis represents time and is divided into days of the month. The y-axis represents usage, usually measured in either 'Messages' or 'Units' (see [Message Mediums](../message-types/sms.md) documentation for an explanation of 'Units'). The total usage for the month is labelled in the top left of the graph. Finally, a legend for the bar graph is directly above the graph in the middle.
+After selecting a message type, you will see a bar graph that represents the usage at different points during the month. The x-axis represents time and is divided into days of the month. The y-axis represents usage, usually measured in either 'Messages' or 'Units' (see the [SMS Message Type](../message-types/sms#sms-units) documentation for an explanation of 'Units'). The total usage for the month is labelled in the top left of the graph. Finally, a legend for the bar graph is directly above the graph in the middle.
 
 Below is an example usage summary for SMS. In this month, there were 12 messages total, and 14 total units. The blue columns represent the number of messages, and the red columns represent the number of units. On the 12th of January, there were 2 messages, and 4 units used. 
 

@@ -11,7 +11,7 @@ import BrandName from '@site/src/components/BrandName';
 
 # SMS Campaigns
 
-Most of the documentation for this campaign type can be found in [General](./general.md). This page is for features specific to SMS campaigns. It is recommended to read the general documentation first. 
+Most of the documentation for this campaign type can be found in [General](./general). This page is for features specific to SMS campaigns. It is recommended to read the general documentation first. 
 
 ---
 
@@ -24,7 +24,7 @@ When you are first creating an SMS campaign, you must also choose from one of th
 <CustomisableImage src="/img/campaign-sms-type.png" alt="SMS Campaign Type Selection" width="550"/>
 
 - [**Broadcast**](#broadcast): one-way outbound message sent using a registered alpha code or sender ID. It automatically disables inbound capabilities.
-- [**Interative Broadcast**](#interactive-broadcast): message sent using a virtual number. These allow two-way communication so that other systems like <BrandName/> Chat can interact with responses.
+- [**Interative Broadcast**](#interactive-broadcast): message sent using a virtual number. These allow two-way communication so that other systems like Chat can interact with responses.
 - [**Poll**](#poll): Currently functionally the same as Interactive Broadcast.
 
 #### Message
@@ -50,7 +50,7 @@ Below is an example of what the preview of an SMS Campaign could look like. The 
 
 #### Test Campaign
 
-Below is an example of the Test Campaign menu for SMS Campaigns. As explained in the general [Test Campaign](./general.md#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
+Below is an example of the Test Campaign menu for SMS Campaigns. As explained in the general [Test Campaign](./general#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
 
 <CustomisableImage src="/img/campaign-sms-test.png" alt="SMS Campaign Test" width="500"/>
 
@@ -70,15 +70,15 @@ Interactive broadcasts have inbound functionality. These are: [Contact Import](#
 
 #### Contact Import
 
-If a campaign-recipient responds to your SMS Campaign, the chat and its details will be imported into [<BrandName/> Chat](../category/yabbr-chat). There, you can start and continue an interaction with a campaign-recipient. The contact import helps this process. 
+If a campaign-recipient responds to your SMS Campaign, the chat and its details will be imported into [Chat](../category/chat). There, you can start and continue an interaction with a campaign-recipient. The contact import helps this process. 
 
-Contact Import is all the information about the campaign-recipient that will be imported into [<BrandName/> Chat](../category/yabbr-chat) if they respond. As mentioned in [General](./general.md), your contacts file may contain information about each contact such as their name. This information is also stored under column headings in the contacts file. 
+Contact Import is all the information about the campaign-recipient that will be imported into [Chat](../category/chat) if they respond. As mentioned in [General](./general), your contacts file may contain information about each contact such as their name. This information is also stored under column headings in the contacts file. 
 
-Under each drop-down in the Contact Import, you can optionally select one of these column headings. Then, if a campaign-recipient responds, the information stored about them in the contacts file under the selected column header will be imported into [<BrandName/> Chat](../category/yabbr-chat) under the title you selected.
+Under each drop-down in the Contact Import, you can optionally select one of these column headings. Then, if a campaign-recipient responds, the information stored about them in the contacts file under the selected column header will be imported into [Chat](../category/chat) under the title you selected.
 
 In the example below, the contacts file has two columns: 'name' and 'phone'. 'phone' stores the phone number of the contact, and 'name' stores their corresponding full name. The 'Name' attribute has been connected to the 'name' column heading, and 'Phone' has connected to 'phone'. 
 
-If a campaign-recipient responds, their information will be imported into [<BrandName/> Chat](../category/yabbr-chat). It will list their 'Phone' as the information stored under 'phone' in the contacts file, and will list their 'Name' as the information stored under 'name' in the contacts file.
+If a campaign-recipient responds, their information will be imported into [Chat](../category/chat). It will list their 'Phone' as the information stored under 'phone' in the contacts file, and will list their 'Name' as the information stored under 'name' in the contacts file.
 
 <CustomisableImage src="/img/campaign-sms-contact-import.png" alt="Contact Import Example"/>
 
@@ -133,7 +133,7 @@ If the program detects the keyword reply, this is the SMS that will be sent to t
 
 ##### Schedule
 
-The keyword reply will only be detected within this schedule. See [Schedule](./general.md#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work.
+The keyword reply will only be detected within this schedule. See [Schedule](./general#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work.
 
 
 ##### Call Me

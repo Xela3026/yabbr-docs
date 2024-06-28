@@ -13,14 +13,14 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Audio
 
-The Audio message type is the most unique message type. An audio message is just a phone call. Recipients of an audio message can interact with it using the numberpad. There are two types of audio messages: Audio File and Text to Speech. It is recommended you read the [General](./general.md) documentation before this one.
+The Audio message type is the most unique message type. An audio message is just a phone call. Recipients of an audio message can interact with it using the numberpad. There are two types of audio messages: Audio File and Text to Speech. It is recommended you read the [General](./general) documentation before this one.
 
 
 ## Message
 
-Firstly, you must select what type of message you want to send - a pre-recorded audio file (Audio File), or a text-to-speech bot reading out a typed message (Text to Speech). To do this, select the bubble on the left of the message type you want to use. The selection is outlined below.
+Firstly, you must select what type of message you want to send - a pre-recorded audio file (Audio File), or a text-to-speech bot reading out a typed message (Text to Speech). To do this, select the bubble of the message type you want to use. The selection is outlined below.
 
-<CustomisableImage src="/img/campaign-voice-message-type.png" alt="Audio Message Type Selection"/>
+<CustomisableImage src="/img/campaign-voice-message-type.png" alt="Audio Message Type Selection" width="400"/>
 
 ### Audio File
 
@@ -30,7 +30,7 @@ Here, you must select one or more audio files that will be stitched together int
 
 Here you will find all of your audio files that you can add to be part of your message. You can add new audio files to the library by clicking <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Upload Audio File</Tag> outlined below and selecting your desired audio file.
 
-<CustomisableImage src="/img/campaign-voice-library-upload.png" alt="Upload New Audio to Library" width="550"/>
+<CustomisableImage src="/img/campaign-voice-library-upload.png" alt="Upload New Audio to Library" width="400"/>
 
 Once uploaded to your library, it will be displayed as shown below. From left to right:
 - **Checkbox**: Selecting this will add this audio file to the Message Composer on the right. Unselect the checkbox to remove it from the Message Composer.

@@ -10,7 +10,7 @@ import Tag from '@site/src/components/Tag';
 
 # MMS Campaigns
 
-Most of the documentation for this campaign type can be found in [General](./general.md). This page is for features specific to MMS campaigns. It is recommended to read the general documentation first. 
+Most of the documentation for this campaign type can be found in [General](./general). This page is for features specific to MMS campaigns. It is recommended to read the general documentation first. 
 
 :::info Important
 MMS Campaigns can only be sent to MMS-enabled phone numbers
@@ -40,6 +40,6 @@ Below is an example of what the preview of an MMS Campaign could look like. The 
 
 #### Test Campaign
 
-Below is an example of the Test Campaign menu for MMS Campaigns. As explained in the general [Test Campaign](./general.md#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
+Below is an example of the Test Campaign menu for MMS Campaigns. As explained in the general [Test Campaign](./general#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
 
 <CustomisableImage src="/img/campaign-mms-test.png" alt="MMS Campaign Test" width="450"/>

@@ -11,7 +11,7 @@ import Tag from '@site/src/components/Tag';
 
 # Groups
 
-Groups are a collection of members that are used in the [Bookings](../yabbr-chat/chat.md#bookings) and [Chat Routing Systems](../yabbr-chat/chat-settings.md#routing). Usually, these groups are assigned to a singular customer through one of these systems so all of the agents can interact with the customer at once. It is recommended you read the [Member List](./member-list.md) documentation before this for a general overview of Members.
+Groups are a collection of members that are used in the [Bookings](../chat/general#bookings) and [Chat Routing Systems](../chat/chat-settings#routing). Usually, these groups are assigned to a singular customer through one of these systems so all of the agents can interact with the customer at once. It is recommended you read the [Member List](./member-list.md) documentation before this for a general overview of Members.
 
 ## Group Creation
 
@@ -57,6 +57,6 @@ All of your groups can be found in the section outlined below.
 
 <CustomisableImage src="/img/groups-overview.png" alt="Groups Overview" width="550"/>
 
-In this section, the groups will have a specific order of priority. The groups at the top have higher priority than the groups at the bottom. If there are group assigning conflicts in [Chat Routing](../yabbr-chat/chat-settings.md#routing), then the group with the higher priority will be selected for routing. To change this order, hover over the six dots ⠿ (outlined below) and then drag and drop the group to the new desired spot in the order.
+In this section, the groups will have a specific order of priority. The groups at the top have higher priority than the groups at the bottom. If there are group assigning conflicts in [Chat Routing](../chat/chat-settings#routing), then the group with the higher priority will be selected for routing. To change this order, hover over the six dots ⠿ (outlined below) and then drag and drop the group to the new desired spot in the order.
 
 <CustomisableImage src="/img/groups-change-order.png" alt="Groups Change Order" width="550"/>

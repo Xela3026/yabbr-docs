@@ -8,9 +8,9 @@ import Tag from '@site/src/components/Tag';
 
 # Validation Campaigns
 
-Most of the documentation for this campaign type can be found in [General](./general.md). This page is for features specific to validation campaigns. It is recommended to read the general documentation first. 
+Most of the documentation for this campaign type can be found in [General](./general). This page is for features specific to validation campaigns. It is recommended to read the general documentation first. 
 
-A Validation Campaign is used to validate phone numbers. Just upload a contact list, and when you run the campaign it will give you a status of every contact in the [Campaign Results](./general.md#campaign-results) file. In the [Campaign Results](./general.md#campaign-results) file, under the 'Content' column, you will find the status of each number. 
+A Validation Campaign is used to validate phone numbers. Just upload a contact list, and when you run the campaign it will give you a status of every contact in the [Campaign Results](./general#campaign-results) file. In the [Campaign Results](./general#campaign-results) file, under the 'Content' column, you will find the status of each number. 
 
 ---
 

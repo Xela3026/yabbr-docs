@@ -12,7 +12,7 @@ import Tag from '@site/src/components/Tag';
 
 # Audio Templates
 
-Audio templates can be used anywhere when you are making an outbound call. They are slightly different to Messaging and Email templates in functionality. Instead of creating text templates with extra properties surrounding them like an Email Subject or a <BrandName/> Chat Keyword Tag, you upload audio files and then stitch them together to create an audio template. It is recommended you read the [General](./general.md) template documentation before this one.
+Audio templates can be used anywhere when you are making an outbound call. They are slightly different to Messaging and Email templates in functionality. Instead of creating text templates with extra properties surrounding them like an Email Subject or a Chat Keyword Tag, you upload audio files and then stitch them together to create an audio template. It is recommended you read the [General](./general) template documentation before this one.
 
 ## Creation
 

@@ -10,7 +10,7 @@ import Tag from '@site/src/components/Tag';
 
 # SMS Surveys
 
-SMS Surveys are surveys that occur via SMS. The system sends the questions via SMS, and the respondents give their answers to the system via SMS. It is recommended you read the [General](./general.md) documentation first before reading the specific SMS documentation
+SMS Surveys are surveys that occur via SMS. The system sends the questions via SMS, and the respondents give their answers to the system via SMS. It is recommended you read the [General](./general) documentation first before reading the specific SMS documentation
 
 ---
 
@@ -35,7 +35,7 @@ Survey respondents will receive an SMS from the survey asking them a question an
 
 ### Response Handlers
 
-Response handling is identical to [General](./general.md#response-handlers). Here, the 'Matching-on' words you are looking for in respondent's responses are text-based SMS's. 
+Response handling is identical to [General](./general#response-handlers). Here, the 'Matching-on' words you are looking for in respondent's responses are text-based SMS's. 
 
 ---
 

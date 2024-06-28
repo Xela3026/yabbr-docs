@@ -1,5 +1,5 @@
 ---
-title: Chat
+title: General
 sidebar_position: 1
 toc_min_heading_level: 2
 toc_max_heading_level: 5
@@ -9,13 +9,13 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 import BrandName from '@site/src/components/BrandName';
 import Tag from '@site/src/components/Tag';
 
-# Chat
+# General
 
 Chat is where you handle communications with customers. When a customer contacts you, they will be added to the queue in this Chat service, and will then need to wait for an agent to contact them and begin a conversation.
 
 In the chat, you can take a customer out of the queue to start a conversation with them. Then once you end the conversation or leave the page, the whole conversation will be recorded as session. You can add notes or tags on the outcome of the session or the topic of conversation (eg Dispute, No resolution, Transferred).
 
-The documentation for <BrandName/> Chat will be separated into the three main sections as they appear on the screen: the left sidebar, the main middle section, and the right sidebar.
+The documentation for Chat will be separated into the three main sections as they appear on the screen: the left sidebar, the main middle section, and the right sidebar.
 
 
 ## Left Sidebar
@@ -126,7 +126,7 @@ Below is an example. The 'Active Chats' have been grouped by their 'Medium'. All
 
 ## Main Chat (Middle)
 
-This is the main functionality of <BrandName/> Chat. The middle of your screen is the actual chat itself. This is where you and your agents can communicate with your customers.
+This is the main functionality of Chat. The middle of your screen is the actual chat itself. This is where you and your agents can communicate with your customers.
 
 ### The Chat
 
@@ -268,7 +268,7 @@ To navigate between sections of the right sidebar, click on the different tabs s
 
 ### Replies
 
-The first tab on the right sidebar is the Replies. These are all of your enabled [Quick Replies](./quick-replies.md). They are useful for long messages that are commonly sent to customers.
+The first tab on the right sidebar is the Replies. These are all of your enabled [Quick Replies](./quick-replies). They are useful for long messages that are commonly sent to customers.
 
 #### Using Quick Replies
 
@@ -405,7 +405,7 @@ A booking is a new session between a customer and a group of agents. All of the 
 
 - **Chat Type**: the message medium. Either SMS, MMS, or Phone.
 - **Chat via**: the contact that the agents will talk to the customer through.
-- **Assigned Group**: the group of agents that will be in the chat. Read more about groups [here](../members/groups.).
+- **Assigned Group**: the group of agents that will be in the chat. Read more about groups [here](../members/groups).
 - **Contact**: the contact of the customer you want to start a booking with.
 
 
@@ -419,7 +419,7 @@ After using any of the various methods of concluding a chat/session, you will se
 
 ---
 
-- **Conversation Outcome**: the final result of the conversation. This result/outcome is indicated using a tag. Select a tag by clicking on it, and unselect it by clicking it again. You can select multiple tags. Eg - if the customer did not cooperate with the agent, then an appropriate tag to select would be 'Dispute'. Read more about chat tags [here](./chat-settings.md#chat-tags), including how to configure the minimum/maximum number of chat tags.
+- **Conversation Outcome**: the final result of the conversation. This result/outcome is indicated using a tag. Select a tag by clicking on it, and unselect it by clicking it again. You can select multiple tags. Eg - if the customer did not cooperate with the agent, then an appropriate tag to select would be 'Dispute'. Read more about chat tags [here](./chat-settings#chat-tags), including how to configure the minimum/maximum number of chat tags.
 - **Add a note**: this is optional. This note is just any extra comments about the conversation that may be important for the record.
 
 Finally, to conclude the chat, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Submit</Tag>.

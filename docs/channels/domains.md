@@ -12,7 +12,7 @@ import Tag from '@site/src/components/Tag';
 
 # Domains
 
-To send outbound emails using <BrandName/>, you need an [Email Alias](./email.md#email-aliases) to send the email with. This email alias also needs a Domain (eg 'example.com' is the domain in 'abc123@example.com'). You must register these domains with <BrandName/> before you can use them for emails within your workspace. Here is where you register your domains with <BrandName/>.
+To send outbound emails using <BrandName type="name"/>, you need an [Email Alias](./email.md#email-aliases) to send the email with. This email alias also needs a Domain (eg 'example.com' is the domain in 'abc123@example.com'). You must register these domains with <BrandName type="name"/> before you can use them for emails within your workspace. Here is where you register your domains with <BrandName type="name"/>.
 
 
 ## Setup
@@ -25,7 +25,7 @@ To find the domains section in your workspace: on the left sidebar, navigate to 
 
 Then, to register a new Domain, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Domain</Tag>.
 
-<CustomisableImage src="/img/domains-new.png" alt="New Domain" width="550" />
+<CustomisableImage src="/img/domains-new.png" alt="New Domain" width="600" />
 
 #### Configure
 
@@ -40,7 +40,7 @@ These are the settings and configurations of the domain. They are the:
 Then, to register your domain in your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 
 :::important Important
-These domains will not be immediately ready for use. <BrandName/> must verify that you own and have access to a domain before you can use it in your workspace.
+These domains will not be immediately ready for use. <BrandName type="name"/> must verify that you own and have access to a domain before you can use it in your workspace.
 :::
 
 ### Verification
@@ -49,9 +49,9 @@ Once you have added a domain for registration, it will be listed in a menu simil
 
 <CustomisableImage src="/img/domains-overview.png" alt="Domains Menu" width="550" />
 
-To verify the domain with <BrandName/>:
+To verify the domain with <BrandName type="name"/>:
 
-1. Click on the domain to access the DNS records that <BrandName/> automatically generated for the domain. The records have been outlined below (details have been redacted for documentation):
+1. Click on the domain to access the DNS records that <BrandName type="name"/> automatically generated for the domain. The records have been outlined below (details have been redacted for documentation):
 
 <CustomisableImage src="/img/domain-record.png" alt="Domain Records" width="550" />
 

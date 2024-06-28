@@ -10,7 +10,7 @@ import Tag from '@site/src/components/Tag';
 
 # Email Campaigns
 
-Most of the documentation for this campaign type can be found in [General](./general.md). This page is for features specific to email campaigns. It is recommended to read the general documentation first. 
+Most of the documentation for this campaign type can be found in [General](./general). This page is for features specific to email campaigns. It is recommended to read the general documentation first. 
 
 ---
 
@@ -24,7 +24,7 @@ Navigate to the [Email Message Type](../message-types/emails.md) documentation f
 
 ##### Link Tracking
 
-To enable the Link Tracking option detailed [here](./general.md#link-tracking), links must follow the appropriate formatting described above, and the 'Automatically Shorten Links' checkbox must be selected.
+To enable the Link Tracking option detailed [here](./general#link-tracking), links must follow the appropriate formatting described above, and the 'Automatically Shorten Links' checkbox must be selected.
 
 
 
@@ -43,7 +43,7 @@ Below is an example of what the preview of an email campaign could look like. Th
 
 #### Test Campaign
 
-Below is an example of the Test Campaign menu for emails. As explained in the general [Test Campaign](./general.md#test-campaign) documentation, enter the email that you would like to receive the test in the 'Recipient Email' text box. Then, you must fill in any placeholders you have included. These will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
+Below is an example of the Test Campaign menu for emails. As explained in the general [Test Campaign](./general#test-campaign) documentation, enter the email that you would like to receive the test in the 'Recipient Email' text box. Then, you must fill in any placeholders you have included. These will be listed on the left under 'Template Fields', and highlighted in yellow on the preview on the right. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
 
 <CustomisableImage src="/img/campaign-email-test.png" alt="Email Campaign Test" width="500"/>
 

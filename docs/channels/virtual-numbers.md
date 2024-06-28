@@ -12,7 +12,7 @@ import Tag from '@site/src/components/Tag';
 
 # Virtual Numbers
 
-Read [Sender ID](./sender-ids.md#sender-ids) documentation for an in-depth explanation of Sender IDs and their differen types. A Virtual Number (VN) is just one type of Sender ID in <BrandName/>. It is a phone number that you can rent from <BrandName/> to use in your workspace as a Sender ID. Messages sent using Virtual Numbers can be responded to, and these responses can be recorded and accessed by <BrandName/>. Thus, Virtual Numbers are the only Sender IDs that can have inbound functionality in your workspace. Therefore, they are the only phone numbers you can use in <BrandName/> Chat.
+Read [Sender ID](./sender-ids.md#sender-ids) documentation for an in-depth explanation of Sender IDs and their differen types. A Virtual Number (VN) is just one type of Sender ID in <BrandName type="name"/>. It is a phone number that you can rent from <BrandName type="name"/> to use in your workspace as a Sender ID. Messages sent using Virtual Numbers can be responded to, and these responses can be recorded and accessed by <BrandName type="name"/>. Thus, Virtual Numbers are the only Sender IDs that can have inbound functionality in your workspace. Therefore, they are the only phone numbers you can use in Chat.
 
 ## Setup
 
@@ -76,7 +76,7 @@ The next step in making your VNs fully functioning throughout your workspace is 
 
 #### SMS Auto-Replies
 
-When someone responds to a VN, <BrandName/> can intercept these responses. Then, you can configure your VN to automatically respond based on certain conditions. For SMS messaging, the only condition you can detect is if an agent is online or not. When a condition is met, the auto reply is activated and sent.
+When someone responds to a VN, <BrandName type="name"/> can intercept these responses. Then, you can configure your VN to automatically respond based on certain conditions. For SMS messaging, the only condition you can detect is if an agent is online or not. When a condition is met, the auto reply is activated and sent.
 
 For example, you can configure an automated reply so that when users contact a VN and there are no agents currently online, the VN will say "Sorry but no agents are currently available for contact. Agents are online from 9am-5pm on weekdays." A similar concept can apply for if an agent **is** online.
 
@@ -114,7 +114,7 @@ Use each section to customise and configure your keyword and the reply:
     - **Greater than**: the value of the message is greater than the value of the keyword.
 - **Case Senstiive**: if this is enabled, then the comparison between the message to the VN and the keyword is case sensitive. This means a capital letter is not equivalent to its lower-case counterpart. If this is disabled, the capitalisation of letters is ignored.
 - **Message**: when the condition is met, this is the SMS the VN will send as an automated reply. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging. 
-- **Schedule**: the keyword reply will only be detected within this schedule. See [Schedule](../campaigns/general.md#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work (Note: the schedule documentation is for a campaign. Where it talks about the running times of the campaign, replace it with the active times for the keyword reply).
+- **Schedule**: the keyword reply will only be detected within this schedule. See [Schedule](../campaigns/general#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work (Note: the schedule documentation is for a campaign. Where it talks about the running times of the campaign, replace it with the active times for the keyword reply).
 - **Call Me**: see [further documentation](../campaigns/sms-campaigns.md#call-me) for an explanation (Note: this documentation is for an SMS campaign. Where it talks about a campaign-recipient, replace it with the customer that has sent a message to the VN).
 - **Enabled**: this will enable/disable the functionality of the keyword auto reply for the VN.
 
@@ -136,7 +136,7 @@ Clicking on this button will open the below menu:
 
 <CustomisableImage src="/img/vn-sms-forward-menu.png" alt="VN New SMS Forwarder Menu" width="400" />
 
-There are three types of locations you can forward a message to: Email, HTTP (API endpoint), SMS, and <BrandName/> Chat. The first step in configuring the message forwarding is selecting one of these three options in the 'Type' drop-down menu. Each one of these forwarding types will have different customisations and configurations.
+There are three types of locations you can forward a message to: Email, HTTP (API endpoint), SMS, and Chat. The first step in configuring the message forwarding is selecting one of these three options in the 'Type' drop-down menu. Each one of these forwarding types will have different customisations and configurations.
 
 ##### Email
 
@@ -168,9 +168,9 @@ Use these options to configure the forwarding process:
 - **Suffix** (Optional): the text that will appear after the forwarded message. See [SMS Message Type](../message-types/sms.md) for more information about SMS messaging.
 - **Enabled**: this will enable/disable the functionality of this forwarding process.
 
-##### <BrandName/> Chat
+##### Chat
 
-No configuration is required for <BrandName/> Chat. The message will be automatically forwarded to <BrandName/> Chat.
+No configuration is required for Chat. The message will be automatically forwarded to Chat.
 
 ##### Finalising
 
@@ -190,7 +190,7 @@ Similarly to [SMS Forwarding](#sms-forwarding), you can forward a phone call to 
 
 To create a new forwarding destination, click the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">+ Forwarder</Tag> button outlined below.
 
-<CustomisableImage src="/img/vn-voice-new-forward.png" alt="VN New Voice Forwarder" width="500" />
+<CustomisableImage src="/img/vn-voice-new-forward.png" alt="VN New Voice Forwarder" width="600" />
 
 Clicking on this button will open the below menu:
 

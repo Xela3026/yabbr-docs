@@ -11,7 +11,7 @@ import Tag from '@site/src/components/Tag';
 
 # Opt-Out Lists
 
-An Opt-Out List is a collection of contacts within your workspace. They can be used in a [Campaign](../campaigns/general.md) to store all the recipients that opt out of the campaign ([Opt-Out](../campaigns/general.md#opt-out)). They can also be used in Campaigns to specify a group of contacts to exclude from receiving the campaign ([Exclusion Lists](../campaigns/general.md#exclusion-lists)). You can also add contacts to an opt-out list via [<BrandName/> Chat Actions](../yabbr-chat/chat.md#actions).
+An Opt-Out List is a collection of contacts within your workspace. They can be used in a [Campaign](../campaigns/general) to store all the recipients that opt out of the campaign ([Opt-Out](../campaigns/general#opt-out)). They can also be used in Campaigns to specify a group of contacts to exclude from receiving the campaign ([Exclusion Lists](../campaigns/general#exclusion-lists)). You can also add contacts to an opt-out list via [Chat Actions](../chat/general#actions).
 
 ## Setup
 

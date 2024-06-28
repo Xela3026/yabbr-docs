@@ -13,18 +13,18 @@ import Tag from '@site/src/components/Tag';
 
 
 
-Sender IDs are like email addresses, but for phone messages instead of emails. They send and receive phone messages like calls or texts. In <BrandName/>, Sender IDs are necessary for outbound messaging. They need to be registered within the platform before you can use them across your workspace.
+Sender IDs are like email addresses, but for phone messages instead of emails. They send and receive phone messages like calls or texts. In <BrandName type="name"/>, Sender IDs are necessary for outbound messaging. They need to be registered within the platform before you can use them across your workspace.
 
-<BrandName/> offers three main forms of Sender IDs:
+<BrandName type="name"/> offers three main forms of Sender IDs:
 
-Virtual Numbers: These are rented from <BrandName/>. They offer both inbound and outbound functionality. This is the only Sender ID type with inbound functionality. Therefore, they are the only Sender IDs you can use in <BrandName/> Chat. Refer to our documentation on Virtual Numbers for comprehensive details.
+Virtual Numbers: These are rented from <BrandName type="name"/>. They offer both inbound and outbound functionality. This is the only Sender ID type with inbound functionality. Therefore, they are the only Sender IDs you can use in Chat. Refer to our documentation on Virtual Numbers for comprehensive details.
 
 Alpha Codes: Alpha Codes are alphanumeric (numbers and letters) strings typically representing your brand. These are special because recipients receive phone messages from an alphanumeric string rather than a phone number. However, it's important to note that Alpha Codes lack inbound functionality; recipients cannot respond to messages sent via Alpha Codes.
 
-Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, these responses will only appear on your personal phones. <BrandName/> cannot access these responses, rendering inbound functionality unavailable.
+Personal 'BYO' Numbers: This option involves using your existing personal phone numbers as Sender IDs within your workspace. While recipients can respond to messages sent from these numbers, these responses will only appear on your personal phones. <BrandName type="name"/> cannot access these responses, rendering inbound functionality unavailable.
 
 :::info Important
-Alpha Codes and personal numbers have to be verified by <BrandName/> before you can use them in your workspace.
+Alpha Codes and personal numbers have to be verified by <BrandName type="name"/> before you can use them in your workspace.
 :::
 
 ## Setup
@@ -53,7 +53,7 @@ Clicking on this button will bring up a small menu like the one below:
 
 
 These are the settings and configurations of your new Sender ID. They are the:
-- **Sender ID Type**: this is where you select between the different types of Sender IDs explained [earlier](#sender-ids). Obviously, select 'Alpha Code' to create an Alpha Code Sender ID. Select 'Mobile Number' to create a personal 'BYO' number Sender ID.
+- **Sender ID Type**: this is where you select between the different types of Sender IDs explained [earlier](./sender-ids). Obviously, select 'Alpha Code' to create an Alpha Code Sender ID. Select 'Mobile Number' to create a personal 'BYO' number Sender ID.
 - **Alpha Code**: this is the name of the Sender ID you want to create. For example, you may want to create a Sender ID called 'Brand Name News' that contacts customers about new information, promotions, or updates related to your brand or products. 
 - **Mobile Number**: this must be a phone number that you have access to and want to use as a Sender ID within your workspace. Select the region of the phone number using the drop-down menu. Then, enter the actual number in the rest of the text box.
 
@@ -65,11 +65,11 @@ These types of Sender IDs need approval before they can be used elsewhere in you
 
 ## Approval and Verification
 
-Once you create a Sender ID using an Alpha Code or a Mobile Number, <BrandName/> needs to make sure you have a right to use it.
+Once you create a Sender ID using an Alpha Code or a Mobile Number, <BrandName type="name"/> needs to make sure you have a right to use it.
 
-For an Alpha Code, <BrandName/> needs to make sure that the name aligns with your brand or business in some way.
+For an Alpha Code, <BrandName type="name"/> needs to make sure that the name aligns with your brand or business in some way.
 
-For a Mobile Number, <BrandName/> needs to send the number a message and receive a message back from it confirming that they would like it to be used within a <BrandName/> workspace.
+For a Mobile Number, <BrandName type="name"/> needs to send the number a message and receive a message back from it confirming that they would like it to be used within a <BrandName type="name"/> workspace.
 
 Once this process has been completed, the Sender ID will be approved and verified and can then be used throughout your workspace.
 

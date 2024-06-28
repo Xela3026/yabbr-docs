@@ -11,7 +11,7 @@ import Tag from '@site/src/components/Tag';
 
 # Email Templates
 
-Email templates are templates that can be used in any feature where you are sending an email (eg Campaigns, <BrandName/> Chat quick replies). It is recommended you read the [General](./general.md) template documentation before this one.
+Email templates are templates that can be used in any feature where you are sending an email (eg Campaigns, Chat quick replies). It is recommended you read the [General](./general) template documentation before this one.
 
 
 ## Creation
@@ -22,7 +22,7 @@ There are four different types of Email templates you can create. Select the des
 
 <CustomisableImage src="/img/template-email-product.png" alt="Email Template Products" width="600"/>
 
-- **<BrandName/> Chat**: used for Email quick replies in <BrandName/> Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in <BrandName/> Chat when certain words appear in the chat. You can also specify BCC recipients.
+- **Chat**: used for Email quick replies in Chat. This template allows you to include 'Keyword Tags' so that this quick reply can be automaticallly suggested to an agent in Chat when certain words appear in the chat. You can also specify BCC recipients.
 - **Express Message**: used for Email Express Messages. This template allows you to specify a 'Category' where the template will be stored in Express Message. You can also specify the sender of the message template, any BCC recipients, and whether the message sent using the template is recorded by a transcript.
 - **Email Signatures**: this is a signature that can appear at the end of emails sent by [email aliases](../channels/email.md) registered in your workspace.
 - **Campaigns**: used for Email Campaigns.
@@ -46,11 +46,11 @@ See the [Email Message Type](../message-types/emails.md) documentation for an ex
 
 ### Message Text
 
-This is the actual content of your message. This is the message that will be sent when you use this template. It is an Email message composer and a rich text editor. For more details about how this [message composer](../message-types/emails.md) and [placeholders](../message-types/general.md#placeholders), see the documentation for the [Email Message Type](../message-types/emails.md) and [General Message Types](../message-types/general.md).
+This is the actual content of your message. This is the message that will be sent when you use this template. It is an Email message composer and a rich text editor. For more details about how this [message composer](../message-types/emails.md#message) and [placeholders](../message-types/general#placeholders), see the documentation for the [Email Message Type](../message-types/emails.md) and [General Message Types](../message-types/general).
 
 ### Merge Fields
 
-These are placeholders that are built into your workspace already. They are properties of the 'Product' you selected. For example, a built-in Campaign placeholder would be the opt-out link. A built-in <BrandName/> Chat placeholder would be one of your workspace's [Contact Attributes](../contacts/attributes.md). Since these placeholders are already defined for the 'Product' type you selected, you will not need to specify their value when you use the template.
+These are placeholders that are built into your workspace already. They are properties of the 'Product' you selected. For example, a built-in Campaign placeholder would be the opt-out link. A built-in Chat placeholder would be one of your workspace's [Contact Attributes](../contacts/attributes.md). Since these placeholders are already defined for the 'Product' type you selected, you will not need to specify their value when you use the template.
 
 ### Enable Template
 
@@ -61,7 +61,7 @@ Finally, to add the template to the workspace, click <Tag colour="#1582d8" borde
 
 ### Product-Specific Features
 
-#### <BrandName/> Chat
+#### Chat
 
 ##### BCC Recipient
 
@@ -69,14 +69,14 @@ Your emails can also include a BCC. You may want to include a BCC in your emails
 
 ##### Keyword Tags
 
-<BrandName/> Chat has an extra feature called 'Keyword Tags' outlined below.
+Chat has an extra feature called 'Keyword Tags' outlined below.
 
-<CustomisableImage src="/img/template-email-keyword.png" alt="<BrandName/> Chat Template Options" width="500"/>
+<CustomisableImage src="/img/template-email-keyword.png" alt="Chat Template Options" width="500"/>
 
 
-<BrandName/> Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
+Chat has a feature where it will auto-suggest quick replies to an agent. If a customer says a trigger word or trigger words, then the agent will automatically be suggested a response. The trigger word is this keyword tag, and the suggested response is this messaging template. 
 
-Input your desired keyword tag into this text box. When a customer sends a message to an agent in <BrandName/> Chat that contains this keyword tag, this messaging template will be suggested to the agent as a quick reply.
+Input your desired keyword tag into this text box. When a customer sends a message to an agent in Chat that contains this keyword tag, this messaging template will be suggested to the agent as a quick reply.
 
 [comment]: <> (I do not really know how this feature works, I'm just guessing)
 

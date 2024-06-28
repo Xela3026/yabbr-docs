@@ -9,7 +9,7 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Voice Surveys
 
-Voice Surveys are surveys that occur via calls. The system asks the questions via audio on a call, and the respondents give their answers to the system via clicking 1-9#* on the call. It is recommended you read the [General](./general.md) documentation first before reading the specific voice documentation.
+Voice Surveys are surveys that occur via calls. The system asks the questions via audio on a call, and the respondents give their answers to the system via clicking 1-9#* on the call. It is recommended you read the [General](./general) documentation first before reading the specific voice documentation.
 
 ---
 
@@ -33,7 +33,7 @@ If a respondent's answer to a question is unrecognisable as one of the predeterm
 
 ### Question Content
 
-Survey respondents will receive a call from the survey asking them a question and providing them a list of valid recognised answers. You must configure this message yourself in the question content. The question content is the first customisable option in the New Question menu. Curate your audio message question in the outlined section. For audio-message curation documentation, navigate [here](../message-types/audio.md#message). A detailed example can be found below in [Example SMS Question](#example-sms-question).
+Survey respondents will receive a call from the survey asking them a question and providing them a list of valid recognised answers. You must configure this message yourself in the question content. The question content is the first customisable option in the New Question menu. Curate your audio message question in the outlined section. For audio-message curation documentation, navigate [here](../message-types/audio.md#message). A detailed example can be found below in [Example Voice Question](#example-voice-question).
 
 <CustomisableImage src="/img/survey-voice-question.png" alt="Voice Question Curation" width="500"/>
 
@@ -41,7 +41,7 @@ Survey respondents will receive a call from the survey asking them a question an
 
 ### Response Handlers
 
-Response handling is identical to [General](./general.md#response-handlers). Here, the 'Matching-on' responses you are looking for in respondent's responses are the symbols 1-9#* on a phone call. 
+Response handling is identical to [General](./general#response-handlers). Here, the 'Matching-on' responses you are looking for in respondent's responses are the symbols 1-9#* on a phone call. 
 
 ---
 

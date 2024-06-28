@@ -5,8 +5,6 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
-<link rel="stylesheet" type="text/css" href="@site/src/css/custom.css" />
-
 
 import CustomisableImage from '@site/src/components/CustomisableImage';
 
@@ -17,7 +15,7 @@ import Tag from '@site/src/components/Tag';
 
 # General
 
-<BrandName/>'s communications services can use four different message types: SMS, Email, MMS, and Voice. Each of these message types has its own rules and properties. For example, an SMS message costs 'SMS Units', and an Email can be edited using HTML. The message creation process for each message type is also different. For example, creating an SMS message using <BrandName/> is very different to creating an Audio message for a call. It is recommended you read this General documentation first before you read the documentation for the specific message types.
+<BrandName type="name"/>'s communications services can use four different message types: SMS, Email, MMS, and Voice. Each of these message types has its own rules and properties. For example, an SMS message costs 'SMS Units', and an Email can be edited using HTML. The message creation process for each message type is also different. For example, creating an SMS message using <BrandName type="name"/> is very different to creating an Audio message for a call. It is recommended you read this General documentation first before you read the documentation for the specific message types.
 
 ## Message Composer
 
@@ -35,7 +33,7 @@ This text editor is often referred to as either the 'Message Content' of your me
 
 As you may have noticed above, the prompt in the text editor had some strange notation on its text like &#123;&#123;client_name&#125;&#125; and &#123;&#123;case_number&#125;&#125;. These are called placeholders. A placeholder is an indcator for where specific information will be inserted automatically. It's like leaving a blank space to be filled in with relevant details automatically. So for example, using &#123;&#123;client_name&#125;&#125; in a message to a client will automatically fill replace &#123;&#123;client_name&#125;&#125; in the message with the actual client's name.
 
-However, this placeholder must have a predetermined value. For example, if you are sending a message in <BrandName/> Chat with the &#123;&#123;client_name&#125;&#125; placeholder, but you have not specified what client_name is in your workspace's [Contact Attributes](../contacts/attributes.md), then the value will not be replaced.
+However, this placeholder must have a predetermined value. For example, if you are sending a message in Chat with the &#123;&#123;client_name&#125;&#125; placeholder, but you have not specified what client_name is in your workspace's [Contact Attributes](../contacts/attributes.md), then the value will not be replaced.
 
 Let's use the text editor prompt as an example:
 
@@ -51,7 +49,7 @@ Placeholders don't only have to be the properties of a message recipient. You wi
 
 ### Templates
 
-For each message type, you can also create a [Template](../templates/general.md). A template is a message scaffold. It is essentially a pre-made message that you can insert into most places in your workspace to save time typing out the same message multiple times. You can also include placeholders in these templates that can be filled in at their later use.
+For each message type, you can also create a [Template](../templates/general). A template is a message scaffold. It is essentially a pre-made message that you can insert into most places in your workspace to save time typing out the same message multiple times. You can also include placeholders in these templates that can be filled in at their later use.
 
 
 ## Workspace Contacts

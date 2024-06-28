@@ -181,7 +181,7 @@ Exclusion Lists and your Opt-Out List are both non-compulsary for your campaign 
 
 #### Templates
 
-The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/general.md). 
+The Message is the actual content that the campaign-recipient will receive. You can use a pre-made message template by selecting one from the drop-down menu underneath 'Reuse a Template'. For template documentation and creation, go [here](../templates/general). 
 
 <CustomisableImage src="/img/message-template.png" alt="Message Template Drop-down"/>
 
@@ -194,7 +194,7 @@ Enabling 'Automatically Shorten Links' as above will also enable Link Tracking -
 
 #### Message Content
 
-Locate the [Message Type](../message-types/general.md) documentation for an explanation of message-construction. Navigate to the message type documentation for your specific campaign type (eg SMS, MMS, Voice) for more specific message-construction explanations.
+Locate the [Message Type](../message-types/general) documentation for an explanation of message-construction. Navigate to the message type documentation for your specific campaign type (eg SMS, MMS, Voice) for more specific message-construction explanations.
 
 ##### Opt Out Link
 
@@ -217,7 +217,7 @@ The final step in most campaigns is to configure the send conditions of the camp
 
 #### Sending From
 
-This drop-down menu is where you select the sender of your campaign. This is the contact that your campaign-recipients will receive the campaign from. New contacts can be created through [Channels](../channels) - either [Virtual Numbers](../channels/virtual-numbers.md) or [Sender IDs](../channels/sender-ids.md) for a mobile number, or [Email](../channels/email.md) for an email address.
+This drop-down menu is where you select the sender of your campaign. This is the contact that your campaign-recipients will receive the campaign from. New contacts can be created through [Channels](../category/channels) - either [Virtual Numbers](../channels/virtual-numbers.md) or [Sender IDs](../channels/sender-ids.md) for a mobile number, or [Email](../channels/email.md) for an email address.
 
 #### Messages Per Hour
 
@@ -270,7 +270,7 @@ Here are step by step instructions on how this works:
 ###### Summary
 To create a new time period, select dates during the year, days during the dates, and a time during the days. Add this to your campaign's schedule. The program will send out the campaign during this time period and all other time periods you have added.
 
-Below is what an example campaign schedule could look like. Every weekend from the 15th of January 2024 to the 29th of January 2024, from 12pm to 3pm, the campaign will be sent out to new contacts in the file at a rate of 100 contacts every hour, from a mobile number named 'YabbrDemo'. If there were 1200 contacts, this schedule would send out the campaign to the first half of the contacts on the first weekend, and then the second half of the contacts on the second weekend.
+Below is what an example campaign schedule could look like. Every weekend from the 15th of January 2024 to the 29th of January 2024, from 12pm to 3pm, the campaign will be sent out to new contacts in the file at a rate of 100 contacts every hour, from a mobile number named 'Demo'. If there were 1200 contacts, this schedule would send out the campaign to the first half of the contacts on the first weekend, and then the second half of the contacts on the second weekend.
 
 <CustomisableImage src="/img/example-campaign-schedule.png" alt="Example Campaign Schedule"/>
 
@@ -278,7 +278,7 @@ Finally, to create this campaign, click on the <Tag colour="#1582d8" borderColou
 
 <CustomisableImage src="/img/create-and-review-campaign.png" alt="Create and Review Campaign"/>
 
-[comment]: <> (Ask Logan about the screenshots with 'YabbrDemo' in them and if they need to be changed for other clients)
+
 
 
 ---

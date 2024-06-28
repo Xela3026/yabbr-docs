@@ -10,7 +10,7 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 # Chat Stats
 
-Here you can view a graphical summary of <BrandName/> Chat metrics. It is separated into monthly metrics.
+Here you can view a graphical summary of Chat metrics. It is separated into monthly metrics.
 
 ---
 

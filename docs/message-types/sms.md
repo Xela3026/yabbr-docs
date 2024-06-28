@@ -23,7 +23,7 @@ import Tag from '@site/src/components/Tag';
 
 # SMS
 
-The SMS Message type only includes the text editor and its SMS Units. It is recommended you read the [General](./general.md) documentation before this one.
+The SMS Message type only includes the text editor and its SMS Units. It is recommended you read the [General](./general) documentation before this one.
 
 ## Message Composer
 
@@ -54,7 +54,7 @@ As you may notice when creating your SMS message, there is a counter in the bott
 
 <CustomisableImage src="/img/message-types-sms-units.png" alt="SMS Units" width="450"/>
 
-<BrandName/> charges you per SMS unit, not per message. Thus, it is ideal to reduce your SMS Usage.
+<BrandName type="name"/> charges you per SMS unit, not per message. Thus, it is ideal to reduce your SMS Usage.
 A message with more SMS units costs more money to send, so it is ideal to reduce them. They are calculated based on GSM characters. A table of all GSM characters is provided below. Most common characters are GSM characters. However, non-GSM characters include [unicode characters](#unicode-characters) and emojis.
 
 <CustomisableImage src="/img/gsm.png" alt="All GSM Characters" width="400"/>
@@ -64,7 +64,7 @@ If a message consists only of GSM characters, then a unit will consist of 160 ch
 
 If a message contains any non-GSM characters, then a unit will consist of 70 charactres. If there is more than one unit, then each unit will consist of 67 characters. 
 
-<BrandName/> supports messages up to 10 units. That means a character cap of 1530 for all GSM characters or 670 for not all GSM characters.
+<BrandName type="name"/> supports messages up to 10 units. That means a character cap of 1530 for all GSM characters or 670 for not all GSM characters.
 
 Use the unit calculator provided below to test out unit calculations and your SMS messages.
 

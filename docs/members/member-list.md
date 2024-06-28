@@ -239,7 +239,7 @@ An extended menu will appear for configuring Email2SMS:
 
 To configure Email2SMS for a member:
 
-1. Select the virtual number within <BrandName/> that will be used to send your SMS. This is the 'Virtual Number Assignment'.
+1. Select the virtual number within <BrandName type="name"/> that will be used to send your SMS. This is the 'Virtual Number Assignment'.
 
 2. Select whether the content of your SMS will be generated from the email’s Subject or Body. This is the 'SMS Content from'. By default, it is the subject. 
 
@@ -251,12 +251,12 @@ Click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</T
 
 Each member has a registered email. If a member is registered for Email2SMS, they can send an SMS using this email address by following three steps.:
 
-1. Address an email to the Australia mobile number they want to send the SMS to using this format: &#123;&#123;number&#125;&#125;@sms.yabbr.io.
-For example 0412345678@sms.yabbr.io
+1. Address an email to the Australian mobile number you want to send the SMS to. Use this format: &#123;&#123;number&#125;&#125;@<BrandName type="email2sms"/>.
+For example 0412345678@<BrandName type="email2sms"/>
 
 2. Enter the desired message to be sent into the email's subject or body depending on how you configured it.
 
-3. Send the email. The SMS will be sent via <BrandName/> through the Virtual Number you have set-up with the Member.
+3. Send the email. The SMS will be sent via <BrandName type="name"/> through the Virtual Number you have set-up with the Member.
 
 
 

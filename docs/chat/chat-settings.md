@@ -18,7 +18,7 @@ import Tag from '@site/src/components/Tag';
 # Chat Settings
 
 <br/>
-Here you can configure various settings and options that appear in the [<BrandName/> Chat](./chat.md).
+Here you can configure various settings and options that appear in the [Chat](./general).
 
 ## Create
 
@@ -46,7 +46,7 @@ You may want your customers to verify their contact information before they proc
 <CustomisableImage src="/img/chat-settings-general-verify.png" alt="Customer Verification" width="450"/>
 
 1. Click on the verification that you want to configure - either SMS or Email.
-2. Then, a small menu will appear like the one below. You need to configure a verification prompt. This is a message that the customer will receive before they have been verified. It should prompt the user to verify their contact information. Create this message under 'Message Content'. See [SMS Templates](../templates/sms-templates) and [Email Templates](../templates/email-templates) for more on how to create these messages.
+2. Then, a small menu will appear like the one below. You need to configure a verification prompt. This is a message that the customer will receive before they have been verified. It should prompt the user to verify their contact information. Create this message under 'Message Content'. See [SMS Templates](../templates/messaging-templates) and [Email Templates](../templates/email-templates) for more on how to create these messages.
 3. Enable verification by toggling the button outlined below.
 
 <CustomisableImage src="/img/chat-settings-general-verify-menu.png" alt="Verification Menu" width="400"/>
@@ -59,7 +59,7 @@ To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#15
 
 ### Agent Notifications
 
-Some agents may have connected an SMS to their account. You can choose to notify this SMS when a new customer appears in the <BrandName/> Chat queue whilst it is unattended. To configure the recipients of this notification, click on the setting outlined below.
+Some agents may have connected an SMS to their account. You can choose to notify this SMS when a new customer appears in the Chat queue whilst it is unattended. To configure the recipients of this notification, click on the setting outlined below.
 
 <CustomisableImage src="/img/chat-settings-general-notification.png" alt="Agent Notification" width="500"/>
 
@@ -73,7 +73,7 @@ To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#15
 
 ### Chat Limitations
 
-You can choose to configure a maximum number of [Active Chats](./chat.md#active-chats) for agents to have running at the same time. To configure these chat limitatoins, click on the setting outlined below.
+You can choose to configure a maximum number of [Active Chats](./general#active-chats) for agents to have running at the same time. To configure these chat limitatoins, click on the setting outlined below.
 
 <CustomisableImage src="/img/chat-settings-general-limitations.png" alt="Chat Limitations" width="500"/>
 
@@ -91,7 +91,7 @@ To save and apply the new setting, click <Tag colour="#1582d8" borderColour="#15
 
 ### Create
 
-Chat tags are used to record and document the outcomes of various chat sessions. Read more about the use of chat tags [here](./chat.md#concluding-a-session).
+Chat tags are used to record and document the outcomes of various chat sessions. Read more about the use of chat tags [here](./general#concluding-a-session).
 
 To create a new chat tag, click the <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Chat Tag</Tag> button. 
 
@@ -148,7 +148,7 @@ Finally, to apply the settings to the workspace, click <Tag colour="#1582d8" bor
 
 ### Changing the Order
 
-In the <BrandName/> Chat, there is information stored about every customer. In the <BrandName/> Chat, this information is listed under [Details](./chat.md#details). The information that is stored there can be configured under [Contact Attributes](../contacts/attributes). 
+In the Chat, there is information stored about every customer. In the Chat, this information is listed under [Details](./general#details). The information that is stored there can be configured under [Contact Attributes](../contacts/attributes). 
 
 You can change the order in which customer information appears in the Details section here. All of your workspace's registered Contact Attributes will be listed. They will also be listed in the order that they appear in the Chat Details section. To change this order, hover over the six dots ⠿ (outlined below) and then drag and drop the contact attribute to the new desired spot. The first contact attribute in the order will be the display name of the chat.
 
@@ -170,7 +170,7 @@ This will bring up a small menu where you can configure the properties of the at
 
 - **Field Visibility**: where the contact attribute will appear. If it appears in Widget, then it will be editable by default.
 - **Required Field**: does the attribute have to be filled for the contact to be valid?
-- **Make this field Read-Only in <BrandName/> Chat**: enabling this will disable the editing of this contact attribute in <BrandName/> Chat.
+- **Make this field Read-Only in Chat**: enabling this will disable the editing of this contact attribute in Chat.
 
 
 ---
@@ -189,7 +189,7 @@ This documentation will be referring to the 'Advanced View' of the Routing outli
 
 ### Routes
 
-The first step is to create a route. A route consists of a group, and a set of rules. If a customer appears in the [<BrandName/> Chat queue](./chat#queue), and they adequately meet all of the rules of a route, then they will activate the route. When a customer activates a route, their contact is automatically redirected to a new queue for all the agents in the group. 
+The first step is to create a route. A route consists of a group, and a set of rules. If a customer appears in the [Chat queue](./chat#queue), and they adequately meet all of the rules of a route, then they will activate the route. When a customer activates a route, their contact is automatically redirected to a new queue for all the agents in the group. 
 
 ---
 

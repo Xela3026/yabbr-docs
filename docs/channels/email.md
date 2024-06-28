@@ -11,7 +11,7 @@ import Tag from '@site/src/components/Tag';
 
 # Email
 
-To send outbound emails using <BrandName/>, you need an Email Alias to send the email with. These email aliases can also have an Email Signature that will appear at the bottom of every email they send.
+To send outbound emails using <BrandName type="name"/>, you need an Email Alias to send the email with. These email aliases can also have an Email Signature that will appear at the bottom of every email they send.
 
 To find the Email section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Email'.
 
@@ -44,7 +44,7 @@ These are the settings and configurations of your new email alias. They are the:
 Then, to add the new email alias to your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
 
 :::note NOte
-You can immediately use any email aliases created under a <BrandName/>-registered domain.
+You can immediately use any email aliases created under a <BrandName type="name"/>-registered domain.
 :::
 
 ### Management

@@ -10,7 +10,7 @@ import Tag from '@site/src/components/Tag';
 
 # Voice Campaigns
 
-Most of the documentation for this campaign type can be found in [General](./general.md). This page is for features specific to voice campaigns. It is recommended to read the general documentation first. 
+Most of the documentation for this campaign type can be found in [General](./general). This page is for features specific to voice campaigns. It is recommended to read the general documentation first. 
 
 A Voice Campaign will send out an audio message to a list of phone numbers through call or voicemail.
 
@@ -25,8 +25,8 @@ When you are first creating an SMS campaign, you must also choose from one of th
 <CustomisableImage src="/img/campaign-voice-type.png" alt="Voice Campaign Type Selection" width="500"/>
 
 - [**Broadcast**](#broadcast): Calls campaign-recipients and plays a one-way customisable audio message.
-- [**Interative Call**](#interactive-broadcast): Handles outbound functionality like a normal broadcast campaign. Can also handle inbound functionality if the campaign-recipient responds verbally to the system in the call, or if the campaign-recipient calls the campaign number back after the call.
-- [**Direct to Voicemail**](#poll): Does not call campaign-recipients, and instead sends a customisable audio message straight to their voicemail.
+- [**Interative Call**](#interactive-call): Handles outbound functionality like a normal broadcast campaign. Can also handle inbound functionality if the campaign-recipient responds verbally to the system in the call, or if the campaign-recipient calls the campaign number back after the call.
+- [**Direct to Voicemail**](#direct-to-voicemail): Does not call campaign-recipients, and instead sends a customisable audio message straight to their voicemail.
 
 ---
 
@@ -144,7 +144,7 @@ If the program detects the keyword reply, this is the SMS that will be sent to t
 
 #### Schedule
 
-The keyword reply will only be detected within this schedule. See [Schedule](./general.md#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work.
+The keyword reply will only be detected within this schedule. See [Schedule](./general#schedule) for how the schedule works. The schedule is also optional. No schedule specified means the keyword reply will always work.
 
 
 #### Call Me
@@ -235,7 +235,7 @@ Below is what this entire keyword reply setup would look like:
 
 #### Test Campaign
 
-Below is an example of the Test Campaign menu for Voice Campaigns. As explained in the general [Test Campaign](./general.md#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields'. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
+Below is an example of the Test Campaign menu for Voice Campaigns. As explained in the general [Test Campaign](./general#test-campaign) documentation, enter the mobile number that you would like to receive the test in the 'Recipient Phone No.' text box as well as the region of the phone number in the drop-down menu on the left. Then, you must fill in any placeholders you have included. They will be listed on the left under 'Template Fields'. Finally, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Send</Tag> to send the test campaign.
 
 <CustomisableImage src="/img/campaign-voice-test.png" alt="Voice Campaign Test" width="500"/>
 
@@ -259,7 +259,7 @@ There are not features unique to a broadcast Voice Campaign.
 
 #### Survey Connections
 
-You can optionally connect an interactive voice campaign to one of your [Surveys](../surveys/general.md). 
+You can optionally connect an interactive voice campaign to one of your [Surveys](../surveys/general). 
 
 ##### Survey Connection
 
