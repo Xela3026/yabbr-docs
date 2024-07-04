@@ -71,7 +71,7 @@ const UnitCounter = () => {
       <input type="checkbox" onChange={handleCheck}></input><b>Replace Unicode Characters</b>
       <div style={{
         border: inputting ? '5px solid rgb(122,189,242,0.2)' : '5px solid rgb(122,189,242,0)',
-        'border-radius': '10px',
+        borderRadius: '10px',
         transition: 'border 0.3s ease',
     }}>
       <textarea value={text} 
@@ -86,7 +86,7 @@ const UnitCounter = () => {
       'min-height': '100px',
       resize: 'none',
       color: '#000000',
-      'border-radius': '5px',
+      borderRadius: '5px',
       padding: '10px',
       display: 'flex',
       'justify-content': 'center',

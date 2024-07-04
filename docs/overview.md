@@ -27,35 +27,24 @@ To get started on your <BrandName type="name"/> journey, you may first wish to f
 
 <div className="card-row">
     <div className="message-card">
-        
             <img alt="test" src="/img/general-symbol.png" height="100%" width="auto"/>
-        
-            <a href="./message-types/general" className="link"></a>General
+            <a href="./message-types/general" className="link"></a><div>General</div>
         </div>
     <div className="message-card">
-        
             <img alt="test" src="/img/sms-symbol.png" height="100%" width="auto"/>
-        
-            <a href="./message-types/sms" className="link"></a>SMS
+            <a href="./message-types/sms" className="link"></a><div>SMS</div>
         </div>
     <div className="message-card">
-        
             <img alt="test" src="/img/email-symbol.png" height="100%" width="auto"/>
-            
-                <a href="./message-types/emails" className="link"></a>Email
+                <a href="./message-types/emails" className="link"></a><div>Email</div>
             </div>
     <div className="message-card">
-        
             <img alt="test" src="/img/audio-symbol.png" height="100%" width="auto"/>
-            
-                <a href="./message-types/audio" className="link"></a>Audio
+                <a href="./message-types/audio" className="link"></a><div>Audio</div>
             </div>
     <div className="message-card">
-
         <img alt="test" src="/img/mms-symbol.png" height="100%" width="auto"/>
-
-            
-        <a href="./message-types/mms" className="link"></a>MMS
+        <a href="./message-types/mms" className="link"></a><div>MMS</div>
     </div>
 </div>
 

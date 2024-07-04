@@ -53,9 +53,19 @@ const config = {
     ],
   ],
 
+
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+{
+      algolia: {
+          appId: '9PDEV5CQDO', // The Application ID provided by Algolia
+          apiKey: '7b1b878ae6ce5a2ccf8ea83ba1f498a7', // Public/Search-only API key
+          indexName: 'yabbr-docs-new-two', // The name of the index you want to use
+          contextualSearch: false, // Optional, set to true to enable versioning context (useful for versioned docs)
+          // Optional, if you use Algolia DocSearch you might have additional settings like `debug: false`
+
+
+        },
+        
 
       // Replace with your project's social card
       image: 'img/yabbr.svg',
@@ -105,7 +115,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+    },
 
 };
 

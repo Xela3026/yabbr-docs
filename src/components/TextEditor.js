@@ -17,7 +17,7 @@ const TextEditor = () => {
     <div 
     style={{
         border: inputting ? '5px solid rgb(122,189,242,0.2)' : '5px solid rgb(122,189,242,0)',
-        'border-radius': '10px',
+        borderRadius: '10px',
         transition: 'border 0.3s ease'
     }}>
     <textarea
@@ -33,7 +33,7 @@ const TextEditor = () => {
         'min-height': '100px',
         resize: 'none',
         color: '#000000',
-        'border-radius': '5px',
+        borderRadius: '5px',
         transition: 'border 0.3s ease',
         display: 'flex',
         'justify-content': 'center',

@@ -12,7 +12,7 @@ const BorderImage = ({ src, alt, width }) => {
         className = {'custom-border'}
         style={{
           margin: '1em',
-          'border-radius': '5px',
+          borderRadius: '5px',
           boxShadow: hovered ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none',
           backgroundColor: '#FFFFFF',
           cursor: 'pointer',

@@ -1,9 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 
 import BorderImage from './BorderImage.js';
 
 const CustomisableImage = ({ src, alt, width }) => {
   const [clicked, setClicked] = useState(false);
+  const [loaded, setLoaded] = useState(false);
+
+  // pre loads the image
+  useEffect(() => {
+
+    const image = new Image();
+    image.src = src;
+    image.onload = () => {
+      setLoaded(true);
+    };
+  }, [src]);
+
+  // re navigates to the anchor link
+
+  useEffect(() => {
+    if (loaded) {
+
+      const hash = window.location.hash;
+      if (hash) {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView();
+        }
+      }
+    }
+  }, [loaded]);
+
+  // handle click event and reformat to account for scroll bar disappearing
 
   const handleClick = () => {
     setClicked(!clicked);

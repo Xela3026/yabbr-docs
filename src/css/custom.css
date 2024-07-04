@@ -441,10 +441,12 @@ h6 {
 }
 
 
-.message-card p {
+.message-card div {
   font-size: 1.3em;
   padding-top: 0.3em;
   padding-bottom: 0.1em;
+  text-align: center;
+  width: 100%;
 
 }
 
