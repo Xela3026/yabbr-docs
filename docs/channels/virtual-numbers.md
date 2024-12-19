@@ -14,6 +14,8 @@ import Tag from '@site/src/components/Tag';
 
 Read [Sender ID](./sender-ids.md#sender-ids) documentation for an in-depth explanation of Sender IDs and their differen types. A Virtual Number (VN) is just one type of Sender ID in <BrandName type="name"/>. It is a phone number that you can rent from <BrandName type="name"/> to use in your workspace as a Sender ID. Messages sent using Virtual Numbers can be responded to, and these responses can be recorded and accessed by <BrandName type="name"/>. Thus, Virtual Numbers are the only Sender IDs that can have inbound functionality in your workspace. Therefore, they are the only phone numbers you can use in Chat.
 
+---
+
 ## Setup
 
 To find the VNs section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Virtual Numbers'.
@@ -40,6 +42,8 @@ This is where you select VNs to add to your workspace. This is what each section
 
 Then, to add the new VNs to your workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Add</Tag>.
 
+
+---
 
 ## Management
 
@@ -180,9 +184,13 @@ Once you have created a forwarder, it will appear in the below menu. To edit a f
 
 <CustomisableImage src="/img/vn-sms-forward-edit.png" alt="VN SMS Forwarding Management" width="500" />
 
+---
+
 #### MMS Forwarding
 
 This process is identical to SMS Forwarding. See [SMS Forwarding](#sms-forwarding) documentation for an explanation. This forwarding option is only available for MMS VNs. MMS Forwarding is only compatible with the 'HTTP' type.
+
+---
 
 #### Voice Forwarding
 

@@ -14,18 +14,18 @@ import Tag from '@site/src/components/Tag';
 
 The 'Members' are all of the individuals in your workspace. You can organise and configure these members and their profiles by navigating to building icon on the top right of the page (outlined below), and selecting 'Members'.
 
----
 
-<CustomisableImage src="/img/member-navigation.png" alt="Members Navigation"/>
 
----
+<CustomisableImage src="/img/member-navigation.png" alt="Members Navigation" width="500"/>
+
+
 
 
 Then, to navigate between the different 'Members' configuration options, click on the different tabs outlined below. In the below example, 'Member List' is currently selected:
 
----
 
-<CustomisableImage src="/img/member-nav-nav.png" alt="Members Tab Navigation"/>
+
+<CustomisableImage src="/img/member-nav-nav.png" alt="Members Tab Navigation" width="500"/>
 
 ---
 
@@ -38,24 +38,26 @@ Your 'Member List' is a record of all the members in your workspace. Here you ca
 
 To add a new member to the workspace, first click on the blue <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">+ Member</Tag> button outlined below.
 
----
+
 
 <CustomisableImage src="/img/member-create.png" alt="Member Create"/>
 
----
+
 
 Then, a small menu will appear like the one below.
 
----
+
 
 <CustomisableImage src="/img/member-create-menu.png" alt="Member Create Menu" width="450"/>
 
----
+
 
 - **Email**: the email address of the new member.
 - **Role**: the role of the new member inside the workspace. New members can either be an 'Agent', 'Administrator', or 'Owner'. Agents can have their permissions modified.Administrators have all permissions.  Owners are the same as Administrators except their role cannot be changed and they cannot be removed.
 
 Finally, to confirm and create the new member into the workspace, click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Create</Tag>.
+
+---
 
 ### Member Management
 
@@ -71,7 +73,6 @@ This menu also details some information about each member:
 - **Last Access**: when the user was last active in the workspace.
 - **Status**: *no active functionality*.
 
----
 
 To [update a member](#update-member), click on the pencil icon. To [change the permissions](#permissions) of a member, click on the key icon. To remove a member from the workspace, click on the trash icon and then click the <Tag colour="#f28d35" borderColour="#f28d35" fontColour="#FFFFFF">Confirm</Tag> button that will appear.
 
@@ -85,11 +86,11 @@ To [update a member](#update-member), click on the pencil icon. To [change the p
 
 When you update a member, you can change their role, status, and virtual number assignment for Email2SMS. You **cannot** change their registered email. After clicking on the button to update a member, a small menu will appear like the one below:
 
----
+
 
 <CustomisableImage src="/img/member-update.png" alt="Member Update Menu" width="450"/>
 
----
+
 
 You can change each option below by selecting a new option in the drop-down menus above.
 
@@ -105,64 +106,63 @@ Finally, to confirm and register the changes, click <Tag colour="#1582d8" border
 
 Your workspace has hundreds of available functions. Administrators and Owners will always be able to access all functions. However, you can modify which functions Agents are allowed to use. These are the Agent's 'Permissions'. After clicking on the button to update permissions, a small menu will appear like the one below:
 
----
+
 
 <CustomisableImage src="/img/member-permissions.png" alt="Member Permissions Menu" width="450"/>
 
----
 
 
 Each permission is described by its title. For example, the 'Initiate SMS Chats' permission allows a member to start a new chat with a customer via SMS. Permissions under 'Permissions' are active for the member. Permissions under 'Unassigned' are inactive for the member. To switch permissions between categories, click on them. For example, to add a permission to 'Permissions', click on it in 'Unassigned'. To remove a permission from 'Permissions', click on it in 'Permissions'. You can also search permissions by their name by using the 'Filter' text box.
 
+---
 
 #### Actions
 
 There are three actions you can perform on the 'Member List'. To access these, click on the <Tag colour="#FFFFFF" borderColour="#1582d8" fontColour="#1582d8">Actions ˅</Tag> button outlined below.
 
----
+
 
 <CustomisableImage src="/img/member-actions.png" alt="Member Actions"/>
 
----
+
 
 
 This will give you three options:
 
----
+
 
 <CustomisableImage src="/img/member-actions-extended.png" alt="Member Actions Options" width="450"/>
 
----
+
 
 ##### Export List to CSV
 
 This will transfer all of the information listed here about each member into a CSV document. This CSV document will then be downloaded onto your device. When you click this option, a small menu will appear like the one below. Select the timezone you want the CSV file to use for dates and times, and then click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Get Report</Tag> to download the file.
 
----
+
 
 <CustomisableImage src="/img/member-timezone.png" alt="CSV File Timezone Selection" width="450"/>
 
----
+
 
 ##### Bulk Upload New Members
 
 You can add several members to the workspace at once. When you click this option, a small menu will appear like the one below. Click on 'Upload Member List' and select your CSV file with all the members you would like to add to the workspace. This document must be [formatted correctly](#formatting-member-list-file) and will be explained shortly. Alternatively, click 'Download Template (Bulk Upload)' for an example of correct formatting.
 
----
+
 
 <CustomisableImage src="/img/member-upload-list.png" alt="Upload New Members" width="450"/>
 
----
+
 
 ###### Formatting Member List File
 
 To be accurately read by the program, your member list must be formatted exactly as below. Replace the information in each column with the information of the new members you wish to add. You can also add more members to the file by adding a new row of information.
 
----
 
 <CustomisableImage src="/img/member-list-format.png" alt="Member List Formatting"/>
 
----
+
 
 [comment]: <> (check if this format needs to be exact)
 
@@ -180,7 +180,6 @@ Once you have uploaded your member list file and it is appropriately formatted, 
 
 <CustomisableImage src="/img/member-list-config.png" alt="Member List Configuration" width="450"/>
 
----
 
 Enabling each option executes the bulk upload differently:
 
@@ -188,7 +187,7 @@ Enabling each option executes the bulk upload differently:
 - **Set Member Profiles**: if an email is not registered with a member, it will be skipped in the bulk upload.
 - **Both Enabled**: if an email is registered with a member (the member already exists), their current member account will be overwritten/updated with the new information.
 
----
+
 
 Next, you need to tell the program how to read your file. You need to outline where certain data is located. Depending on what settings you enabled in the previous step, different settings and configurations will appear here. Below is a screenshot of all possible settings and configurations for the bulk upload. The previously screenshotted CSV file will be referenced as an example for this explanation.
 
@@ -226,6 +225,7 @@ If you are struggling to find a member or permission here, you can search them b
 :::
 
 
+---
 
 #### Email2SMS
 
@@ -246,6 +246,7 @@ To configure Email2SMS for a member:
 3. Select the maximum SMS unit count that will be translated into SMS from the email. This allows you to cap the length of your messages. This is the 'Max SMS Units'. By default, this is 10. For an explanation of SMS Units, navigate [here](../message-types/sms.md#sms-units).
 
 Click <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">Apply</Tag>. This Member is now configured for Email2SMS.
+
 
 ##### Using Email2SMS
 

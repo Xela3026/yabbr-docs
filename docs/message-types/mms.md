@@ -15,6 +15,8 @@ import TextEditor from '@site/src/components/TextEditor';
 
 MMS is a Multimedia Messaging Service. It is sort of like an upgraded of an SMS. You still send the messages to a phone number, except instead of just plain text like in an SMS, you can add images, subjects, titles etc. It is sort of like a combination between an email and an SMS. It is recommended you read the [General](./general) documentation before this one.
 
+---
+
 ## Subject and Attachments
 
 Your MMS messages must have a subject like in an email. You can also choose to give them attachments like an image, video, or another file type. See the email message type documentation of [Subjects](./emails.md#subject) and [Attachments](./emails.md#attachments) for more info.
@@ -27,6 +29,8 @@ Additionally, this file must be in the format of:
 
 Finally, there is a size limit on the file. <BrandName type="name"/> will automatically compress files that are too large, however it should be noted that if the file is too large, this compression can make the content unrecognisable.
 
+
+---
 
 ## Message
 

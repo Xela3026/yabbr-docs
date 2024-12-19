@@ -13,6 +13,8 @@ import Tag from '@site/src/components/Tag';
 
 Groups are a collection of members that are used in the [Bookings](../chat/general#bookings) and [Chat Routing Systems](../chat/chat-settings#routing). Usually, these groups are assigned to a singular customer through one of these systems so all of the agents can interact with the customer at once. It is recommended you read the [Member List](./member-list.md) documentation before this for a general overview of Members.
 
+---
+
 ## Group Creation
 
 To create a group, you need to give it a name. This will be the display name of the group so you can identify it within the workspace. Enter the name in the text box outlined below and then click the '+' button to add the group to the workspace. 
@@ -37,7 +39,7 @@ Members in the group will appear under 'Members'. Members not in the group will 
 
 <CustomisableImage src="/img/groups-modify.png" alt="Add and Remove Members" width="550"/>
 
----
+
 
 To delete a group from the workspace, click on the trash icon next to its name as outlined below.
 
@@ -49,7 +51,7 @@ Then, click the <Tag colour="#FFFFFF" borderColour="#d92b04" fontColour="#d92b04
 
 
 
-
+---
 
 ## Group Management
 

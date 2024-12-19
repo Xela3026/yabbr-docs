@@ -15,6 +15,8 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 The Audio message type is the most unique message type. An audio message is just a phone call. Recipients of an audio message can interact with it using the numberpad. There are two types of audio messages: Audio File and Text to Speech. It is recommended you read the [General](./general) documentation before this one.
 
+---
+
 
 ## Message
 
@@ -51,6 +53,8 @@ Audio files will be played in order from top to bottom as they appear here. You 
 
 <CustomisableImage src="/img/campaign-voice-message-composer.png" alt="Annotation of Message Composer" width="600"/>
 
+
+---
 
 ### Text to Speech
 

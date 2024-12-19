@@ -15,6 +15,8 @@ You may want members of your workspace to re-authenticate occasionally. Here, yo
 
 [comment]: <> (ask about two-step verification because I'm unsure if that is a feature and if so I do not know how to document it.)
 
+---
+
 ## New Verification Type
 
 To modify the specifics of your workspace's re-authentication, click on <Tag colour="#1582d8" borderColour="#1582d8" fontColour="#FFFFFF">New Verification Type</Tag> as outlined below. Then, you need to select the verification type you want to modify out of 'SMS Verification' and 'Google Authenticator (TOTP)'.

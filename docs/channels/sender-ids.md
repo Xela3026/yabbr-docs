@@ -27,6 +27,8 @@ Personal 'BYO' Numbers: This option involves using your existing personal phone 
 Alpha Codes and personal numbers have to be verified by <BrandName type="name"/> before you can use them in your workspace.
 :::
 
+---
+
 ## Setup
 
 To find the Sender IDs section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Sender IDs'.
@@ -63,6 +65,8 @@ Then, to add the new Sender ID to your workspace, click <Tag colour="#1582d8" bo
 These types of Sender IDs need approval before they can be used elsewhere in your workspace.
 :::
 
+---
+
 ## Approval and Verification
 
 Once you create a Sender ID using an Alpha Code or a Mobile Number, <BrandName type="name"/> needs to make sure you have a right to use it.
@@ -72,6 +76,8 @@ For an Alpha Code, <BrandName type="name"/> needs to make sure that the name ali
 For a Mobile Number, <BrandName type="name"/> needs to send the number a message and receive a message back from it confirming that they would like it to be used within a <BrandName type="name"/> workspace.
 
 Once this process has been completed, the Sender ID will be approved and verified and can then be used throughout your workspace.
+
+---
 
 ## Management
 

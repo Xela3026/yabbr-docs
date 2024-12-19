@@ -14,6 +14,8 @@ import BrandName from '@site/src/components/BrandName';
 
 <BrandName type="name"/> has APIs for all of the features in your workspace. These APIs need some authentication. One method of authenticaion is using an API Key. This is where you create new API keys to use in the <BrandName type="name"/> API.
 
+---
+
 ## Setup
 
 To find the API Keys section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'API Keys'.
@@ -50,6 +52,8 @@ Then, a small menu will appear like the one below. This will show you your API K
 :::warning Warning
 You cannot find your API Key ever again once you have closed this menu.
 :::
+
+---
 
 ## Management
 

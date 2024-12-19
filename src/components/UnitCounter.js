@@ -4,9 +4,10 @@ import React, { useState } from 'react';
 const UnitCounter = () => {
   const [text, setText] = useState('');
   const [inputting, setInputting] = useState('');
+  const [checked, setChecked] = useState(false);
 
   const handleCheck = (event) => {
-    
+    setChecked(!checked);
     return event.target.checked ? setText(text.replace(gsmCharacterSet, '#')) : null;
 
   }
@@ -14,14 +15,26 @@ const UnitCounter = () => {
 
   // dynamic height adjustment of text area
   const handleTextChange = (event) => {
-    setText(event.target.value);
     
+    let newText = event.target.value;
+
+    // dynamically replace any new non-GSM characters with '#'
+    if (checked) {
+      newText = newText.replace(gsmCharacterSet, '#');
+    }
+
+    // update text
+    setText(newText);
+
+    // dynimcally increase text box size
     const element = event.target;
+
     element.style.height = "1px";
     element.style.height = (25 + element.scrollHeight) + "px";
     if (element.value  === "") {
         element.style.height = "100px";
     }
+
   };
 
   // define GSM character pattern

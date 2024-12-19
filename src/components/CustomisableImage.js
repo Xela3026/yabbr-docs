@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from 'react';
-
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 import BorderImage from './BorderImage.js';
 
 const CustomisableImage = ({ src, alt, width }) => {
@@ -12,7 +13,9 @@ const CustomisableImage = ({ src, alt, width }) => {
     const image = new Image();
     image.src = src;
     image.onload = () => {
+      // setTimeout(() => {setLoaded(true);}, 2000);
       setLoaded(true);
+
     };
   }, [src]);
 
@@ -42,7 +45,18 @@ const CustomisableImage = ({ src, alt, width }) => {
 
   return (
     <div onClick={handleClick}>
-        <BorderImage src={src} alt={alt} width={width} />
+        <div
+        style={{
+          width: `${width}px`,
+          height: 'auto',
+
+        }}
+      >
+        {loaded && (
+          <BorderImage src={src} alt={alt} width={width} />
+        )}
+        {!loaded && (<p><Skeleton count={1} height={"11em"} width={"100%"}/></p>)}
+      </div>
 
         <div 
         className = {'overlay'} 
@@ -57,7 +71,6 @@ const CustomisableImage = ({ src, alt, width }) => {
             className = {'enlarged'}
             >
                 <p className={'subtitle'}>{alt}<span className={'exit'}>×</span></p>
-                
                 <img className={'enlargeImage'}
                 src={src}
                 alt={alt}

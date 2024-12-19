@@ -21,6 +21,8 @@ Then, to navigate between Email Aliases and Email Signatures, use the tabs at th
 
 <CustomisableImage src="/img/email-tabs.png" alt="Email Tabs" width="550" />
 
+---
+
 ## Email Aliases
 
 ### Create
@@ -47,6 +49,8 @@ Then, to add the new email alias to your workspace, click <Tag colour="#1582d8" 
 You can immediately use any email aliases created under a <BrandName type="name"/>-registered domain.
 :::
 
+---
+
 ### Management
 
 All of your workspace's email aliases will appear here:
@@ -63,6 +67,8 @@ To edit an email alias and all of its settings, click the pencil icon on the rig
 You can search the email aliases by name using the 'Filter' text box.
 :::
 
+---
+
 ## Email Signatures
 
-See the documentation for [Email Templates](../templates/email-templates.md). Specifically, look at the documentation for Email Signatures.
+An Email Signature is a pre-made Email Template that can be automatically appended to the end of your emails. See the documentation for [Email Templates](../templates/email-templates.md). 

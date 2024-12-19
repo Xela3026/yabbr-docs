@@ -15,6 +15,8 @@ import Tag from '@site/src/components/Tag';
 To send outbound emails using <BrandName type="name"/>, you need an [Email Alias](./email.md#email-aliases) to send the email with. This email alias also needs a Domain (eg 'example.com' is the domain in 'abc123@example.com'). You must register these domains with <BrandName type="name"/> before you can use them for emails within your workspace. Here is where you register your domains with <BrandName type="name"/>.
 
 
+---
+
 ## Setup
 
 To find the domains section in your workspace: on the left sidebar, navigate to 'Channels', and then find 'Domains'.
@@ -61,6 +63,8 @@ To verify the domain with <BrandName type="name"/>:
 
 Once the records have been added, the domain is automatically verified and enabled within your workspace.
 
+
+---
 
 ## Management
 

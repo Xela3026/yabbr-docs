@@ -15,6 +15,8 @@ import CustomisableImage from '@site/src/components/CustomisableImage';
 
 Emails are slightly different. They include additional features like [attachments](#attachments) and a [subject](#subject). However, the text editor has some differences like the [Rich-Text Editor](#rich-text-editor) and [Email HTML](#email-html).
 
+---
+
 ## Message
 
 ### Subject

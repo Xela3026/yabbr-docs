@@ -25,6 +25,8 @@ import Tag from '@site/src/components/Tag';
 
 The SMS Message type only includes the text editor and its SMS Units. It is recommended you read the [General](./general) documentation before this one.
 
+---
+
 ## Message Composer
 
 The Message Composer for SMS does not have many specific features. The main Message Content is the same as the one in General, except it just has an extra property called [SMS Units](#sms-units).
@@ -46,6 +48,8 @@ Checking this box will replace all of the unicode characters in your message int
 The Message Content text editor for SMS is just the one seen in General:
 
 <TextEditor/>
+
+---
 
 ## SMS Units
 

@@ -19,6 +19,8 @@ Gone are the days of:
 
 <BrandName type="name"/> has got it all sorted. From automated messaging, to compatibility with any message type you can think of, to the broadcasting of messages to thousands of people at once. To get the ultimate communications experience, explore this documentation and understand how to use <BrandName type="name"/> to take your business to the next level.
 
+---
+
 ## Getting Started
 
 To get started on your <BrandName type="name"/> journey, you may first wish to familiarise yourself with the various message types that <BrandName type="name"/> offers compatibility for. Each one of these message types offers unique functionality. Thus, each message type is handled and used in a slightly different way. To learn more about how to effectively use and manage each message type, see the various Message Types documentation.
@@ -48,7 +50,7 @@ To get started on your <BrandName type="name"/> journey, you may first wish to f
     </div>
 </div>
 
-<div className="hint">Click on a bubble to visit it's documentation!</div>
+<div className="hint">Click on a bubble to visit its documentation!</div>
 
 <br/><br/><br/>
 
@@ -111,3 +113,4 @@ You are finally ready to use <BrandName type="name"/> to its full potential. Exp
 </div>
 
 <br/><br/><br/>
+

@@ -555,3 +555,23 @@ At any point after the campaign has started and at least one contact has receive
 
 
 
+
+[comment]: <> (algolia search is broken and throws an error when you try to search for anything - investigate)
+
+
+
+
+
+
+[comment]: <> (TODO: fix algolia search, fix the divs/styling, add aliasing/branded config, and try and fix the jitter effect when loading new images/navigating to anchor link on another page, and some small config changes)
+
+[comment]: <> (given that the React Component CustomisableImages have to load, I think I've fixed the anchor link navigator jitter as best as possible. The jitter has been minimised as much as possible.)
+
+
+
+
+[comment]: <> (added skeleton loaders for images, the anchor link jitter is basically fixed, algolia isn't crashign every time its used. Just need to add branded config now)
+
+[comment]: <> (tried configuring some search priorities in algolia, but the default setting is the best I can get. Trying to get it to recognise page titles/names as searchable, but only < h2 gets registered for search. Works good enough though)
+
+[comment]: <> (finished implementing branded config)

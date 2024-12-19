@@ -6,11 +6,17 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+import path from 'path';
+const brandName = process.env.brand || 'yabbr';
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yabbr Documentation',
-  tagline: 'How to use Yabbr Services',
-  favicon: 'img/yabbr.svg',
+  title: 'Yabbr App Docs',
+  tagline: 'How to use the Yabbr Portal',
+  favicon: 'img/fav.ico',
+  plugins: [path.join(__dirname, '/plugins/webpackConfig')],
+  staticDirectories: [`src/brands/${brandName}`, 'static'],
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -57,8 +63,8 @@ const config = {
   themeConfig:
 {
       algolia: {
-          appId: '9PDEV5CQDO', // The Application ID provided by Algolia
-          apiKey: '7b1b878ae6ce5a2ccf8ea83ba1f498a7', // Public/Search-only API key
+          appId: 'T8YCMNZS04', // The Application ID provided by Algolia
+          apiKey: 'e922da490c005013da21942480ec8963', // Public/Search-only API key
           indexName: 'yabbr-docs-new-two', // The name of the index you want to use
           contextualSearch: false, // Optional, set to true to enable versioning context (useful for versioned docs)
           // Optional, if you use Algolia DocSearch you might have additional settings like `debug: false`
@@ -73,7 +79,7 @@ const config = {
         title: 'Documentation',
         logo: {
           alt: 'Yabbr Site Logo',
-          src: 'img/yabbr.svg',
+          src: 'img/brand-logo.png',
         },
 
       },

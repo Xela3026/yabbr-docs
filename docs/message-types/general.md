@@ -17,6 +17,8 @@ import Tag from '@site/src/components/Tag';
 
 <BrandName type="name"/>'s communications services can use four different message types: SMS, Email, MMS, and Voice. Each of these message types has its own rules and properties. For example, an SMS message costs 'SMS Units', and an Email can be edited using HTML. The message creation process for each message type is also different. For example, creating an SMS message using <BrandName type="name"/> is very different to creating an Audio message for a call. It is recommended you read this General documentation first before you read the documentation for the specific message types.
 
+---
+
 ## Message Composer
 
 Every single message type has its own 'Message Composer'. This is where you create the actual content of the message you want to send. For example, this is where you create the audio clip to be sent in an Audio messsage call. Or, this is where you would type out your SMS message to be sent to a customer.
@@ -51,6 +53,8 @@ Placeholders don't only have to be the properties of a message recipient. You wi
 
 For each message type, you can also create a [Template](../templates/general). A template is a message scaffold. It is essentially a pre-made message that you can insert into most places in your workspace to save time typing out the same message multiple times. You can also include placeholders in these templates that can be filled in at their later use.
 
+
+---
 
 ## Workspace Contacts
 
